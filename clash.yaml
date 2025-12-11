@@ -1,0 +1,274 @@
+# Clash 订阅配置
+# 更新时间: 2025-12-11 17:25:54
+# 节点数量: 309
+
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+
+proxies:
+  - name: "未知"
+    type: vmess
+    server: cdncdn.aikunapp.com
+    port: 443
+    uuid: f487f765-2882-4b1c-9625-0a9be07b3021
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "_美国"
+    type: vmess
+    server: vc.fly.dev
+    port: 443
+    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+    alterId: 32
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vc
+  - name: "_英国"
+    type: vmess
+    server: 85.211.196.77
+    port: 16632
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_英国"
+    type: vmess
+    server: 85.211.251.212
+    port: 16641
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "免费VPNhttpsttvggwaAy"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: bCE5-3ebfED0a18F2.008880888.Xyz
+    port: 80
+    uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    ws-opts:
+      path: /SGBvMNdpPDy2tqzi1U
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 85.211.251.212
+    port: 16616
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_孟加拉国"
+    type: vmess
+    server: nodef.niceex.cc
+    port: 5090
+    uuid: 87479809-39f4-467c-8348-d561afe566d6
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?ed=2048
+  - name: "_英国"
+    type: vmess
+    server: 85.211.251.212
+    port: 16648
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 85.211.197.114
+    port: 16617
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /speedtest
+  - name: "_中国"
+    type: vmess
+    server: 111.47.247.191
+    port: 16644
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - "♻️ 自动选择"
+      - DIRECT
+      - "未知"
+      - "_美国"
+      - "_英国"
+      - "_中国"
+      - "_法国"
+      - "_英国"
+      - "免费VPNhttpsttvggwaAy"
+      - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透 4"
+      - "_中国"
+      - "_英国"
+      - "_孟加拉国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_中国"
+      - "_法国"
+      - "_法国"
+
+  - name: "♻️ 自动选择"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "未知"
+      - "_美国"
+      - "_英国"
+      - "_中国"
+      - "_法国"
+      - "_英国"
+      - "免费VPNhttpsttvggwaAy"
+      - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透 4"
+      - "_中国"
+      - "_英国"
+      - "_孟加拉国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_中国"
+      - "_法国"
+      - "_法国"
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,🚀 节点选择
