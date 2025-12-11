@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-11 17:43:15
+# 更新时间: 2025-12-11 17:43:38
 # 节点数量: 309
 
 port: 7890
@@ -9,46 +9,47 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  2"
+  - name: "_中国"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_英国"
-    type: vmess
-    server: 85.211.196.77
-    port: 16644
+    server: 111.47.247.191
+    port: 16645
     uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "美国4ripaojiedian"
+  - name: "未知"
     type: vmess
-    server: 104.19.61.72
+    server: cdncdncdn.aikunapp.com
     port: 443
-    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+    uuid: f487f765-2882-4b1c-9625-0a9be07b3021
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /aa
-  - name: "防范境外势力渗透 6"
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "_英国"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 85.211.251.212
+    port: 16648
+    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -58,116 +59,76 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   - name: "_中国"
     type: vmess
     server: 111.47.247.191
-    port: 16622
+    port: 16648
     uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "_英国"
+  - name: "防范境外势力渗透 9"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /hello
-  - name: "_香港"
+  - name: "未知"
     type: vmess
-    server: f28ea6b4-t6ngg0-teivih-1rz31.hk3.p5pv.com
+    server: bCE5-3ebfED0a18F2.008880888.Xyz
     port: 80
-    uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-    alterId: 2
+    uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    ws-opts:
+      path: /SGBvMNdpPDy2tqzi1U
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 85.211.251.212
-    port: 16622
-    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 8"
-    type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /?ed=2048
   - name: "_中国"
     type: vmess
-    server: 14.17.71.237
-    port: 41313
-    uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /obj
-  - name: "_英国"
-    type: vmess
-    server: 85.211.251.212
-    port: 16617
+    server: 111.47.247.191
+    port: 16626
     uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "_新加坡"
+  - name: "香港ripaojiedian"
     type: vmess
-    server: 43.165.7.71
-    port: 19751
-    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "台湾ripaojiedian"
+    type: vmess
+    server: 120.233.207.243
+    port: 29502
+    uuid: 9018c068-87ee-4c17-848a-540d36a0ab7b
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
+  - name: "防范境外势力渗透"
     type: vmess
-    server: 85.211.197.114
-    port: 16617
-    uuid: 404e2d5b-99c7-4546-bd9d-fa0ab70df130
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_孟加拉国"
-    type: vmess
-    server: nodef.niceex.cc
-    port: 5089
-    uuid: 87479809-39f4-467c-8348-d561afe566d6
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
@@ -178,46 +139,38 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  2"
+      - "_中国"
+      - "未知"
       - "_英国"
-      - "美国4ripaojiedian"
-      - "防范境外势力渗透 6"
+      - "_英国"
       - "_法国"
       - "_中国"
-      - "_英国"
-      - "_香港"
-      - "_英国"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 8"
+      - "防范境外势力渗透 9"
+      - "未知"
+      - "_法国"
       - "_中国"
-      - "_英国"
-      - "_新加坡"
-      - "_英国"
-      - "_孟加拉国"
-      - "_英国"
+      - "香港ripaojiedian"
+      - "台湾ripaojiedian"
+      - "防范境外势力渗透"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  2"
+      - "_中国"
+      - "未知"
       - "_英国"
-      - "美国4ripaojiedian"
-      - "防范境外势力渗透 6"
+      - "_英国"
       - "_法国"
       - "_中国"
-      - "_英国"
-      - "_香港"
-      - "_英国"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 8"
+      - "防范境外势力渗透 9"
+      - "未知"
+      - "_法国"
       - "_中国"
-      - "_英国"
-      - "_新加坡"
-      - "_英国"
-      - "_孟加拉国"
-      - "_英国"
+      - "香港ripaojiedian"
+      - "台湾ripaojiedian"
+      - "防范境外势力渗透"
 
 rules:
   - GEOIP,CN,DIRECT
