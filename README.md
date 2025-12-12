@@ -2,7 +2,7 @@
 
 自动更新的免费代理池，**每小时更新**。
 
-> 最后更新: `2025-12-12 07:01:35 UTC`
+> 最后更新: `2025-12-12 08:01:24 UTC`
 
 中文 | **[English](README_EN.md)**
 
@@ -12,9 +12,9 @@
 
 | 类型 | 数量 |
 |------|------|
-| 代理总数 | 6,566 |
-| 高匿代理 | 3,778 |
-| 实时验证可用 | 9 |
+| 代理总数 | 6,721 |
+| 高匿代理 | 3,929 |
+| 实时验证可用 | 2 |
 | V2Ray 节点 | 359 |
 
 ---
@@ -25,36 +25,36 @@
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 9 | ⭐ **实时验证可用**的代理，数量少但质量高 |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 9 | 同上，完整 URL 格式，可直接填入软件 |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 9 | 同上，包含响应时间等详细信息 |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 2 | ⭐ **实时验证可用**的代理，数量少但质量高 |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 2 | 同上，完整 URL 格式，可直接填入软件 |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 2 | 同上，包含响应时间等详细信息 |
 
 ### 📋 HTTP/HTTPS 代理
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`http.txt`](http.txt) | `ip:port` | 5,385 | HTTP 代理列表 |
-| [`http_url.txt`](http_url.txt) | `http://ip:port` | 5,385 | HTTP 代理，完整 URL 格式 |
-| [`https.txt`](https.txt) | `ip:port` | 205 | HTTPS 代理列表 |
-| [`https_url.txt`](https_url.txt) | `https://ip:port` | 205 | HTTPS 代理，完整 URL 格式 |
+| [`http.txt`](http.txt) | `ip:port` | 5,549 | HTTP 代理列表 |
+| [`http_url.txt`](http_url.txt) | `http://ip:port` | 5,549 | HTTP 代理，完整 URL 格式 |
+| [`https.txt`](https.txt) | `ip:port` | 202 | HTTPS 代理列表 |
+| [`https_url.txt`](https_url.txt) | `https://ip:port` | 202 | HTTPS 代理，完整 URL 格式 |
 
 ### 🧦 SOCKS 代理
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 978 | SOCKS4 代理列表 |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 978 | SOCKS4 代理，完整 URL 格式 |
-| [`socks5.txt`](socks5.txt) | `ip:port` | 542 | SOCKS5 代理列表 |
-| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 542 | SOCKS5 代理，完整 URL 格式 |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 961 | SOCKS4 代理列表 |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 961 | SOCKS4 代理，完整 URL 格式 |
+| [`socks5.txt`](socks5.txt) | `ip:port` | 539 | SOCKS5 代理列表 |
+| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 539 | SOCKS5 代理，完整 URL 格式 |
 
 ### 🎭 高匿代理 (Elite/High Anonymous)
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`elite.txt`](elite.txt) | `ip:port` | 3,778 | 高匿代理，不暴露你的真实 IP |
-| [`elite.json`](elite.json) | JSON | 3,778 | 高匿代理详细信息 (含国家、速度等) |
-| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 3,656 | 高匿 HTTP 代理 |
-| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 218 | 高匿 SOCKS5 代理 |
+| [`elite.txt`](elite.txt) | `ip:port` | 3,929 | 高匿代理，不暴露你的真实 IP |
+| [`elite.json`](elite.json) | JSON | 3,929 | 高匿代理详细信息 (含国家、速度等) |
+| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 3,800 | 高匿 HTTP 代理 |
+| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 208 | 高匿 SOCKS5 代理 |
 
 ### 🚀 V2Ray / Clash 节点
 
@@ -68,8 +68,8 @@
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`all.txt`](all.txt) | `ip:port` | 6,566 | 所有代理 (未验证) |
-| [`all.json`](all.json) | JSON | 6,566 | 所有代理详细信息 |
+| [`all.txt`](all.txt) | `ip:port` | 6,721 | 所有代理 (未验证) |
+| [`all.json`](all.json) | JSON | 6,721 | 所有代理详细信息 |
 | [`stats.json`](stats.json) | JSON | - | 统计信息 |
 
 ### 🔄 实时爬取 (未验证)
