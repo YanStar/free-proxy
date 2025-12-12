@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-12 11:01:38
+# 更新时间: 2025-12-12 12:01:48
 # 节点数量: 359
 
 port: 7890
@@ -9,71 +9,11 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_美国"
+  - name: "_新加坡"
     type: vmess
-    server: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
-    ws-opts:
-      path: /kT5VHYcMrpheaPqspF7njNFy6
-  - name: "_中国"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 21563
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_美国"
-    type: vmess
-    server: 479b-b511-7D5B7828DbEb.457.PP.ua
-    port: 443
-    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 21565
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
+    server: 43.165.7.71
+    port: 19751
+    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
     alterId: 0
     cipher: auto
     network: tcp
@@ -82,50 +22,8 @@ proxies:
   - name: "_中国"
     type: vmess
     server: 103.181.165.250
-    port: 21564
+    port: 12010
     uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 557
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_美国"
-    type: vmess
-    server: 4250-b39D-f24D0c6B4cea.457.Pp.ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
-    ws-opts:
-      path: /kT5VHYcMrpheaPqspF7njNFy6
-  - name: "每天更新请加电报群防止失联"
-    type: vmess
-    server: 479b-b511-7D5B7828DbEb.457.PP.ua
-    port: 443
-    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
-    ws-opts:
-      path: /kT5VHYcMrpheaPqspF7njNFy6
-  - name: "_中国"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -142,20 +40,111 @@ proxies:
     tls: true
     ws-opts:
       path: /vmess_ws/smjc/index?ed=4096
-  - name: "githubcomfreefq - 广东省移动 7"
+  - name: "未知"
     type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    server: 44ce-8817-7d9a13aa9eb0.457.pp.ua
+    port: 443
+    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrpheaPqspF7njNFy6
+  - name: "_美国"
+    type: vmess
+    server: 4cc8-a2d8-a34a20d2e7e5.457.pp.ua
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrpheaPqspF7njNFy6
+  - name: "_中国"
+    type: vmess
+    server: 103.181.165.250
+    port: 16008
+    uuid: d5ea95ab-7349-38ac-8536-38536db84574
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: 103.181.165.250
+    port: 12008
+    uuid: d5ea95ab-7349-38ac-8536-38536db84574
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /aa
+  - name: "_美国"
+    type: vmess
+    server: b70-B127-17F0DC22455E.457.PP.ua
+    port: 443
+    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    tls: true
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /debian
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: ?ed=2048
   - name: "_中国"
     type: vmess
     server: 103.181.165.250
-    port: 31657
+    port: 20011
     uuid: d5ea95ab-7349-38ac-8536-38536db84574
     alterId: 0
     cipher: auto
@@ -175,43 +164,47 @@ proxies:
   - name: "_中国"
     type: vmess
     server: 103.181.165.250
-    port: 12003
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /bby
-  - name: "日期12-12"
-    type: vmess
-    server: 2237-4cE3-8698-cfD1b622333A.457.pp.uA
-    port: 443
-    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
-    ws-opts:
-      path: /kT5VHYcMrpheaPqspF7njNFy6
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 12008
+    port: 12004
     uuid: d5ea95ab-7349-38ac-8536-38536db84574
     alterId: 0
     cipher: auto
     network: tcp
     ws-opts:
       path: /
-  - name: "未知"
+  - name: "防范境外势力渗透 2"
     type: vmess
-    server: 44ce-8817-7d9a13aa9eb0.457.pp.ua
-    port: 443
-    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: xhttp
-    tls: true
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+  - name: "_中国"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -219,52 +212,52 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_美国"
-      - "_中国"
-      - "_法国"
-      - "_中国"
-      - "_法国"
-      - "_美国"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "_美国"
-      - "每天更新请加电报群防止失联"
+      - "_新加坡"
       - "_中国"
       - "未知"
-      - "githubcomfreefq - 广东省移动 7"
+      - "未知"
+      - "_美国"
+      - "_中国"
+      - "_中国"
+      - "_英国"
+      - "_美国"
+      - "_法国"
+      - "_中国"
+      - "_中国"
+      - "_中国"
       - "_中国"
       - "_英国"
       - "_中国"
-      - "日期12-12"
+      - "防范境外势力渗透 2"
+      - "_法国"
       - "_中国"
-      - "未知"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_美国"
-      - "_中国"
-      - "_法国"
-      - "_中国"
-      - "_法国"
-      - "_美国"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "_美国"
-      - "每天更新请加电报群防止失联"
+      - "_新加坡"
       - "_中国"
       - "未知"
-      - "githubcomfreefq - 广东省移动 7"
+      - "未知"
+      - "_美国"
+      - "_中国"
+      - "_中国"
+      - "_英国"
+      - "_美国"
+      - "_法国"
+      - "_中国"
+      - "_中国"
+      - "_中国"
       - "_中国"
       - "_英国"
       - "_中国"
-      - "日期12-12"
+      - "防范境外势力渗透 2"
+      - "_法国"
       - "_中国"
-      - "未知"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
