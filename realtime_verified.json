@@ -1,25 +1,70 @@
 {
-  "updated_at": "2025-12-12 16:01:48 UTC",
+  "updated_at": "2025-12-12 17:01:42 UTC",
   "source": "freeproxy_realtime",
-  "count": 2,
+  "count": 7,
   "data": [
     {
-      "ip": "38.54.101.90",
+      "ip": "173.249.205.117",
+      "port": 8888,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 1.09,
+      "verified": true,
+      "verified_at": "2025-12-12T17:01:12.478811"
+    },
+    {
+      "ip": "154.17.228.122",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 2.49,
+      "response_time": 1.14,
       "verified": true,
-      "verified_at": "2025-12-12T16:00:52.318762"
+      "verified_at": "2025-12-12T17:00:50.403491"
     },
     {
-      "ip": "136.61.112.82",
+      "ip": "216.229.112.25",
       "port": 8080,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 2.64,
+      "response_time": 2.12,
       "verified": true,
-      "verified_at": "2025-12-12T16:01:13.827202"
+      "verified_at": "2025-12-12T17:00:51.399242"
+    },
+    {
+      "ip": "172.193.178.226",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 2.92,
+      "verified": true,
+      "verified_at": "2025-12-12T17:00:52.198523"
+    },
+    {
+      "ip": "167.71.182.192",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 3.52,
+      "verified": true,
+      "verified_at": "2025-12-12T17:00:52.795340"
+    },
+    {
+      "ip": "23.247.136.254",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 3.53,
+      "verified": true,
+      "verified_at": "2025-12-12T17:00:52.798770"
+    },
+    {
+      "ip": "198.199.86.11",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 3.55,
+      "verified": true,
+      "verified_at": "2025-12-12T17:00:52.812864"
     }
   ]
 }
