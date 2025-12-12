@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2025-12-12 14:09:09 UTC`
+> Last Updated: `2025-12-12 14:10:47 UTC`
 
 **[中文文档](README.md)** | English
 
@@ -14,7 +14,7 @@ Auto-updated free proxy pool, **updated every hour**.
 |------|-------|
 | Total Proxies | 6,723 |
 | Elite Proxies | 3,931 |
-| Realtime Verified | 15 |
+| Realtime Verified | 8 |
 | V2Ray Nodes | 334 |
 
 ---
@@ -25,9 +25,9 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 15 | ⭐ **Realtime verified** working proxies, fewer but high quality |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 15 | Same as above, full URL format, can be directly used in software |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 15 | Same as above, includes response time and other details |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 8 | ⭐ **Realtime verified** working proxies, fewer but high quality |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 8 | Same as above, full URL format, can be directly used in software |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 8 | Same as above, includes response time and other details |
 
 ### 📋 HTTP/HTTPS Proxies
 
