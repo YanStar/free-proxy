@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-13 11:01:36
+# 更新时间: 2025-12-13 12:01:50
 # 节点数量: 323
 
 port: 7890
@@ -9,51 +9,44 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
+  - name: "每天更新请加电报群防止失联"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: b70-B127-17F0DC22455E.457.PP.ua
+    port: 443
+    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrpheaPqspF7njNFy6
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "香港ripaojiedian"
+  - name: "_韩国"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: ebc.zoom.us
-    port: 8443
-    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+    server: seoul03.zgjok.com
+    port: 443
+    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /@Malinda6104
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: 8.210.184.105
-    port: 40374
-    uuid: 36b76373-7a4f-4669-9113-7d247bcf2704
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
       path: /
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_美国"
     type: vmess
     server: 107.174.82.102.sslip.io
@@ -65,40 +58,6 @@ proxies:
     tls: true
     ws-opts:
       path: /Ov7HrgwlEcRugowKV
-  - name: "防范境外势力渗透 5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_伊朗"
-    type: vmess
-    server: os-sr1.update-tracker.info
-    port: 2021
-    uuid: 83c6242f-4290-442e-afb0-cf5521db9986
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_尼日利亚"
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -106,32 +65,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "每天更新请加电报群防止失联"
+      - "防范境外势力渗透"
+      - "_韩国"
       - "_中国"
-      - "香港ripaojiedian"
       - "_美国"
-      - "防范境外势力渗透 1"
-      - "_香港"
-      - "_美国"
-      - "防范境外势力渗透 5"
-      - "防范境外势力渗透 6"
-      - "_伊朗"
-      - "_尼日利亚"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "每天更新请加电报群防止失联"
+      - "防范境外势力渗透"
+      - "_韩国"
       - "_中国"
-      - "香港ripaojiedian"
       - "_美国"
-      - "防范境外势力渗透 1"
-      - "_香港"
-      - "_美国"
-      - "防范境外势力渗透 5"
-      - "防范境外势力渗透 6"
-      - "_伊朗"
-      - "_尼日利亚"
 
 rules:
   - GEOIP,CN,DIRECT
