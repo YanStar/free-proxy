@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-13 04:01:36
+# 更新时间: 2025-12-13 05:01:34
 # 节点数量: 323
 
 port: 7890
@@ -9,18 +9,46 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_尼日利亚"
+  - name: "_英国"
     type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_直布罗陀"
+    type: vmess
+    server: 95.164.4.88
+    port: 80
+    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+  - name: "_美国"
+    type: vmess
+    server: 209.126.84.189
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmessws
+  - name: "_中国"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
-    server: 14.17.71.237
-    port: 41319
+    server: gs7ds312f.gdufds.xyz
+    port: 41311
     uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
     alterId: 0
     cipher: auto
@@ -35,56 +63,26 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_直布罗陀"
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: 95.164.4.88
-    port: 80
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmess/
-  - name: "_香港"
-    type: vmess
-    server: hkt.gotochinatown.net
-    port: 80
-    uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_尼日利亚"
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "电报群httpstmevvkj11"
-    type: vmess
-    server: b70-B127-17F0DC22455E.457.PP.ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
+      path: /debian
   - name: "_美国"
     type: vmess
-    server: ebc.zoom.us
-    port: 8443
-    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+    server: v2ray.codefyinc.com
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /@Malinda6104
+      path: /vmessws
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -92,13 +90,13 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_尼日利亚"
+      - "_英国"
+      - "_直布罗陀"
+      - "_美国"
+      - "_中国"
       - "_中国"
       - "防范境外势力渗透 8"
-      - "_直布罗陀"
-      - "_香港"
-      - "_尼日利亚"
-      - "电报群httpstmevvkj11"
+      - "githubcomfreefq - 广东省移动 7"
       - "_美国"
 
   - name: "♻️ 自动选择"
@@ -106,13 +104,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_尼日利亚"
+      - "_英国"
+      - "_直布罗陀"
+      - "_美国"
+      - "_中国"
       - "_中国"
       - "防范境外势力渗透 8"
-      - "_直布罗陀"
-      - "_香港"
-      - "_尼日利亚"
-      - "电报群httpstmevvkj11"
+      - "githubcomfreefq - 广东省移动 7"
       - "_美国"
 
 rules:
