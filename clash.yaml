@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-13 17:01:45
+# 更新时间: 2025-12-13 18:01:37
 # 节点数量: 323
 
 port: 7890
@@ -9,6 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "githubcomfreefq - 美国Fastly全球An"
+    type: vmess
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
     server: www.darkroom.lol
@@ -19,40 +30,54 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "新加坡4ripaojiedian"
+  - name: "_美国"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 107.174.82.102.sslip.io
+    port: 443
+    uuid: bb824a22-b7ce-427b-9ed6-1adf0751da02
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 广东省移动 7"
+    network: ws
+    tls: true
+    ws-opts:
+      path: /Ov7HrgwlEcRugowKV
+  - name: "_美国"
     type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    server: 45.150.52.40
+    port: 443
+    uuid: c31777a1-2ee6-4864-db4c-a79fcbc8188b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /c31777a1
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /debian
-  - name: "githubcomfreefq - 印度  3"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "githubcomfreefq - 印度  2"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
-  - name: "_伊朗"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: os-sr1.update-tracker.info
-    port: 2021
-    uuid: 83c6242f-4290-442e-afb0-cf5521db9986
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
@@ -64,24 +89,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "_加拿大"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /IOebhLMhl1CTbFHbL95myfRX2
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -89,28 +106,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "githubcomfreefq - 美国Fastly全球An"
       - "githubcomfreefq - 美国CloudFlare"
-      - "新加坡4ripaojiedian"
-      - "githubcomfreefq - 广东省移动 7"
-      - "githubcomfreefq - 印度  3"
-      - "_伊朗"
+      - "_美国"
+      - "_美国"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
+      - "防范境外势力渗透 8"
       - "_英国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
+      - "_加拿大"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "githubcomfreefq - 美国Fastly全球An"
       - "githubcomfreefq - 美国CloudFlare"
-      - "新加坡4ripaojiedian"
-      - "githubcomfreefq - 广东省移动 7"
-      - "githubcomfreefq - 印度  3"
-      - "_伊朗"
+      - "_美国"
+      - "_美国"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
+      - "防范境外势力渗透 8"
       - "_英国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
+      - "_加拿大"
 
 rules:
   - GEOIP,CN,DIRECT
