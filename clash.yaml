@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-13 20:01:35
+# 更新时间: 2025-12-13 21:01:40
 # 节点数量: 323
 
 port: 7890
@@ -9,25 +9,42 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
     ws-opts:
       path: /
-  - name: "电报群httpstmevvkj11"
-    type: vmess
-    server: b70-B127-17F0DC22455E.457.PP.ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-    alterId: 0
-    cipher: auto
-    network: xhttp
-    tls: true
   - name: "防范境外势力渗透 3"
     type: vmess
     server: 127.0.0.53
@@ -36,67 +53,30 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_尼日利亚"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_尼日利亚"
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_直布罗陀"
-    type: vmess
-    server: 95.164.4.88
-    port: 80
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmess/
-  - name: "每天更新请加电报群防止失联"
+      path: /
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
     type: vmess
-    server: b70-B127-17F0DC22455E.457.PP.ua
-    port: 443
-    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
     alterId: 0
     cipher: auto
-    network: xhttp
-    tls: true
-    ws-opts:
-      path: /kT5VHYcMrpheaPqspF7njNFy6
-  - name: "香港ripaojiedian"
+    network: tcp
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
     cipher: auto
     network: tcp
 
@@ -106,32 +86,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_中国"
-      - "电报群httpstmevvkj11"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "防范境外势力渗透 6"
+      - "_英国"
       - "防范境外势力渗透 3"
-      - "_尼日利亚"
-      - " 香港ripaojiedian"
-      - "防范境外势力渗透 4"
-      - "_尼日利亚"
-      - "_直布罗陀"
-      - "每天更新请加电报群防止失联"
-      - "香港ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 8"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_中国"
-      - "电报群httpstmevvkj11"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "防范境外势力渗透 6"
+      - "_英国"
       - "防范境外势力渗透 3"
-      - "_尼日利亚"
-      - " 香港ripaojiedian"
-      - "防范境外势力渗透 4"
-      - "_尼日利亚"
-      - "_直布罗陀"
-      - "每天更新请加电报群防止失联"
-      - "香港ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 8"
 
 rules:
   - GEOIP,CN,DIRECT
