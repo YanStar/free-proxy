@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-13 16:01:58
+# 更新时间: 2025-12-13 17:01:45
 # 节点数量: 323
 
 port: 7890
@@ -9,17 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_英国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     ws-opts:
       path: /
-  - name: " 新加坡4ripaojiedian"
+  - name: "新加坡4ripaojiedian"
     type: vmess
     server: v12.hdacd.com
     port: 30812
@@ -27,69 +27,27 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_美国"
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmessws
-  - name: "_英国"
+      path: /debian
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 107.174.82.102.sslip.io
+    server: 202.78.162.5
     port: 443
-    uuid: bb824a22-b7ce-427b-9ed6-1adf0751da02
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /Ov7HrgwlEcRugowKV
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /@forwardv2ray
   - name: "_伊朗"
     type: vmess
     server: os-sr1.update-tracker.info
@@ -98,19 +56,29 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 2"
+  - name: "_英国"
     type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -121,36 +89,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_英国"
-      - " 新加坡4ripaojiedian"
-      - "_美国"
-      - "_英国"
-      - "_英国"
-      - "_美国"
-      - "防范境外势力渗透 6"
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透 7"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "新加坡4ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "githubcomfreefq - 印度  3"
       - "_伊朗"
-      - "防范境外势力渗透 2"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_英国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_英国"
-      - " 新加坡4ripaojiedian"
-      - "_美国"
-      - "_英国"
-      - "_英国"
-      - "_美国"
-      - "防范境外势力渗透 6"
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透 7"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "新加坡4ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "githubcomfreefq - 印度  3"
       - "_伊朗"
-      - "防范境外势力渗透 2"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_英国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
