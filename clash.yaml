@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-13 01:01:35
+# 更新时间: 2025-12-13 02:01:37
 # 节点数量: 359
 
 port: 7890
@@ -11,7 +11,7 @@ log-level: info
 proxies:
   - name: "_美国"
     type: vmess
-    server: b70-B127-17F0DC22455E.457.PP.ua
+    server: 4250-b39D-f24D0c6B4cea.457.Pp.ua
     port: 443
     uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
     alterId: 0
@@ -22,9 +22,88 @@ proxies:
       path: /kT5VHYcMrpheaPqspF7njNFy6
   - name: "_中国"
     type: vmess
+    server: 103.181.165.250
+    port: 12015
+    uuid: d5ea95ab-7349-38ac-8536-38536db84574
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /bby
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /hello
+  - name: "_中国"
+    type: vmess
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: 4120-BE04-13ef56096989.457.pp.uA
+    port: 443
+    uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
+    alterId: 0
+    cipher: auto
+    network: xhttp
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrpheaPqspF7njNFy6
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /obj
+  - name: "_中国"
+    type: vmess
+    server: 103.181.165.250
+    port: 20022
+    uuid: d5ea95ab-7349-38ac-8536-38536db84574
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: 103.181.165.250
+    port: 12230
+    uuid: d5ea95ab-7349-38ac-8536-38536db84574
     alterId: 0
     cipher: auto
     network: tcp
@@ -32,41 +111,46 @@ proxies:
       path: /
   - name: "未知"
     type: vmess
-    server: 44ce-8817-7d9a13aa9eb0.457.pp.ua
+    server: cdncdn.aikunapp.com
     port: 443
-    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+    uuid: fc138cf8-215f-4f0a-a961-088d1f768767
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "电报群httpstmevvkj11"
+    type: vmess
+    server: 920A-4bCC-9A2d-57960603c7D9.457.Pp.ua
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
     alterId: 0
     cipher: auto
     network: xhttp
     tls: true
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 16008
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 7"
+      path: /kT5VHYcMrpheaPqspF7njNFy6
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 20011
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
+    network: ws
     ws-opts:
-      path: /
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_中国"
     type: vmess
     server: 103.181.165.250
@@ -77,30 +161,17 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 4"
+  - name: "每天更新请加电报群防止失联"
     type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 479b-b511-7D5B7828DbEb.457.PP.ua
+    port: 443
+    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+    network: xhttp
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrpheaPqspF7njNFy6
   - name: "_美国"
     type: vmess
     server: vc.fly.dev
@@ -112,17 +183,6 @@ proxies:
     tls: true
     ws-opts:
       path: /vc
-  - name: "未知"
-    type: vmess
-    server: cdncdncdn.aikunapp.com
-    port: 443
-    uuid: fc138cf8-215f-4f0a-a961-088d1f768767
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vmess_ws/smjc/index?ed=4096
   - name: "_中国"
     type: vmess
     server: v12.hdacd.com
@@ -133,64 +193,17 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_新加坡"
+  - name: "githubcomfreefq - 印度  2"
     type: vmess
-    server: 43.165.7.71
-    port: 19751
-    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 21569
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 12003
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /bby
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?ed=2048
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.250
-    port: 20003
-    uuid: d5ea95ab-7349-38ac-8536-38536db84574
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
+      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -200,23 +213,23 @@ proxy-groups:
       - DIRECT
       - "_美国"
       - "_中国"
+      - "_英国"
+      - "_英国"
+      - "_中国"
       - "未知"
+      - "_法国"
+      - "_英国"
       - "_中国"
-      - "防范境外势力渗透 7"
       - "_中国"
-      - "_中国"
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 1"
-      - "_美国"
       - "未知"
-      - "_中国"
-      - "_新加坡"
-      - "_中国"
-      - "_中国"
-      - "_中国"
+      - "电报群httpstmevvkj11"
+      - "_法国"
       - "_法国"
       - "_中国"
+      - "每天更新请加电报群防止失联"
+      - "_美国"
+      - "_中国"
+      - "githubcomfreefq - 印度  2"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -225,23 +238,23 @@ proxy-groups:
     proxies:
       - "_美国"
       - "_中国"
+      - "_英国"
+      - "_英国"
+      - "_中国"
       - "未知"
+      - "_法国"
+      - "_英国"
       - "_中国"
-      - "防范境外势力渗透 7"
       - "_中国"
-      - "_中国"
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 1"
-      - "_美国"
       - "未知"
-      - "_中国"
-      - "_新加坡"
-      - "_中国"
-      - "_中国"
-      - "_中国"
+      - "电报群httpstmevvkj11"
+      - "_法国"
       - "_法国"
       - "_中国"
+      - "每天更新请加电报群防止失联"
+      - "_美国"
+      - "_中国"
+      - "githubcomfreefq - 印度  2"
 
 rules:
   - GEOIP,CN,DIRECT
