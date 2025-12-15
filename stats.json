@@ -1,24 +1,24 @@
 {
-  "updated_at": "2025-12-15 21:01:27 UTC",
+  "updated_at": "2025-12-15 22:01:25 UTC",
   "run_stats": {
-    "start_time": "2025-12-15T21:00:01.740587",
-    "end_time": "2025-12-15T21:01:27.313254",
+    "start_time": "2025-12-15T22:00:01.107437",
+    "end_time": "2025-12-15T22:01:25.800840",
     "errors_count": 0,
     "warnings_count": 0
   },
   "realtime_crawl": {
     "total": 300,
-    "verified": 14,
-    "success_rate": "4%"
+    "verified": 18,
+    "success_rate": "6%"
   },
   "json_source": {
-    "total": 5630,
-    "elite": 3217,
+    "total": 5273,
+    "elite": 2848,
     "by_protocol": {
-      "http": 4455,
-      "https": 179,
-      "socks4": 965,
-      "socks5": 534
+      "http": 4014,
+      "https": 185,
+      "socks4": 1031,
+      "socks5": 541
     }
   },
   "v2ray": {
@@ -31,79 +31,79 @@
     "details": [
       {
         "file": "realtime_all.txt",
-        "size": 5728
+        "size": 5761
       },
       {
         "file": "realtime_all_url.txt",
-        "size": 7834
+        "size": 7867
       },
       {
         "file": "realtime_verified.txt",
-        "size": 320
+        "size": 397
       },
       {
         "file": "realtime_verified_url.txt",
-        "size": 424
+        "size": 529
       },
       {
         "file": "realtime_verified.json",
-        "size": 3294
+        "size": 4210
       },
       {
         "file": "all.json",
-        "size": 1097323
+        "size": 1029788
       },
       {
         "file": "all.txt",
-        "size": 103351
+        "size": 97186
       },
       {
         "file": "elite.txt",
-        "size": 57027
+        "size": 50581
       },
       {
         "file": "elite.json",
-        "size": 616968
+        "size": 546830
       },
       {
         "file": "http.txt",
-        "size": 80328
+        "size": 72562
       },
       {
         "file": "http_url.txt",
-        "size": 111519
+        "size": 100666
       },
       {
         "file": "https.txt",
-        "size": 3482
+        "size": 3576
       },
       {
         "file": "https_url.txt",
-        "size": 4920
+        "size": 5062
       },
       {
         "file": "socks4.txt",
-        "size": 18870
+        "size": 20091
       },
       {
         "file": "socks4_url.txt",
-        "size": 27561
+        "size": 29376
       },
       {
         "file": "socks5.txt",
-        "size": 10460
+        "size": 10550
       },
       {
         "file": "socks5_url.txt",
-        "size": 15272
+        "size": 15425
       },
       {
         "file": "elite_http_url.txt",
-        "size": 75955
+        "size": 67027
       },
       {
         "file": "elite_socks5_url.txt",
-        "size": 6045
+        "size": 5588
       },
       {
         "file": "v2ray.txt",
@@ -115,7 +115,7 @@
       },
       {
         "file": "clash.yaml",
-        "size": 6339
+        "size": 6952
       }
     ]
   }
