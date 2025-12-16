@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-16 21:01:54
+# 更新时间: 2025-12-16 22:01:46
 # 节点数量: 181
 
 port: 7890
@@ -9,6 +9,24 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_新加坡"
+    type: vmess
+    server: 43.165.7.71
+    port: 19751
+    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "防范境外势力渗透 8"
     type: vmess
     server: 127.0.0.53
@@ -17,26 +35,6 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   - name: "防范境外势力渗透 1"
     type: vmess
     server: 127.0.0.53
@@ -55,9 +53,9 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "未知"
+  - name: "_美国"
     type: vmess
-    server: 54d-bD0D-C3F111D0b879.664.QzZ.io
+    server: 4bb6-b667-f88608d19fd5.664.qzz.io
     port: 443
     uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
     alterId: 0
@@ -66,14 +64,6 @@ proxies:
     tls: true
     ws-opts:
       path: /pyyY4ZVTyJV3vr9noOhn
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -82,52 +72,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_中国"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
     ws-opts:
       path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-  - name: "防范境外势力渗透 5"
+  - name: "防范境外势力渗透 2"
     type: vmess
     server: 127.0.0.53
-    port: 85
+    port: 82
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -137,15 +91,15 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: "_新加坡"
     type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    server: 43.165.7.71
+    port: 19751
+    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
     alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
     ws-opts:
       path: /
 
@@ -155,42 +109,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_新加坡"
+      - "防范境外势力渗透 4"
       - "防范境外势力渗透 8"
-      - "_法国"
-      - "_法国"
       - "防范境外势力渗透 1"
       - "githubcomfreefq - 美国CloudFlare"
-      - "未知"
-      - "香港ripaojiedian"
+      - "_美国"
       - "_法国"
-      - "_中国"
+      - "防范境外势力渗透 2"
       - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 5"
-      - " 香港ripaojiedian"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_新加坡"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_新加坡"
+      - "防范境外势力渗透 4"
       - "防范境外势力渗透 8"
-      - "_法国"
-      - "_法国"
       - "防范境外势力渗透 1"
       - "githubcomfreefq - 美国CloudFlare"
-      - "未知"
-      - "香港ripaojiedian"
+      - "_美国"
       - "_法国"
-      - "_中国"
+      - "防范境外势力渗透 2"
       - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 5"
-      - " 香港ripaojiedian"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_新加坡"
 
 rules:
   - GEOIP,CN,DIRECT
