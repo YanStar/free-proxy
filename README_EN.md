@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2025-12-18 13:01:41 CST`
+> Last Updated: `2025-12-18 14:01:48 CST`
 
 **[中文文档](README.md)** | English
 
@@ -15,7 +15,7 @@ Auto-updated free proxy pool, **updated every hour**.
 | Total Proxies | 6,543 |
 | Elite Proxies | 4,170 |
 | Realtime Verified | 45 |
-| V2Ray Nodes | 248 |
+| V2Ray Nodes | 161 |
 
 ---
 
@@ -42,10 +42,10 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 983 | SOCKS4 proxy list |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 983 | SOCKS4 proxies, full URL format |
-| [`socks5.txt`](socks5.txt) | `ip:port` | 524 | SOCKS5 proxy list |
-| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 524 | SOCKS5 proxies, full URL format |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 982 | SOCKS4 proxy list |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 982 | SOCKS4 proxies, full URL format |
+| [`socks5.txt`](socks5.txt) | `ip:port` | 525 | SOCKS5 proxy list |
+| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 525 | SOCKS5 proxies, full URL format |
 
 ### 🎭 Elite Proxies (High Anonymous)
 
@@ -54,14 +54,14 @@ Auto-updated free proxy pool, **updated every hour**.
 | [`elite.txt`](elite.txt) | `ip:port` | 4,170 | Elite proxies, won't expose your real IP |
 | [`elite.json`](elite.json) | JSON | 4,170 | Elite proxies with details (country, speed, etc.) |
 | [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 4,048 | Elite HTTP proxies |
-| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 187 | Elite SOCKS5 proxies |
+| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 188 | Elite SOCKS5 proxies |
 
 ### 🚀 V2Ray / Clash Nodes
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`v2ray.txt`](v2ray.txt) | Raw links | 248 | V2Ray/Trojan/SS nodes, one per line |
-| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 248 | V2Ray subscription, import directly to client |
+| [`v2ray.txt`](v2ray.txt) | Raw links | 161 | V2Ray/Trojan/SS nodes, one per line |
+| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 161 | V2Ray subscription, import directly to client |
 | [`clash.yaml`](clash.yaml) | YAML | 50 | Clash config file, ready to use |
 
 ### 📦 Full Data
