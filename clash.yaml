@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-21 14:01:22
-# 节点数量: 381
+# 更新时间: 2025-12-21 15:01:34
+# 节点数量: 399
 
 port: 7890
 socks-port: 7891
@@ -9,73 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "_美国"
     type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
-  - name: "未知"
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: ebc.zoom.us
+    port: 8443
+    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "日本4ripaojiedian"
-    type: vmess
-    server: 46.3.47.250
-    port: 20022
-    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 46.3.47.250
-    port: 20022
-    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
+      path: /@Malinda6104
   - name: "未知"
     type: vmess
     server: cdncdn.aikunapp.com
@@ -87,6 +31,43 @@ proxies:
     tls: true
     ws-opts:
       path: /vmess_ws/smjc/index?ed=4096
+  - name: "_美国"
+    type: vmess
+    server: 46.3.47.250
+    port: 20002
+    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "美国4ripaojiedian"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -94,28 +75,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_美国"
+      - "未知"
+      - "_美国"
+      - "_美国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "_美国"
-      - "未知"
-      - "_香港"
-      - "日本4ripaojiedian"
-      - "防范境外势力渗透 3"
-      - "_美国"
-      - "未知"
+      - "美国4ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_美国"
+      - "未知"
+      - "_美国"
+      - "_美国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "_美国"
-      - "未知"
-      - "_香港"
-      - "日本4ripaojiedian"
-      - "防范境外势力渗透 3"
-      - "_美国"
-      - "未知"
+      - "美国4ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
