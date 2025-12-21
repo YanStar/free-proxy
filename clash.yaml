@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-22 03:01:16
+# 更新时间: 2025-12-22 04:01:16
 # 节点数量: 399
 
 port: 7890
@@ -9,18 +9,57 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_美国"
+  - name: "_伊朗"
     type: vmess
-    server: 46.3.47.250
-    port: 20022
-    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+    server: 95.81.114.252
+    port: 44749
+    uuid: 6d600864-32da-49fd-baf4-7df051762454
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /speedtest
+  - name: "美国4ripaojiedian"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 7"
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "防范境外势力渗透 2"
     type: vmess
     server: 127.0.0.53
-    port: 87
+    port: 82
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -33,6 +72,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_美国"
+    type: vmess
+    server: 46.3.47.250
+    port: 20022
+    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -40,18 +89,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_美国"
-      - "防范境外势力渗透 7"
+      - "_伊朗"
+      - "美国4ripaojiedian"
+      - "_法国"
+      - " 香港ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 2"
       - " 美国4ripaojiedian"
+      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_美国"
-      - "防范境外势力渗透 7"
+      - "_伊朗"
+      - "美国4ripaojiedian"
+      - "_法国"
+      - " 香港ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 2"
       - " 美国4ripaojiedian"
+      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
