@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-22 02:01:25
+# 更新时间: 2025-12-22 03:01:16
 # 节点数量: 399
 
 port: 7890
@@ -9,7 +9,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "日本4ripaojiedian"
+  - name: "_美国"
     type: vmess
     server: 46.3.47.250
     port: 20022
@@ -17,19 +17,19 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_美国"
+  - name: "防范境外势力渗透 7"
     type: vmess
-    server: 165.140.216.141
-    port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 9"
+  - name: " 美国4ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
@@ -40,18 +40,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "日本4ripaojiedian"
       - "_美国"
-      - "防范境外势力渗透 9"
+      - "防范境外势力渗透 7"
+      - " 美国4ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "日本4ripaojiedian"
       - "_美国"
-      - "防范境外势力渗透 9"
+      - "防范境外势力渗透 7"
+      - " 美国4ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
