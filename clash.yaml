@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-21 21:01:39
+# 更新时间: 2025-12-21 22:01:33
 # 节点数量: 399
 
 port: 7890
@@ -9,75 +9,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_美国"
-    type: vmess
-    server: ebc.zoom.us
-    port: 8443
-    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@Malinda6104
-  - name: "_德国"
-    type: vmess
-    server: node4.rtxconfigz.com
-    port: 443
-    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@Malinda6104
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 46.3.47.250
-    port: 20022
-    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 46.3.47.250
-    port: 20022
-    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "美国4ripaojiedian"
+  - name: "_英国"
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -85,17 +17,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 印度  10"
+    ws-opts:
+      path: /hello
+  - name: "防范境外势力渗透"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
+    network: tcp
   - name: "_美国"
     type: vmess
     server: 46.3.47.250
@@ -106,6 +37,44 @@ proxies:
     network: tcp
     ws-opts:
       path: /
+  - name: "日本4ripaojiedian"
+    type: vmess
+    server: 46.3.47.250
+    port: 20022
+    uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: cdncdn.aikunapp.com
+    port: 443
+    uuid: e9bb5383-2e68-46cd-b071-bbb59668c3f5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "未知"
+    type: vmess
+    server: cdncdncdn.aikunapp.com
+    port: 443
+    uuid: e9bb5383-2e68-46cd-b071-bbb59668c3f5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess_ws/smjc/index?ed=4096
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -113,32 +82,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_英国"
+      - "防范境外势力渗透"
       - "_美国"
-      - "_德国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 5"
-      - "_美国"
-      - "_美国"
-      - "_香港"
-      - "美国4ripaojiedian"
-      - "githubcomfreefq - 印度  10"
-      - "_美国"
+      - "日本4ripaojiedian"
+      - "防范境外势力渗透 7"
+      - "未知"
+      - "未知"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_英国"
+      - "防范境外势力渗透"
       - "_美国"
-      - "_德国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 5"
-      - "_美国"
-      - "_美国"
-      - "_香港"
-      - "美国4ripaojiedian"
-      - "githubcomfreefq - 印度  10"
-      - "_美国"
+      - "日本4ripaojiedian"
+      - "防范境外势力渗透 7"
+      - "未知"
+      - "未知"
 
 rules:
   - GEOIP,CN,DIRECT
