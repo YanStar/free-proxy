@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-24 00:01:19
+# 更新时间: 2025-12-24 01:01:16
 # 节点数量: 168
 
 port: 7890
@@ -9,70 +9,29 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  10"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_加拿大"
-    type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "香港2ripaojiedian"
-    type: vmess
-    server: 111.47.247.196
-    port: 16632
-    uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_加拿大"
-    type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
   - name: "_美国"
     type: vmess
-    server: 165.140.216.141
+    server: v2ray.codefyinc.com
     port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmessws
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -84,32 +43,98 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 7"
+  - name: " 美国4ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 2"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_美国"
+    type: vmess
+    server: 165.140.216.141
+    port: 443
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_新加坡"
+    type: vmess
+    server: 43.165.7.71
+    port: 19751
+    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_未知"
+    type: vmess
+    server: xiaoniu.andcdn.bid
+    port: 41315
+    uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /obj
+  - name: "_加拿大"
+    type: vmess
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -117,34 +142,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  10"
-      - " 香港ripaojiedian"
-      - "_法国"
-      - "_加拿大"
-      - "香港2ripaojiedian"
-      - "_加拿大"
+      - "防范境外势力渗透 8"
       - "_美国"
+      - "_中国"
       - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 2"
-      - "_法国"
+      - " 美国4ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透 6"
+      - "_新加坡"
+      - "_未知"
+      - "_加拿大"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  10"
-      - " 香港ripaojiedian"
-      - "_法国"
-      - "_加拿大"
-      - "香港2ripaojiedian"
-      - "_加拿大"
+      - "防范境外势力渗透 8"
       - "_美国"
+      - "_中国"
       - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 2"
-      - "_法国"
+      - " 美国4ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透 6"
+      - "_新加坡"
+      - "_未知"
+      - "_加拿大"
 
 rules:
   - GEOIP,CN,DIRECT
