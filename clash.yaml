@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-25 04:01:46
+# 更新时间: 2025-12-25 05:01:42
 # 节点数量: 269
 
 port: 7890
@@ -11,41 +11,25 @@ log-level: info
 proxies:
   - name: "_美国"
     type: vmess
-    server: 165.140.216.141
+    server: 154.21.201.83
     port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_新加坡"
-    type: vmess
-    server: 43.165.7.71
-    port: 19751
-    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /@forwardv2ray
+      path: /aa
+  - name: "_美国"
+    type: vmess
+    server: vvVBgHyu.922922.SHoP
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "_香港"
     type: vmess
     server: n1761214919.mv7wh.tech
@@ -57,38 +41,6 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "香港2ripaojiedian"
-    type: vmess
-    server: 154.38.116.8
-    port: 443
-    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aa
-  - name: "_美国"
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_未知"
-    type: vmess
-    server: xiaoniu.andcdn.bid
-    port: 41318
-    uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /obj
   - name: "美国4ripaojiedian"
     type: vmess
     server: 82.198.246.97
@@ -97,6 +49,51 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "防范境外势力渗透 3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_俄罗斯"
+    type: vmess
+    server: 2.56.242.210
+    port: 34895
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_新加坡"
+    type: vmess
+    server: n1747624280.lie5d.cyou
+    port: 443
+    uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -105,14 +102,14 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_美国"
-      - "_香港"
-      - "_新加坡"
-      - "githubcomfreefq - 印度  2"
-      - "_香港"
-      - "香港2ripaojiedian"
       - "_美国"
-      - "_未知"
+      - "_香港"
       - "美国4ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 3"
+      - "防范境外势力渗透 4"
+      - "_俄罗斯"
+      - "_新加坡"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -120,14 +117,14 @@ proxy-groups:
     interval: 300
     proxies:
       - "_美国"
-      - "_香港"
-      - "_新加坡"
-      - "githubcomfreefq - 印度  2"
-      - "_香港"
-      - "香港2ripaojiedian"
       - "_美国"
-      - "_未知"
+      - "_香港"
       - "美国4ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 3"
+      - "防范境外势力渗透 4"
+      - "_俄罗斯"
+      - "_新加坡"
 
 rules:
   - GEOIP,CN,DIRECT
