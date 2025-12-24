@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-24 19:01:55
+# 更新时间: 2025-12-24 20:01:53
 # 节点数量: 290
 
 port: 7890
@@ -9,14 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+  - name: "_韩国"
     type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: seoul03.zgjok.com
+    port: 443
+    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
   - name: "_日本"
     type: vmess
     server: n1753598448.74qxv.top
@@ -28,67 +31,28 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "未知"
+  - name: "_伊朗"
     type: vmess
-    server: cf.fovi.tk
-    port: 443
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    server: 95.81.114.252
+    port: 44749
+    uuid: c50f9480-2e1d-40db-9458-630e79636663
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /eisasqa
-  - name: "防范境外势力渗透 6"
+      path: /speedtest
+  - name: "免费VPNhttpsttvggwaAy"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "未知"
     type: vmess
     server: dDdCCVFg.922922.SHOP
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "防范境外势力渗透 4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: dddffgthyu.922922.shop
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -107,15 +71,35 @@ proxies:
     tls: true
     ws-opts:
       path: /aa
-  - name: "_美国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: 54d-bD0D-C3F111D0b879.664.QzZ.io
+    port: 443
+    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
     alterId: 0
     cipher: auto
     network: ws
     tls: true
+    ws-opts:
+      path: /pyyY4ZVTyJV3vr9noOhn
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
     ws-opts:
       path: /
 
@@ -125,34 +109,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_韩国"
       - "_日本"
+      - "_伊朗"
+      - "免费VPNhttpsttvggwaAy"
       - "未知"
-      - "防范境外势力渗透 6"
+      - "_美国"
       - "githubcomfreefq - 美国CloudFlare"
       - "未知"
-      - "githubcomfreefq - 印度  3"
-      - "防范境外势力渗透 4"
-      - "_美国"
-      - "_美国"
-      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_韩国"
       - "_日本"
+      - "_伊朗"
+      - "免费VPNhttpsttvggwaAy"
       - "未知"
-      - "防范境外势力渗透 6"
+      - "_美国"
       - "githubcomfreefq - 美国CloudFlare"
       - "未知"
-      - "githubcomfreefq - 印度  3"
-      - "防范境外势力渗透 4"
-      - "_美国"
-      - "_美国"
-      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
