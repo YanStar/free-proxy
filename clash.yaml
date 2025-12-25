@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-25 20:01:34
+# 更新时间: 2025-12-25 21:01:41
 # 节点数量: 402
 
 port: 7890
@@ -9,35 +9,82 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: " 香港ripaojiedian"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: ddDFHhj.922922.Shop
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "_中国"
     type: vmess
-    server: v12.hdacd.com
+    server: 144.48.180.185
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
     ws-opts:
       path: /
-  - name: "未知"
+  - name: "防范境外势力渗透 4"
     type: vmess
-    server: cdncdncdn.aikunapp.com
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: cf.fovi.tk
     port: 443
-    uuid: 1820d2f4-3237-4045-ac9e-356677c8b8f4
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /vmess_ws/smjc/index?ed=4096
+      path: /eisasqa
+  - name: "_韩国"
+    type: vmess
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /eisasqa
   - name: "_香港"
     type: vmess
     server: v30.hdacd.com
@@ -58,24 +105,6 @@ proxies:
     network: tcp
     ws-opts:
       path: /rioutghewiuorrh9823r
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: ddDFHhj.922922.Shop
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "_中国"
     type: vmess
     server: v12.hdacd.com
@@ -86,30 +115,21 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "_英国"
     type: vmess
-    server: n1761214902.wpg27.xyz
-    port: 443
-    uuid: 469e9a38-b64e-46c3-9793-234158942d3b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_香港"
+    ws-opts:
+      path: /
+  - name: "每天更新请加电报群防止失联"
     type: vmess
-    server: 202.85.53.179
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 2.56.242.210
+    port: 34895
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
     alterId: 0
     cipher: auto
     network: tcp
@@ -122,34 +142,38 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - " 香港ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
       - "_中国"
+      - "_英国"
+      - "防范境外势力渗透 4"
+      - "_美国"
+      - "_韩国"
       - "未知"
       - "_香港"
       - "_香港"
-      - "香港ripaojiedian"
-      - "未知"
       - "_中国"
-      - "_香港"
-      - "防范境外势力渗透 3"
-      - "_香港"
+      - "_英国"
+      - "每天更新请加电报群防止失联"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - " 香港ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
       - "_中国"
+      - "_英国"
+      - "防范境外势力渗透 4"
+      - "_美国"
+      - "_韩国"
       - "未知"
       - "_香港"
       - "_香港"
-      - "香港ripaojiedian"
-      - "未知"
       - "_中国"
-      - "_香港"
-      - "防范境外势力渗透 3"
-      - "_香港"
+      - "_英国"
+      - "每天更新请加电报群防止失联"
 
 rules:
   - GEOIP,CN,DIRECT
