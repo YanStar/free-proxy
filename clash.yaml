@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-25 14:01:35
-# 节点数量: 396
+# 更新时间: 2025-12-25 15:01:31
+# 节点数量: 402
 
 port: 7890
 socks-port: 7891
@@ -9,64 +9,25 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_香港"
+  - name: "未知"
     type: vmess
-    server: n1761214910.74qxv.top
-    port: 443
-    uuid: 011c4670-cdde-44fb-b9be-8a1e27af26c9
+    server: www.shopify.com
+    port: 2096
+    uuid: 68f891b8-d7e8-47bf-a5f2-b7baf912f69c
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: " 香港ripaojiedian"
+  - name: "_韩国"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: ZzXxdE.922922.sHOp
+    server: 152.70.92.69
     port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: n1761214902.wpg27.xyz
-    port: 443
-    uuid: 469e9a38-b64e-46c3-9793-234158942d3b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
     ws-opts:
       path: /
   - name: " 美国4ripaojiedian"
@@ -77,39 +38,27 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_新加坡"
+  - name: "防范境外势力渗透 7"
     type: vmess
-    server: 43.165.7.71
-    port: 19751
-    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "每天更新请加电报群防止失联"
+  - name: "香港ripaojiedian"
     type: vmess
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
+  - name: "防范境外势力渗透 9"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_俄罗斯"
-    type: vmess
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
@@ -121,26 +70,54 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_美国"
+    type: vmess
+    server: 209.126.84.189
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    alterId: 0
+    cipher: auto
+    network: ws
     ws-opts:
-      path: /
+      path: /vmessws
+  - name: "未知"
+    type: vmess
+    server: bbbbbbbbb.222769.xyz
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
   - name: "_香港"
     type: vmess
-    server: v30.hdacd.com
+    server: 202.85.53.179
     port: 30830
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_美国"
+    ws-opts:
+      path: /
+  - name: "_中国"
     type: vmess
-    server: vvVBgHyu.922922.SHoP
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    server: 144.48.180.185
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
+  - name: "_韩国"
+    type: vmess
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    alterId: 0
+    cipher: auto
+    network: tcp
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -148,40 +125,36 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_香港"
-      - " 香港ripaojiedian"
-      - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_英国"
-      - "_香港"
+      - "未知"
+      - "_韩国"
       - " 美国4ripaojiedian"
-      - "_新加坡"
-      - "每天更新请加电报群防止失联"
-      - "_英国"
-      - "_俄罗斯"
+      - "防范境外势力渗透 7"
+      - "香港ripaojiedian"
+      - "防范境外势力渗透 9"
       - "_中国"
-      - "_香港"
       - "_美国"
+      - "未知"
+      - "_香港"
+      - "_中国"
+      - "_韩国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_香港"
-      - " 香港ripaojiedian"
-      - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_英国"
-      - "_香港"
+      - "未知"
+      - "_韩国"
       - " 美国4ripaojiedian"
-      - "_新加坡"
-      - "每天更新请加电报群防止失联"
-      - "_英国"
-      - "_俄罗斯"
+      - "防范境外势力渗透 7"
+      - "香港ripaojiedian"
+      - "防范境外势力渗透 9"
       - "_中国"
-      - "_香港"
       - "_美国"
+      - "未知"
+      - "_香港"
+      - "_中国"
+      - "_韩国"
 
 rules:
   - GEOIP,CN,DIRECT
