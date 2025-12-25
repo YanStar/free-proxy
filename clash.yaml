@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-25 15:01:31
+# 更新时间: 2025-12-25 16:01:36
 # 节点数量: 402
 
 port: 7890
@@ -9,15 +9,74 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "未知"
+  - name: "_加拿大"
     type: vmess
-    server: www.shopify.com
-    port: 2096
-    uuid: 68f891b8-d7e8-47bf-a5f2-b7baf912f69c
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "_香港"
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_俄罗斯"
+    type: vmess
+    server: 2.56.242.210
+    port: 34895
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: ed=2048
+  - name: "_波兰"
+    type: vmess
+    server: 146.59.118.249
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     network: ws
     tls: true
+    ws-opts:
+      path: linkvws
+  - name: "未知"
+    type: vmess
+    server: ssssssssssssfffffffgh.2032.pp.ua
+    port: 443
+    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /6We3U9Df1WGxgFnoFPw1
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
     ws-opts:
       path: /
   - name: "_韩国"
@@ -28,36 +87,29 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_香港"
+    type: vmess
+    server: n1761214911.74qxv.top
+    port: 443
+    uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
     ws-opts:
       path: /
-  - name: " 美国4ripaojiedian"
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 7"
+  - name: "防范境外势力渗透 6"
     type: vmess
     server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
+    port: 86
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -70,54 +122,29 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
     ws-opts:
-      path: /vmessws
+      path: /
   - name: "未知"
     type: vmess
-    server: bbbbbbbbb.222769.xyz
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /e6395c20
+  - name: "_美国"
+    type: vmess
+    server: dDdCCVFg.922922.SHOP
     port: 80
-    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /f6taOMcOSZb9TPR
-  - name: "_香港"
-    type: vmess
-    server: 202.85.53.179
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: 144.48.180.185
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_韩国"
-    type: vmess
-    server: 152.70.92.69
-    port: 80
-    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -125,36 +152,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "未知"
-      - "_韩国"
-      - " 美国4ripaojiedian"
-      - "防范境外势力渗透 7"
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 9"
-      - "_中国"
-      - "_美国"
-      - "未知"
+      - "_加拿大"
       - "_香港"
+      - "_俄罗斯"
+      - "_香港"
+      - "_波兰"
+      - "未知"
       - "_中国"
       - "_韩国"
+      - "_香港"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 6"
+      - "_中国"
+      - "未知"
+      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "未知"
-      - "_韩国"
-      - " 美国4ripaojiedian"
-      - "防范境外势力渗透 7"
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 9"
-      - "_中国"
-      - "_美国"
-      - "未知"
+      - "_加拿大"
       - "_香港"
+      - "_俄罗斯"
+      - "_香港"
+      - "_波兰"
+      - "未知"
       - "_中国"
       - "_韩国"
+      - "_香港"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 6"
+      - "_中国"
+      - "未知"
+      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
