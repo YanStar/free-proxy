@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-25 18:01:42
+# 更新时间: 2025-12-25 19:01:37
 # 节点数量: 402
 
 port: 7890
@@ -9,24 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_中国"
     type: vmess
     server: v12.hdacd.com
@@ -36,10 +18,10 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /
+      path: /vc
   - name: "未知"
     type: vmess
-    server: cdncdncdn.aikunapp.com
+    server: cdncdn.aikunapp.com
     port: 443
     uuid: 1820d2f4-3237-4045-ac9e-356677c8b8f4
     alterId: 0
@@ -48,56 +30,32 @@ proxies:
     tls: true
     ws-opts:
       path: /vmess_ws/smjc/index?ed=4096
-  - name: "_加拿大"
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
     type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "免费VPNhttpsttvggwaAy"
+    network: tcp
+  - name: "_香港"
     type: vmess
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    server: 202.85.53.179
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
     ws-opts:
       path: /
-  - name: "_波兰"
+  - name: "防范境外势力渗透 3"
     type: vmess
-    server: 146.59.118.249
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: linkvws
-  - name: "_俄罗斯"
-    type: vmess
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "未知"
-    type: vmess
-    server: ssssssssssssfffffffgh.2032.pp.ua
-    port: 443
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /6We3U9Df1WGxgFnoFPw1
   - name: "未知"
     type: vmess
     server: hgtrojan.zabc.net
@@ -109,16 +67,57 @@ proxies:
     tls: true
     ws-opts:
       path: /e6395c20
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "_美国"
     type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /eisasqa
+  - name: "_日本"
+    type: vmess
+    server: n1753598445.74qxv.top
+    port: 443
+    uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: v2ray.codefyinc.com
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /vmessws
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "香港ripaojiedian"
     type: vmess
     server: v10.hdacd.com
@@ -127,35 +126,16 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "未知"
+  - name: "_中国"
     type: vmess
-    server: www.shopify.com
-    port: 2096
-    uuid: 68f891b8-d7e8-47bf-a5f2-b7baf912f69c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_韩国"
-    type: vmess
-    server: 152.70.92.69
-    port: 80
-    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: ?ed=2048
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -163,42 +143,38 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_英国"
-      - "_英国"
       - "_中国"
       - "未知"
-      - "_加拿大"
-      - "免费VPNhttpsttvggwaAy"
-      - "_波兰"
-      - "_俄罗斯"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_香港"
+      - "防范境外势力渗透 3"
       - "未知"
-      - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_美国"
+      - "_日本"
+      - "_美国"
+      - "_美国"
+      - "_香港"
       - "香港ripaojiedian"
-      - "未知"
-      - "_韩国"
-      - "防范境外势力渗透 6"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_英国"
-      - "_英国"
       - "_中国"
       - "未知"
-      - "_加拿大"
-      - "免费VPNhttpsttvggwaAy"
-      - "_波兰"
-      - "_俄罗斯"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_香港"
+      - "防范境外势力渗透 3"
       - "未知"
-      - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_美国"
+      - "_日本"
+      - "_美国"
+      - "_美国"
+      - "_香港"
       - "香港ripaojiedian"
-      - "未知"
-      - "_韩国"
-      - "防范境外势力渗透 6"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
