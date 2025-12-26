@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-27 05:01:41
+# 更新时间: 2025-12-27 06:01:44
 # 节点数量: 358
 
 port: 7890
@@ -9,9 +9,50 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: NnnNNNnNnNNNNN.222769.xYZ
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
   - name: "_美国"
     type: vmess
-    server: dddccvfg.922922.shop
+    server: sssssssxxxx.2032.pp.ua
+    port: 443
+    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /6We3U9Df1WGxgFnoFPw1
+  - name: "未知"
+    type: vmess
+    server: dddfhhj.922922.shop
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -19,14 +60,6 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "美国4ripaojiedian"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "未知"
     type: vmess
     server: 2db-cd68-4374-9E0D-721e694FCA66.457.PP.UA
@@ -38,72 +71,48 @@ proxies:
     tls: true
     ws-opts:
       path: /kT5VHYcMrphesqROzSPoHrBo
-  - name: "未知"
-    type: vmess
-    server: dDdFfGTHYU.922922.SHOP
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
   - name: "_美国"
     type: vmess
-    server: 154.38.116.8
-    port: 443
-    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aa
-  - name: "_韩国"
-    type: vmess
-    server: seoul03.zgjok.com
-    port: 443
-    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 4"
+  - name: "_加拿大"
     type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: dddfhhj.922922.shop
+    server: 15.235.41.200
     port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "防范境外势力渗透 6"
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: n1761214906.wpg27.xyz
+    port: 443
+    uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: nnnnnnnnnnnnnn.222769.xyz
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -111,32 +120,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
       - "_美国"
-      - "美国4ripaojiedian"
       - "未知"
       - "未知"
-      - "香港ripaojiedian"
       - "_美国"
-      - "_韩国"
-      - "防范境外势力渗透 4"
+      - "_加拿大"
+      - "_香港"
       - "未知"
-      - "防范境外势力渗透 6"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
       - "_美国"
-      - "美国4ripaojiedian"
       - "未知"
       - "未知"
-      - "香港ripaojiedian"
       - "_美国"
-      - "_韩国"
-      - "防范境外势力渗透 4"
+      - "_加拿大"
+      - "_香港"
       - "未知"
-      - "防范境外势力渗透 6"
 
 rules:
   - GEOIP,CN,DIRECT
