@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-26 17:01:43
-# 节点数量: 345
+# 更新时间: 2025-12-26 18:01:40
+# 节点数量: 339
 
 port: 7890
 socks-port: 7891
@@ -9,49 +9,30 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "未知"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: cf.fovi.tk
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: n1761214907.74qxv.top
     port: 443
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /eisasqa
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
+      path: /
   - name: "未知"
     type: vmess
-    server: dDdFfGTHYU.922922.SHOP
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "未知"
-    type: vmess
-    server: 4bB6-B667-F88608D19FD5.664.qZz.io
-    port: 443
-    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /pyyY4ZVTyJV3vr9noOhn
-  - name: "_美国"
-    type: vmess
-    server: gggggggggggggg.222769.xyz
+    server: nnnnnnnnnnnnnn.222769.xyz
     port: 80
     uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
     alterId: 0
@@ -59,25 +40,33 @@ proxies:
     network: ws
     ws-opts:
       path: /f6taOMcOSZb9TPR
-  - name: "防范境外势力渗透"
+  - name: "_新加坡"
     type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
+    server: n1747624282.lie5d.cyou
     port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: 165.140.216.141
+    port: 443
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "美国4ripaojiedian"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "未知"
     type: vmess
     server: hgtrojan.zabc.net
@@ -89,28 +78,39 @@ proxies:
     tls: true
     ws-opts:
       path: /e6395c20
-  - name: "_日本"
+  - name: "免费VPNhttpsttvggwaAy"
     type: vmess
-    server: n1753598445.74qxv.top
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: 4bB6-B667-F88608D19FD5.664.qZz.io
     port: 443
-    uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
+    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /pyyY4ZVTyJV3vr9noOhn
+  - name: "_韩国"
+    type: vmess
+    server: seoul03.zgjok.com
+    port: 443
+    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+  - name: "_美国"
     type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: dddfhhj.922922.shop
+    server: XXXccFrt.922922.ShOP
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -118,28 +118,34 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_美国"
+  - name: "未知"
     type: vmess
-    server: sssssssxxxx.2032.pp.ua
-    port: 443
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    server: NnnNNNnNnNNNNN.222769.xYZ
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /6We3U9Df1WGxgFnoFPw1
+      path: /f6taOMcOSZb9TPR
+  - name: "日期12-26"
+    type: vmess
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_美国"
     type: vmess
-    server: 4120-bE04-13eF56096989.457.pP.UA
+    server: 209.126.84.189
     port: 443
-    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /kT5VHYcMrphesqROzSPoHrBo
+      path: /vmessws
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -147,18 +153,19 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_香港"
       - "未知"
-      - "香港ripaojiedian"
-      - "未知"
-      - "未知"
+      - "_新加坡"
       - "_美国"
-      - "防范境外势力渗透"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "美国4ripaojiedian"
       - "未知"
-      - "_日本"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "免费VPNhttpsttvggwaAy"
       - "未知"
+      - "_韩国"
       - "_美国"
+      - "未知"
+      - "日期12-26"
       - "_美国"
 
   - name: "♻️ 自动选择"
@@ -166,18 +173,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_香港"
       - "未知"
-      - "香港ripaojiedian"
-      - "未知"
-      - "未知"
+      - "_新加坡"
       - "_美国"
-      - "防范境外势力渗透"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "美国4ripaojiedian"
       - "未知"
-      - "_日本"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "免费VPNhttpsttvggwaAy"
       - "未知"
+      - "_韩国"
       - "_美国"
+      - "未知"
+      - "日期12-26"
       - "_美国"
 
 rules:
