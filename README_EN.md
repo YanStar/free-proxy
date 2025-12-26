@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2025-12-26 12:01:45 CST`
+> Last Updated: `2025-12-26 13:01:43 CST`
 
 **[中文文档](README.md)** | English
 
@@ -12,10 +12,10 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | Type | Count |
 |------|-------|
-| Total Proxies | 5,130 |
-| Elite Proxies | 2,366 |
-| Realtime Verified | 48 |
-| V2Ray Nodes | 403 |
+| Total Proxies | 5,455 |
+| Elite Proxies | 2,203 |
+| Realtime Verified | 43 |
+| V2Ray Nodes | 345 |
 
 ---
 
@@ -25,51 +25,51 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 48 | ⭐ **Realtime verified** working proxies, fewer but high quality |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 48 | Same as above, full URL format, can be directly used in software |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 48 | Same as above, includes response time and other details |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 43 | ⭐ **Realtime verified** working proxies, fewer but high quality |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 43 | Same as above, full URL format, can be directly used in software |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 43 | Same as above, includes response time and other details |
 
 ### 📋 HTTP/HTTPS Proxies
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`http.txt`](http.txt) | `ip:port` | 3,904 | HTTP proxy list |
-| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,904 | HTTP proxies, full URL format |
-| [`https.txt`](https.txt) | `ip:port` | 183 | HTTPS proxy list |
-| [`https_url.txt`](https_url.txt) | `https://ip:port` | 183 | HTTPS proxies, full URL format |
+| [`http.txt`](http.txt) | `ip:port` | 4,165 | HTTP proxy list |
+| [`http_url.txt`](http_url.txt) | `http://ip:port` | 4,165 | HTTP proxies, full URL format |
+| [`https.txt`](https.txt) | `ip:port` | 169 | HTTPS proxy list |
+| [`https_url.txt`](https_url.txt) | `https://ip:port` | 169 | HTTPS proxies, full URL format |
 
 ### 🧦 SOCKS Proxies
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 1,007 | SOCKS4 proxy list |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,007 | SOCKS4 proxies, full URL format |
-| [`socks5.txt`](socks5.txt) | `ip:port` | 553 | SOCKS5 proxy list |
-| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 553 | SOCKS5 proxies, full URL format |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 1,020 | SOCKS4 proxy list |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,020 | SOCKS4 proxies, full URL format |
+| [`socks5.txt`](socks5.txt) | `ip:port` | 559 | SOCKS5 proxy list |
+| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 559 | SOCKS5 proxies, full URL format |
 
 ### 🎭 Elite Proxies (High Anonymous)
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`elite.txt`](elite.txt) | `ip:port` | 2,366 | Elite proxies, won't expose your real IP |
-| [`elite.json`](elite.json) | JSON | 2,366 | Elite proxies with details (country, speed, etc.) |
-| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,234 | Elite HTTP proxies |
-| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 205 | Elite SOCKS5 proxies |
+| [`elite.txt`](elite.txt) | `ip:port` | 2,203 | Elite proxies, won't expose your real IP |
+| [`elite.json`](elite.json) | JSON | 2,203 | Elite proxies with details (country, speed, etc.) |
+| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,071 | Elite HTTP proxies |
+| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 179 | Elite SOCKS5 proxies |
 
 ### 🚀 V2Ray / Clash Nodes
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`v2ray.txt`](v2ray.txt) | Raw links | 403 | V2Ray/Trojan/SS nodes, one per line |
-| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 403 | V2Ray subscription, import directly to client |
+| [`v2ray.txt`](v2ray.txt) | Raw links | 345 | V2Ray/Trojan/SS nodes, one per line |
+| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 345 | V2Ray subscription, import directly to client |
 | [`clash.yaml`](clash.yaml) | YAML | 50 | Clash config file, ready to use |
 
 ### 📦 Full Data
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`all.txt`](all.txt) | `ip:port` | 5,130 | All proxies (unverified) |
-| [`all.json`](all.json) | JSON | 5,130 | All proxies with full details |
+| [`all.txt`](all.txt) | `ip:port` | 5,455 | All proxies (unverified) |
+| [`all.json`](all.json) | JSON | 5,455 | All proxies with full details |
 | [`stats.json`](stats.json) | JSON | - | Statistics |
 
 ### 🔄 Realtime Crawled (Unverified)
