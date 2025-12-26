@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-26 14:01:38
+# 更新时间: 2025-12-26 15:01:40
 # 节点数量: 345
 
 port: 7890
@@ -20,40 +20,49 @@ proxies:
     tls: true
     ws-opts:
       path: /kT5VHYcMrphesqROzSPoHrBo
-  - name: "未知"
+  - name: "_加拿大"
     type: vmess
-    server: nnnnnnnnnnnnnn.222769.xyz
+    server: 15.235.41.200
     port: 80
-    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /f6taOMcOSZb9TPR
-  - name: "_美国"
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "未知"
     type: vmess
-    server: 154.38.116.8
+    server: 2db-cd68-4374-9E0D-721e694FCA66.457.PP.UA
     port: 443
-    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /aa
-  - name: "_法国"
+      path: /kT5VHYcMrphesqROzSPoHrBo
+  - name: "未知"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: 6b-4F68-8D87-7C4AADD12Ab9.664.QzZ.io
+    port: 443
+    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /github.com/Alvin9999
-  - name: "未知"
+      path: /pyyY4ZVTyJV3vr9noOhn
+  - name: "免费VPNhttpsttvggwaAy"
     type: vmess
-    server: dddfhhj.922922.shop
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: XXXccFrt.922922.ShOP
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -61,43 +70,49 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "_香港"
     type: vmess
-    server: n1761214907.74qxv.top
+    server: n1761214911.74qxv.top
     port: 443
-    uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
+    uuid: 372c1939-299d-4946-9633-5ffa971f8b67
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: " 香港ripaojiedian"
+  - name: "_香港"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: n1761214906.wpg27.xyz
+    port: 443
+    uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: c7.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: NnnNNNnNnNNNNN.222769.xYZ
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -106,14 +121,15 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_美国"
+      - "_加拿大"
       - "未知"
+      - "未知"
+      - "免费VPNhttpsttvggwaAy"
       - "_美国"
-      - "_法国"
-      - "未知"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "githubcomfreefq - 美国CloudFlare"
       - "_香港"
-      - " 香港ripaojiedian"
+      - "_香港"
+      - "_美国"
+      - "未知"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -121,14 +137,15 @@ proxy-groups:
     interval: 300
     proxies:
       - "_美国"
+      - "_加拿大"
       - "未知"
+      - "未知"
+      - "免费VPNhttpsttvggwaAy"
       - "_美国"
-      - "_法国"
-      - "未知"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "githubcomfreefq - 美国CloudFlare"
       - "_香港"
-      - " 香港ripaojiedian"
+      - "_香港"
+      - "_美国"
+      - "未知"
 
 rules:
   - GEOIP,CN,DIRECT
