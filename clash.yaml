@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-27 07:01:35
+# 更新时间: 2025-12-27 08:01:34
 # 节点数量: 358
 
 port: 7890
@@ -9,38 +9,20 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 广东省移动 7"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "_美国"
-    type: vmess
-    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    server: gov.uk
     port: 443
-    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /kT5VHYcMrphesqROzSPoHrBo
-  - name: "防范境外势力渗透 8"
+      path: /77848824
+  - name: "_美国"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: dDdFfGTHYU.922922.SHOP
+    server: dddccvfg.922922.shop
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -48,77 +30,64 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_香港"
+  - name: "_美国"
     type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: 8.218.199.111
-    port: 8080
-    uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
+    server: XXXccFrt.922922.ShOP
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_加拿大"
+    type: vmess
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "_美国"
+    type: vmess
+    server: ddDFHhj.922922.Shop
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "_美国"
+    type: vmess
+    server: DddFfRtY6.922922.shop
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "未知"
     type: vmess
-    server: NnnNNNnNnNNNNN.222769.xYZ
+    server: dddfhhj.922922.shop
     port: 80
-    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /f6taOMcOSZb9TPR
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_美国"
-    type: vmess
-    server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
-    port: 443
-    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /pyyY4ZVTyJV3vr9noOhn
-  - name: "_美国"
-    type: vmess
-    server: 165.140.216.141
-    port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -126,34 +95,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 广东省移动 7"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_美国"
-      - "防范境外势力渗透 8"
+      - "_美国"
+      - "防范境外势力渗透"
+      - "_加拿大"
+      - "_美国"
+      - "_美国"
       - "未知"
-      - "_香港"
-      - "_香港"
-      - "未知"
-      - "githubcomfreefq - 印度  3"
-      - "_美国"
-      - "_美国"
-      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 广东省移动 7"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_美国"
-      - "防范境外势力渗透 8"
+      - "_美国"
+      - "防范境外势力渗透"
+      - "_加拿大"
+      - "_美国"
+      - "_美国"
       - "未知"
-      - "_香港"
-      - "_香港"
-      - "未知"
-      - "githubcomfreefq - 印度  3"
-      - "_美国"
-      - "_美国"
-      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
