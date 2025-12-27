@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-28 01:01:41
+# 更新时间: 2025-12-28 02:01:42
 # 节点数量: 345
 
 port: 7890
@@ -9,68 +9,70 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "免费VPNhttpsttvggwaAy"
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
     type: vmess
-    server: 165.140.216.141
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
     port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: ddDFHhj.922922.Shop
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_日本"
-    type: vmess
-    server: 172.111.146.64
-    port: 80
-    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-  - name: "_中国"
-    type: vmess
-    server: 144.48.180.175
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_美国"
-    type: vmess
-    server: ssssssssssssfffffffgh.2032.pp.ua
-    port: 443
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /6We3U9Df1WGxgFnoFPw1
+      path: /@forwardv2ray
   - name: "_美国"
     type: vmess
-    server: 54d-bD0D-C3F111D0b879.664.QzZ.io
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: 4120-Be04-13EF56096989.457.pp.UA
+    port: 443
+    uuid: a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: 6b-4F68-8D87-7C4AADD12Ab9.664.QzZ.io
     port: 443
     uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
     alterId: 0
@@ -79,34 +81,72 @@ proxies:
     tls: true
     ws-opts:
       path: /pyyY4ZVTyJV3vr9noOhn
-  - name: "_美国"
-    type: vmess
-    server: GgGgGGgGggggGg.222769.XYZ
-    port: 80
-    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /f6taOMcOSZb9TPR
-  - name: "防范境外势力渗透 4"
+  - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
-    port: 84
+    port: 80
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_直布罗陀"
+  - name: "_墨西哥"
     type: vmess
-    server: 95.164.4.88
+    server: 216.238.87.47
+    port: 27502
+    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_加拿大"
+    type: vmess
+    server: 15.235.41.200
     port: 80
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmess/
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "免费VPNhttpsttvggwaAy"
+    type: vmess
+    server: 165.140.216.141
+    port: 443
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 91.134.8.93
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: linkvws
+  - name: "美国4ripaojiedian"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 57.129.25.26
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: linkvws
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -114,32 +154,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "免费VPNhttpsttvggwaAy"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 印度  10"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
       - "未知"
-      - "_日本"
-      - "_中国"
-      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_美国"
-      - "_美国"
-      - "_美国"
-      - "防范境外势力渗透 4"
-      - "_直布罗陀"
+      - "防范境外势力渗透"
+      - "_墨西哥"
+      - "_加拿大"
+      - "免费VPNhttpsttvggwaAy"
+      - "_法国"
+      - "美国4ripaojiedian"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "免费VPNhttpsttvggwaAy"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 印度  10"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
       - "未知"
-      - "_日本"
-      - "_中国"
-      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_美国"
-      - "_美国"
-      - "_美国"
-      - "防范境外势力渗透 4"
-      - "_直布罗陀"
+      - "防范境外势力渗透"
+      - "_墨西哥"
+      - "_加拿大"
+      - "免费VPNhttpsttvggwaAy"
+      - "_法国"
+      - "美国4ripaojiedian"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
