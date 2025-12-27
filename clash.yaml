@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-27 17:01:41
-# 节点数量: 363
+# 更新时间: 2025-12-27 18:01:25
+# 节点数量: 345
 
 port: 7890
 socks-port: 7891
@@ -9,24 +9,35 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_美国"
+  - name: "_中国"
     type: vmess
-    server: bbbbbbbbb.222769.xyz
-    port: 80
-    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    server: 14.17.71.86
+    port: 41315
+    uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /f6taOMcOSZb9TPR
-  - name: "防范境外势力渗透 9"
+      path: /obj
+  - name: " 香港ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 146.59.85.226
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: linkvws
   - name: "_美国"
     type: vmess
     server: v2ray.codefyinc.com
@@ -37,42 +48,49 @@ proxies:
     network: ws
     ws-opts:
       path: /vmessws
-  - name: "防范境外势力渗透 7"
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 57.129.25.26
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
+    network: ws
+    tls: true
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_美国"
+      path: linkvws
+  - name: "未知"
     type: vmess
-    server: dddfhhj.922922.shop
+    server: bBbbbbbBb.222769.XYZ
     port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      path: /f6taOMcOSZb9TPR
+  - name: "未知"
+    type: vmess
+    server: 104.21.38.60
+    port: 443
+    uuid: 7f7fea1d-16cf-3f0b-95c8-2dbb2fc5a97c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /v2ray
+  - name: "_美国"
+    type: vmess
+    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
   - name: "_直布罗陀"
     type: vmess
     server: 95.164.4.88
@@ -83,14 +101,48 @@ proxies:
     network: ws
     ws-opts:
       path: /vmess/
-  - name: "_中国"
+  - name: "_法国"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 91.134.8.93
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: linkvws
+  - name: "_美国"
+    type: vmess
+    server: bbbbbbbbb.222769.xyz
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
+  - name: "_墨西哥"
+    type: vmess
+    server: 216.238.87.47
+    port: 27502
+    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
     alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: 4120-Be04-13EF56096989.457.pP.Ua
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -98,30 +150,38 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_美国"
-      - "防范境外势力渗透 9"
-      - "_美国"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 6"
       - "_中国"
+      - " 香港ripaojiedian"
+      - "_法国"
+      - "_美国"
+      - "_法国"
+      - "未知"
+      - "未知"
       - "_美国"
       - "_直布罗陀"
-      - "_中国"
+      - "_法国"
+      - "_美国"
+      - "_墨西哥"
+      - "未知"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_美国"
-      - "防范境外势力渗透 9"
-      - "_美国"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 6"
       - "_中国"
+      - " 香港ripaojiedian"
+      - "_法国"
+      - "_美国"
+      - "_法国"
+      - "未知"
+      - "未知"
       - "_美国"
       - "_直布罗陀"
-      - "_中国"
+      - "_法国"
+      - "_美国"
+      - "_墨西哥"
+      - "未知"
 
 rules:
   - GEOIP,CN,DIRECT
