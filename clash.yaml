@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-28 18:01:12
+# 更新时间: 2025-12-28 19:01:16
 # 节点数量: 367
 
 port: 7890
@@ -9,40 +9,40 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国台湾省"
-    type: vmess
-    server: 61.224.79.200
-    port: 64019
-    uuid: f7fcd975-d838-3aac-80f6-39dc0efd6afb
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "美国4ripaojiedian"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_美国"
     type: vmess
-    server: v2ray.codefyinc.com
+    server: 165.140.216.141
     port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_土耳其"
+    type: vmess
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmessws
+      path: /
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "未知"
     type: vmess
     server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
@@ -54,16 +54,24 @@ proxies:
     tls: true
     ws-opts:
       path: /kT5VHYcMrphesqROzSPoHrBo
-  - name: "未知"
+  - name: "_法国"
     type: vmess
-    server: ddDFHhj.922922.Shop
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      path: /github.com/Alvin9999
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -71,24 +79,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 5"
-      - "_中国台湾省"
-      - "美国4ripaojiedian"
       - "_美国"
+      - "_土耳其"
+      - "防范境外势力渗透 9"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "未知"
-      - "未知"
+      - "_法国"
+      - "防范境外势力渗透 7"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 5"
-      - "_中国台湾省"
-      - "美国4ripaojiedian"
       - "_美国"
+      - "_土耳其"
+      - "防范境外势力渗透 9"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "未知"
-      - "未知"
+      - "_法国"
+      - "防范境外势力渗透 7"
 
 rules:
   - GEOIP,CN,DIRECT
