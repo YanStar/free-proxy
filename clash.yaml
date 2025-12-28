@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-28 13:01:41
+# 更新时间: 2025-12-28 14:01:40
 # 节点数量: 367
 
 port: 7890
@@ -11,15 +11,7 @@ log-level: info
 proxies:
   - name: "_美国"
     type: vmess
-    server: 165.140.216.141
-    port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: ZzXxdE.922922.sHOp
+    server: dddfhhj.922922.shop
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -27,69 +19,48 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_中国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 144.48.180.175
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 6"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 8"
+      path: /77848824
+  - name: "未知"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "_美国"
+    network: ws
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: vvVBgHyu.922922.SHoP
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -98,14 +69,10 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "未知"
-      - "_中国"
-      - "防范境外势力渗透 6"
-      - "香港ripaojiedian"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "未知"
-      - "防范境外势力渗透 8"
-      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -113,14 +80,10 @@ proxy-groups:
     interval: 300
     proxies:
       - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "未知"
-      - "_中国"
-      - "防范境外势力渗透 6"
-      - "香港ripaojiedian"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "未知"
-      - "防范境外势力渗透 8"
-      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
