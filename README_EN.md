@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2025-12-28 14:01:40 CST`
+> Last Updated: `2025-12-28 15:01:21 CST`
 
 **[中文文档](README.md)** | English
 
@@ -12,8 +12,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | Type | Count |
 |------|-------|
-| Total Proxies | 5,499 |
-| Elite Proxies | 2,421 |
+| Total Proxies | 5,460 |
+| Elite Proxies | 2,274 |
 | Realtime Verified | 34 |
 | V2Ray Nodes | 367 |
 
@@ -33,28 +33,28 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`http.txt`](http.txt) | `ip:port` | 4,100 | HTTP proxy list |
-| [`http_url.txt`](http_url.txt) | `http://ip:port` | 4,100 | HTTP proxies, full URL format |
-| [`https.txt`](https.txt) | `ip:port` | 199 | HTTPS proxy list |
-| [`https_url.txt`](https_url.txt) | `https://ip:port` | 199 | HTTPS proxies, full URL format |
+| [`http.txt`](http.txt) | `ip:port` | 3,981 | HTTP proxy list |
+| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,981 | HTTP proxies, full URL format |
+| [`https.txt`](https.txt) | `ip:port` | 185 | HTTPS proxy list |
+| [`https_url.txt`](https_url.txt) | `https://ip:port` | 185 | HTTPS proxies, full URL format |
 
 ### 🧦 SOCKS Proxies
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 1,074 | SOCKS4 proxy list |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,074 | SOCKS4 proxies, full URL format |
-| [`socks5.txt`](socks5.txt) | `ip:port` | 611 | SOCKS5 proxy list |
-| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 611 | SOCKS5 proxies, full URL format |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 1,098 | SOCKS4 proxy list |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,098 | SOCKS4 proxies, full URL format |
+| [`socks5.txt`](socks5.txt) | `ip:port` | 676 | SOCKS5 proxy list |
+| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 676 | SOCKS5 proxies, full URL format |
 
 ### 🎭 Elite Proxies (High Anonymous)
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`elite.txt`](elite.txt) | `ip:port` | 2,421 | Elite proxies, won't expose your real IP |
-| [`elite.json`](elite.json) | JSON | 2,421 | Elite proxies with details (country, speed, etc.) |
-| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,298 | Elite HTTP proxies |
-| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 191 | Elite SOCKS5 proxies |
+| [`elite.txt`](elite.txt) | `ip:port` | 2,274 | Elite proxies, won't expose your real IP |
+| [`elite.json`](elite.json) | JSON | 2,274 | Elite proxies with details (country, speed, etc.) |
+| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,137 | Elite HTTP proxies |
+| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 206 | Elite SOCKS5 proxies |
 
 ### 🚀 V2Ray / Clash Nodes
 
@@ -68,8 +68,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`all.txt`](all.txt) | `ip:port` | 5,499 | All proxies (unverified) |
-| [`all.json`](all.json) | JSON | 5,499 | All proxies with full details |
+| [`all.txt`](all.txt) | `ip:port` | 5,460 | All proxies (unverified) |
+| [`all.json`](all.json) | JSON | 5,460 | All proxies with full details |
 | [`stats.json`](stats.json) | JSON | - | Statistics |
 
 ### 🔄 Realtime Crawled (Unverified)

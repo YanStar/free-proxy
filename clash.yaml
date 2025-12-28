@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-28 14:01:40
+# 更新时间: 2025-12-28 15:01:21
 # 节点数量: 367
 
 port: 7890
@@ -9,9 +9,28 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_美国"
+  - name: " 香港ripaojiedian"
     type: vmess
-    server: dddfhhj.922922.shop
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_德国"
+    type: vmess
+    server: 5.83.150.108
+    port: 21681
+    uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /speedtest
+  - name: "未知"
+    type: vmess
+    server: ZzXxdE.922922.sHOp
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -19,48 +38,90 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: " 美国4ripaojiedian"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国Fastly全球An"
+    network: tcp
+  - name: "_中国台湾省"
     type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    server: 61.224.79.200
+    port: 64019
+    uuid: f7fcd975-d838-3aac-80f6-39dc0efd6afb
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
+    network: tcp
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
     ws-opts:
-      path: /77848824
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "未知"
     type: vmess
-    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    server: cdncdncdn.aikunapp.com
     port: 443
-    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    uuid: 10e58955-1fc0-4993-b310-743af10212af
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /kT5VHYcMrphesqROzSPoHrBo
-  - name: "githubcomfreefq - 美国CloudFlare"
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "githubcomfreefq - 印度  2"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /github.com/Alvin9999
+  - name: "_直布罗陀"
+    type: vmess
+    server: 95.164.4.88
+    port: 80
+    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -68,22 +129,36 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - " 香港ripaojiedian"
+      - "_德国"
       - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
+      - " 美国4ripaojiedian"
+      - "_中国台湾省"
+      - "防范境外势力渗透 4"
+      - "_中国"
+      - "未知"
+      - "githubcomfreefq - 印度  2"
+      - "防范境外势力渗透 9"
+      - "_法国"
+      - "_直布罗陀"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - " 香港ripaojiedian"
+      - "_德国"
       - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
+      - " 美国4ripaojiedian"
+      - "_中国台湾省"
+      - "防范境外势力渗透 4"
+      - "_中国"
+      - "未知"
+      - "githubcomfreefq - 印度  2"
+      - "防范境外势力渗透 9"
+      - "_法国"
+      - "_直布罗陀"
 
 rules:
   - GEOIP,CN,DIRECT
