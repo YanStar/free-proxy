@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-29 01:01:33
+# 更新时间: 2025-12-29 02:01:24
 # 节点数量: 367
 
 port: 7890
@@ -9,56 +9,35 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_加拿大"
-    type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "_美国"
-    type: vmess
-    server: DddFfRtY6.922922.shop
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "未知"
-    type: vmess
-    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
-    port: 443
-    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /kT5VHYcMrphesqROzSPoHrBo
-  - name: "防范境外势力渗透 2"
+  - name: "防范境外势力渗透 7"
     type: vmess
     server: 127.0.0.53
-    port: 82
+    port: 87
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_德国"
+    type: vmess
+    server: 5.83.150.108
+    port: 21681
+    uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /speedtest
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
   - name: "未知"
     type: vmess
     server: t1.620720.xyz
@@ -70,32 +49,50 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "未知"
+  - name: "_直布罗陀"
     type: vmess
-    server: cdncdn.aikunapp.com
+    server: 95.164.4.88
+    port: 80
+    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
+  - name: "_香港"
+    type: vmess
+    server: n1761214915.mv7wh.tech
     port: 443
-    uuid: 10e58955-1fc0-4993-b310-743af10212af
+    uuid: 1f2daf43-ff90-4df9-9276-dfb8486d72bc
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /vmess_ws/smjc/index?ed=4096
-  - name: "githubcomfreefq - 美国CloudFlare"
+      path: /
+  - name: "_美国"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: v2ray.codefyinc.com
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "_中国"
+      path: /vmessws
+  - name: "防范境外势力渗透"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
@@ -106,30 +103,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_加拿大"
+      - "防范境外势力渗透 7"
+      - "_德国"
+      - "_法国"
+      - "未知"
+      - "_直布罗陀"
+      - "_香港"
       - "_美国"
-      - "githubcomfreefq - 印度  3"
-      - "未知"
-      - "防范境外势力渗透 2"
-      - "未知"
-      - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 4"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_加拿大"
+      - "防范境外势力渗透 7"
+      - "_德国"
+      - "_法国"
+      - "未知"
+      - "_直布罗陀"
+      - "_香港"
       - "_美国"
-      - "githubcomfreefq - 印度  3"
-      - "未知"
-      - "防范境外势力渗透 2"
-      - "未知"
-      - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 4"
 
 rules:
   - GEOIP,CN,DIRECT
