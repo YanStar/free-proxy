@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-28 20:01:18
+# 更新时间: 2025-12-28 21:01:46
 # 节点数量: 367
 
 port: 7890
@@ -9,6 +9,16 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_土耳其"
+    type: vmess
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:2013::8
@@ -19,36 +29,44 @@ proxies:
     network: ws
     ws-opts:
       path: /github.com/Alvin9999
-  - name: "防范境外势力渗透 7"
+  - name: "_美国"
+    type: vmess
+    server: v2ray.codefyinc.com
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmessws
+  - name: "_美国"
+    type: vmess
+    server: bBbbbbbBb.222769.XYZ
+    port: 80
+    uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
+  - name: "_中国"
+    type: vmess
+    server: 144.48.180.175
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 8"
     type: vmess
     server: 127.0.0.53
-    port: 87
+    port: 88
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "未知"
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: n1761214915.mv7wh.tech
-    port: 443
-    uuid: 1f2daf43-ff90-4df9-9276-dfb8486d72bc
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -56,20 +74,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_土耳其"
       - "_法国"
-      - "防范境外势力渗透 7"
-      - "未知"
-      - "_香港"
+      - "_美国"
+      - "_美国"
+      - "_中国"
+      - "防范境外势力渗透 8"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_土耳其"
       - "_法国"
-      - "防范境外势力渗透 7"
-      - "未知"
-      - "_香港"
+      - "_美国"
+      - "_美国"
+      - "_中国"
+      - "防范境外势力渗透 8"
 
 rules:
   - GEOIP,CN,DIRECT
