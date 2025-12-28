@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-28 10:01:51
-# 节点数量: 345
+# 更新时间: 2025-12-28 11:01:37
+# 节点数量: 367
 
 port: 7890
 socks-port: 7891
@@ -9,9 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "防范境外势力渗透 1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "未知"
     type: vmess
-    server: cCc.922922.ShOp
+    server: dddccvfg.922922.shop
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -19,70 +27,32 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_香港"
+  - name: "日期12-28"
     type: vmess
-    server: n1761214911.74qxv.top
-    port: 443
-    uuid: 372c1939-299d-4946-9633-5ffa971f8b67
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_美国"
+    network: tcp
+  - name: "香港ripaojiedian"
     type: vmess
-    server: 54d-bD0D-C3F111D0b879.664.QzZ.io
-    port: 443
-    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /pyyY4ZVTyJV3vr9noOhn
-  - name: "_韩国"
-    type: vmess
-    server: seoul03.zgjok.com
-    port: 443
-    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_直布罗陀"
-    type: vmess
-    server: 95.164.4.88
-    port: 80
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
+    network: tcp
   - name: "未知"
     type: vmess
-    server: sssssssxxxx.2032.pp.ua
-    port: 443
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /6We3U9Df1WGxgFnoFPw1
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: ddDFHhj.922922.Shop
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -90,26 +60,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "防范境外势力渗透 1"
       - "未知"
-      - "_香港"
-      - "_美国"
-      - "_韩国"
-      - "_直布罗陀"
+      - "日期12-28"
+      - "香港ripaojiedian"
       - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "防范境外势力渗透 1"
       - "未知"
-      - "_香港"
-      - "_美国"
-      - "_韩国"
-      - "_直布罗陀"
+      - "日期12-28"
+      - "香港ripaojiedian"
       - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
