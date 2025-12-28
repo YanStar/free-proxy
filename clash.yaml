@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-29 00:01:27
+# 更新时间: 2025-12-29 01:01:33
 # 节点数量: 367
 
 port: 7890
@@ -9,33 +9,88 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "香港ripaojiedian"
+  - name: "_加拿大"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_中国台湾省"
-    type: vmess
-    server: 61.224.79.200
-    port: 64019
-    uuid: f7fcd975-d838-3aac-80f6-39dc0efd6afb
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 印度  10"
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "_美国"
+    type: vmess
+    server: DddFfRtY6.922922.shop
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
+  - name: "未知"
+    type: vmess
+    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
+  - name: "防范境外势力渗透 2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "未知"
+    type: vmess
+    server: cdncdn.aikunapp.com
+    port: 443
+    uuid: 10e58955-1fc0-4993-b310-743af10212af
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_中国"
     type: vmess
     server: v12.hdacd.com
@@ -51,9 +106,14 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "香港ripaojiedian"
-      - "_中国台湾省"
-      - "githubcomfreefq - 印度  10"
+      - "_加拿大"
+      - "_美国"
+      - "githubcomfreefq - 印度  3"
+      - "未知"
+      - "防范境外势力渗透 2"
+      - "未知"
+      - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
 
   - name: "♻️ 自动选择"
@@ -61,9 +121,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "香港ripaojiedian"
-      - "_中国台湾省"
-      - "githubcomfreefq - 印度  10"
+      - "_加拿大"
+      - "_美国"
+      - "githubcomfreefq - 印度  3"
+      - "未知"
+      - "防范境外势力渗透 2"
+      - "未知"
+      - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
 
 rules:
