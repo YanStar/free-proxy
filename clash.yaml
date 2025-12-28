@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-29 05:01:24
+# 更新时间: 2025-12-29 06:01:30
 # 节点数量: 367
 
 port: 7890
@@ -9,74 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "日期12-28"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国台湾省"
-    type: vmess
-    server: 61.224.79.200
-    port: 64019
-    uuid: f7fcd975-d838-3aac-80f6-39dc0efd6afb
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_日本"
-    type: vmess
-    server: 172.111.146.64
-    port: 80
-    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-  - name: "_美国"
-    type: vmess
-    server: DddFfRtY6.922922.shop
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "_中国"
     type: vmess
     server: v12.hdacd.com
@@ -87,27 +19,86 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "防范境外势力渗透 6"
     type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "_韩国"
+      path: /debian
+  - name: "_英国"
     type: vmess
-    server: seoul03.zgjok.com
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: 165.140.216.141
     port: 443
-    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: 209.126.84.189
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /
+      path: /vmessws
+  - name: "未知"
+    type: vmess
+    server: ZzXxdE.922922.sHOp
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "美国4ripaojiedian"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "日期12-28"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -115,32 +106,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  3"
-      - "日期12-28"
-      - "_中国台湾省"
-      - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_日本"
-      - "_美国"
       - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_韩国"
+      - "防范境外势力渗透 6"
+      - "香港ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "_美国"
+      - "_美国"
+      - "未知"
+      - "美国4ripaojiedian"
+      - "日期12-28"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  3"
-      - "日期12-28"
-      - "_中国台湾省"
-      - "未知"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_日本"
-      - "_美国"
       - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_韩国"
+      - "防范境外势力渗透 6"
+      - "香港ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "_美国"
+      - "_美国"
+      - "未知"
+      - "美国4ripaojiedian"
+      - "日期12-28"
 
 rules:
   - GEOIP,CN,DIRECT
