@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-29 06:01:30
+# 更新时间: 2025-12-29 07:01:22
 # 节点数量: 367
 
 port: 7890
@@ -9,50 +9,15 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
+  - name: "_韩国"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    server: seoul03.zgjok.com
+    port: 443
+    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
     alterId: 0
     cipher: auto
     network: ws
-    ws-opts:
-      path: /debian
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
+    tls: true
     ws-opts:
       path: /
   - name: "_美国"
@@ -63,16 +28,39 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_美国"
+  - name: "githubcomfreefq - 印度  10"
     type: vmess
-    server: 209.126.84.189
+    server: 202.78.162.5
     port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /vmessws
+      path: /@forwardv2ray
+  - name: "_美国"
+    type: vmess
+    server: sssssssxxxx.2032.pp.ua
+    port: 443
+    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /6We3U9Df1WGxgFnoFPw1
+  - name: "未知"
+    type: vmess
+    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
   - name: "未知"
     type: vmess
     server: ZzXxdE.922922.sHOp
@@ -83,22 +71,26 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "美国4ripaojiedian"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "日期12-28"
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_日本"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 172.111.146.64
+    port: 80
+    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /vmess/
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -106,32 +98,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_中国"
-      - "防范境外势力渗透 6"
-      - "香港ripaojiedian"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_英国"
+      - "_韩国"
       - "_美国"
+      - "githubcomfreefq - 印度  10"
       - "_美国"
       - "未知"
-      - "美国4ripaojiedian"
-      - "日期12-28"
+      - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_日本"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_中国"
-      - "防范境外势力渗透 6"
-      - "香港ripaojiedian"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_英国"
+      - "_韩国"
       - "_美国"
+      - "githubcomfreefq - 印度  10"
       - "_美国"
       - "未知"
-      - "美国4ripaojiedian"
-      - "日期12-28"
+      - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_日本"
 
 rules:
   - GEOIP,CN,DIRECT
