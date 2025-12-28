@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-29 02:01:24
+# 更新时间: 2025-12-29 03:01:33
 # 节点数量: 367
 
 port: 7890
@@ -9,89 +9,94 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 7"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_德国"
-    type: vmess
-    server: 5.83.150.108
-    port: 21681
-    uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /speedtest
-  - name: "_法国"
+      path: /77848824
+  - name: "防范境外势力渗透 9"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_韩国"
+    type: vmess
+    server: seoul03.zgjok.com
+    port: 443
+    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
   - name: "未知"
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: 2237-4CE3-8698-Cfd1b622333A.457.pP.uA
+    port: 443
+    uuid: 0cd3c9d1-68e5-4917-8a0a-c62f1a52de56
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "_直布罗陀"
+      path: /kT5VHYcMrphesqROzSPoHrBo
+  - name: "_中国"
     type: vmess
-    server: 95.164.4.88
-    port: 80
-    uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
-  - name: "_香港"
-    type: vmess
-    server: n1761214915.mv7wh.tech
-    port: 443
-    uuid: 1f2daf43-ff90-4df9-9276-dfb8486d72bc
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_美国"
-    type: vmess
-    server: v2ray.codefyinc.com
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 4"
+  - name: "日期12-28"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "美国4ripaojiedian"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 3"
     type: vmess
     server: 127.0.0.53
-    port: 84
+    port: 83
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -103,30 +108,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 7"
-      - "_德国"
-      - "_法国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "防范境外势力渗透 9"
+      - "_韩国"
+      - " 香港ripaojiedian"
       - "未知"
-      - "_直布罗陀"
-      - "_香港"
-      - "_美国"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 4"
+      - "_中国"
+      - "日期12-28"
+      - "githubcomfreefq - 印度  10"
+      - "美国4ripaojiedian"
+      - "防范境外势力渗透 3"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 7"
-      - "_德国"
-      - "_法国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "防范境外势力渗透 9"
+      - "_韩国"
+      - " 香港ripaojiedian"
       - "未知"
-      - "_直布罗陀"
-      - "_香港"
-      - "_美国"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 4"
+      - "_中国"
+      - "日期12-28"
+      - "githubcomfreefq - 印度  10"
+      - "美国4ripaojiedian"
+      - "防范境外势力渗透 3"
 
 rules:
   - GEOIP,CN,DIRECT
