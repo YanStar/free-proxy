@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-30 06:01:39
+# 更新时间: 2025-12-30 07:01:28
 # 节点数量: 321
 
 port: 7890
@@ -19,24 +19,16 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "_美国"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: cCc.922922.ShOp
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -46,7 +38,95 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: ?ed=2048
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_香港"
+    type: vmess
+    server: 45.207.157.29
+    port: 13852
+    uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /obj
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /kT5VHYcMrphesqROzSPoHrBo
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -57,77 +137,6 @@ proxies:
     network: tcp
     ws-opts:
       path: /github.com/Alvin9999
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: 45.207.157.29
-    port: 13852
-    uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-  - name: "_新加坡"
-    type: vmess
-    server: n1747624280.lie5d.cyou
-    port: 443
-    uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "未知"
-    type: vmess
-    server: ccc.922922.shop
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
   - name: "_日本"
     type: vmess
     server: n1753598452.wpg27.xyz
@@ -139,26 +148,26 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "_英国"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
     ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_法国"
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "_英国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -167,21 +176,21 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_英国"
-      - "_香港"
-      - "防范境外势力渗透 6"
+      - "_美国"
       - "_英国"
       - "_英国"
-      - "防范境外势力渗透 7"
-      - "_香港"
-      - "_香港"
       - "_英国"
+      - "_香港"
       - "_法国"
-      - "_新加坡"
-      - "未知"
-      - "香港ripaojiedian"
+      - "_香港"
+      - "_香港"
+      - "_英国"
+      - "_香港"
+      - "_英国"
+      - "_英国"
       - "_日本"
-      - "_香港"
-      - "_法国"
+      - "_英国"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -189,21 +198,21 @@ proxy-groups:
     interval: 300
     proxies:
       - "_英国"
-      - "_香港"
-      - "防范境外势力渗透 6"
+      - "_美国"
       - "_英国"
       - "_英国"
-      - "防范境外势力渗透 7"
-      - "_香港"
-      - "_香港"
       - "_英国"
+      - "_香港"
       - "_法国"
-      - "_新加坡"
-      - "未知"
-      - "香港ripaojiedian"
+      - "_香港"
+      - "_香港"
+      - "_英国"
+      - "_香港"
+      - "_英国"
+      - "_英国"
       - "_日本"
-      - "_香港"
-      - "_法国"
+      - "_英国"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
