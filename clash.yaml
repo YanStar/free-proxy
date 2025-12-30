@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-30 16:01:18
+# 更新时间: 2025-12-30 17:01:24
 # 节点数量: 353
 
 port: 7890
@@ -9,6 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_法国"
+    type: vmess
+    server: 146.59.85.226
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: linkvws
   - name: "防范境外势力渗透 8"
     type: vmess
     server: 127.0.0.53
@@ -17,19 +28,59 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: " 美国4ripaojiedian"
+  - name: "_中国"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 125.77.160.122
+    port: 16617
+    uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
   - name: "_英国"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 85.211.252.203
+    port: 16618
+    uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "香港2ripaojiedian"
+    type: vmess
+    server: 8.210.248.133
+    port: 43307
+    uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: cCc.922922.ShOp
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -44,32 +95,22 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_中国"
+      path: /
+  - name: "_香港"
     type: vmess
-    server: 111.47.247.200
-    port: 16618
-    uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
     ws-opts:
-      path: /
+      path: /github.com/Alvin9999
   - name: "_美国"
     type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
-  - name: "_日本"
-    type: vmess
-    server: n1753598452.wpg27.xyz
-    port: 443
-    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+    server: c7.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
@@ -86,6 +127,24 @@ proxies:
     network: tcp
     ws-opts:
       path: /
+  - name: "_俄罗斯"
+    type: vmess
+    server: 2.56.242.210
+    port: 34895
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: 36.141.40.35
+    port: 16648
+    uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -93,28 +152,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_法国"
       - "防范境外势力渗透 8"
-      - " 美国4ripaojiedian"
-      - "_英国"
-      - "_香港"
       - "_中国"
-      - "_美国"
-      - "_日本"
       - "_香港"
+      - "_英国"
+      - "香港2ripaojiedian"
+      - "未知"
+      - "_香港"
+      - "_香港"
+      - "_香港"
+      - "_美国"
+      - "_香港"
+      - "_俄罗斯"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_法国"
       - "防范境外势力渗透 8"
-      - " 美国4ripaojiedian"
-      - "_英国"
-      - "_香港"
       - "_中国"
-      - "_美国"
-      - "_日本"
       - "_香港"
+      - "_英国"
+      - "香港2ripaojiedian"
+      - "未知"
+      - "_香港"
+      - "_香港"
+      - "_香港"
+      - "_美国"
+      - "_香港"
+      - "_俄罗斯"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
