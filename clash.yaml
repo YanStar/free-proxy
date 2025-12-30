@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-31 04:01:22
+# 更新时间: 2025-12-31 05:01:15
 # 节点数量: 376
 
 port: 7890
@@ -18,43 +18,60 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /
-  - name: "_法国"
+      path: /vc
+  - name: "未知"
     type: vmess
-    server: 146.59.85.226
+    server: cdncdncdn.aikunapp.com
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    uuid: 572f748c-c343-4a8d-94e3-b2664c23fcda
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: linkvws
+      path: /vmess_ws/smjc/index?ed=4096
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_中国"
     type: vmess
-    server: 125.77.160.122
-    port: 16617
+    server: 36.141.40.35
+    port: 16632
     uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "未知"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
     ws-opts:
       path: /
-  - name: "_中国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 111.47.247.200
-    port: 16648
-    uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
@@ -70,62 +87,48 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: " 香港2ripaojiedian"
+  - name: "_日本"
     type: vmess
-    server: 8.210.248.133
-    port: 43307
-    uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
+    server: n1753598452.wpg27.xyz
+    port: 443
+    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
   - name: "_美国"
     type: vmess
-    server: 209.126.84.189
+    server: sy4.620720.xyz
     port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /vmessws
+      path: /
   - name: "_中国"
     type: vmess
-    server: 125.77.160.122
-    port: 16644
+    server: 36.141.40.35
+    port: 16648
     uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "未知"
+  - name: "_英国"
     type: vmess
-    server: cCc.922922.ShOp
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_中国"
-    type: vmess
-    server: 111.47.247.200
-    port: 16641
+    server: 85.211.252.203
+    port: 16616
     uuid: 8e9812c7-6575-4593-b326-3c0717fca24a
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -134,17 +137,17 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_香港"
-      - "_法国"
-      - "_中国"
-      - "_香港"
-      - "_中国"
-      - "_中国"
-      - " 香港2ripaojiedian"
-      - "_美国"
+      - "未知"
+      - "防范境外势力渗透 7"
+      - "防范境外势力渗透"
       - "_中国"
       - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_日本"
+      - "_美国"
+      - "_中国"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -152,17 +155,17 @@ proxy-groups:
     interval: 300
     proxies:
       - "_香港"
-      - "_法国"
-      - "_中国"
-      - "_香港"
-      - "_中国"
-      - "_中国"
-      - " 香港2ripaojiedian"
-      - "_美国"
+      - "未知"
+      - "防范境外势力渗透 7"
+      - "防范境外势力渗透"
       - "_中国"
       - "未知"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_日本"
+      - "_美国"
+      - "_中国"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
