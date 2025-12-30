@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2025-12-30 22:01:34 CST`
+> Last Updated: `2025-12-30 23:01:32 CST`
 
 **[中文文档](README.md)** | English
 
@@ -33,8 +33,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`http.txt`](http.txt) | `ip:port` | 3,734 | HTTP proxy list |
-| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,734 | HTTP proxies, full URL format |
+| [`http.txt`](http.txt) | `ip:port` | 3,736 | HTTP proxy list |
+| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,736 | HTTP proxies, full URL format |
 | [`https.txt`](https.txt) | `ip:port` | 188 | HTTPS proxy list |
 | [`https_url.txt`](https_url.txt) | `https://ip:port` | 188 | HTTPS proxies, full URL format |
 
@@ -42,8 +42,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 1,055 | SOCKS4 proxy list |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,055 | SOCKS4 proxies, full URL format |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 1,051 | SOCKS4 proxy list |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,051 | SOCKS4 proxies, full URL format |
 | [`socks5.txt`](socks5.txt) | `ip:port` | 593 | SOCKS5 proxy list |
 | [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 593 | SOCKS5 proxies, full URL format |
 
@@ -53,7 +53,7 @@ Auto-updated free proxy pool, **updated every hour**.
 |------|--------|-------|-------------|
 | [`elite.txt`](elite.txt) | `ip:port` | 2,301 | Elite proxies, won't expose your real IP |
 | [`elite.json`](elite.json) | JSON | 2,301 | Elite proxies with details (country, speed, etc.) |
-| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,166 | Elite HTTP proxies |
+| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,168 | Elite HTTP proxies |
 | [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 193 | Elite SOCKS5 proxies |
 
 ### 🚀 V2Ray / Clash Nodes
