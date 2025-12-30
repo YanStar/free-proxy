@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2025-12-30 07:01:28 CST`
+> Last Updated: `2025-12-30 08:01:32 CST`
 
 **[中文文档](README.md)** | English
 
@@ -12,9 +12,9 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | Type | Count |
 |------|-------|
-| Total Proxies | 5,618 |
-| Elite Proxies | 2,726 |
-| Realtime Verified | 35 |
+| Total Proxies | 5,321 |
+| Elite Proxies | 2,113 |
+| Realtime Verified | 32 |
 | V2Ray Nodes | 321 |
 
 ---
@@ -25,36 +25,36 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 35 | ⭐ **Realtime verified** working proxies, fewer but high quality |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 35 | Same as above, full URL format, can be directly used in software |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 35 | Same as above, includes response time and other details |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 32 | ⭐ **Realtime verified** working proxies, fewer but high quality |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 32 | Same as above, full URL format, can be directly used in software |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 32 | Same as above, includes response time and other details |
 
 ### 📋 HTTP/HTTPS Proxies
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`http.txt`](http.txt) | `ip:port` | 4,271 | HTTP proxy list |
-| [`http_url.txt`](http_url.txt) | `http://ip:port` | 4,271 | HTTP proxies, full URL format |
-| [`https.txt`](https.txt) | `ip:port` | 184 | HTTPS proxy list |
-| [`https_url.txt`](https_url.txt) | `https://ip:port` | 184 | HTTPS proxies, full URL format |
+| [`http.txt`](http.txt) | `ip:port` | 3,980 | HTTP proxy list |
+| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,980 | HTTP proxies, full URL format |
+| [`https.txt`](https.txt) | `ip:port` | 165 | HTTPS proxy list |
+| [`https_url.txt`](https_url.txt) | `https://ip:port` | 165 | HTTPS proxies, full URL format |
 
 ### 🧦 SOCKS Proxies
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 1,059 | SOCKS4 proxy list |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,059 | SOCKS4 proxies, full URL format |
-| [`socks5.txt`](socks5.txt) | `ip:port` | 563 | SOCKS5 proxy list |
-| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 563 | SOCKS5 proxies, full URL format |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 1,036 | SOCKS4 proxy list |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 1,036 | SOCKS4 proxies, full URL format |
+| [`socks5.txt`](socks5.txt) | `ip:port` | 586 | SOCKS5 proxy list |
+| [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 586 | SOCKS5 proxies, full URL format |
 
 ### 🎭 Elite Proxies (High Anonymous)
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`elite.txt`](elite.txt) | `ip:port` | 2,726 | Elite proxies, won't expose your real IP |
-| [`elite.json`](elite.json) | JSON | 2,726 | Elite proxies with details (country, speed, etc.) |
-| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,610 | Elite HTTP proxies |
-| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 169 | Elite SOCKS5 proxies |
+| [`elite.txt`](elite.txt) | `ip:port` | 2,113 | Elite proxies, won't expose your real IP |
+| [`elite.json`](elite.json) | JSON | 2,113 | Elite proxies with details (country, speed, etc.) |
+| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 1,986 | Elite HTTP proxies |
+| [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 194 | Elite SOCKS5 proxies |
 
 ### 🚀 V2Ray / Clash Nodes
 
@@ -68,8 +68,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`all.txt`](all.txt) | `ip:port` | 5,618 | All proxies (unverified) |
-| [`all.json`](all.json) | JSON | 5,618 | All proxies with full details |
+| [`all.txt`](all.txt) | `ip:port` | 5,321 | All proxies (unverified) |
+| [`all.json`](all.json) | JSON | 5,321 | All proxies with full details |
 | [`stats.json`](stats.json) | JSON | - | Statistics |
 
 ### 🔄 Realtime Crawled (Unverified)
