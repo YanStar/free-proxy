@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2025-12-31 15:01:44
+# 更新时间: 2025-12-31 16:01:39
 # 节点数量: 218
 
 port: 7890
@@ -18,63 +18,7 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
       path: /
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /pyyY4ZVTyJV3vr9noOhn
   - name: "githubcomfreefq - 印度  3"
     type: vmess
     server: 202.78.162.5
@@ -86,6 +30,26 @@ proxies:
     tls: true
     ws-opts:
       path: /@forwardv2ray
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
   - name: "_香港"
     type: vmess
     server: v30.hdacd.com
@@ -96,41 +60,86 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_俄罗斯"
-    type: vmess
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 3"
+  - name: "防范境外势力渗透 4"
     type: vmess
     server: 127.0.0.53
-    port: 83
+    port: 84
     uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_香港"
+    type: vmess
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: vc.fly.dev
+    port: 443
+    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+    alterId: 32
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vc
+  - name: "_香港"
+    type: vmess
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -144,6 +153,14 @@ proxies:
     network: tcp
     ws-opts:
       path: /
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -152,19 +169,21 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_法国"
-      - "_英国"
-      - "_英国"
-      - "_香港"
-      - "防范境外势力渗透 1"
-      - "_香港"
-      - "_香港"
       - "githubcomfreefq - 印度  3"
+      - "_英国"
       - "_香港"
       - "_香港"
-      - "_俄罗斯"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 7"
       - "_香港"
-      - "防范境外势力渗透 3"
+      - "githubcomfreefq - 广东省移动 7"
       - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_美国"
+      - "_香港"
+      - "_香港"
+      - "防范境外势力渗透 9"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -172,19 +191,21 @@ proxy-groups:
     interval: 300
     proxies:
       - "_法国"
-      - "_英国"
-      - "_英国"
-      - "_香港"
-      - "防范境外势力渗透 1"
-      - "_香港"
-      - "_香港"
       - "githubcomfreefq - 印度  3"
+      - "_英国"
       - "_香港"
       - "_香港"
-      - "_俄罗斯"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 7"
       - "_香港"
-      - "防范境外势力渗透 3"
+      - "githubcomfreefq - 广东省移动 7"
       - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_美国"
+      - "_香港"
+      - "_香港"
+      - "防范境外势力渗透 9"
 
 rules:
   - GEOIP,CN,DIRECT
