@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 03:01:36
+# 更新时间: 2026-01-01 04:01:49
 # 节点数量: 228
 
 port: 7890
@@ -9,22 +9,31 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "每天更新请加电报群防止失联"
+  - name: "_香港"
     type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "防范境外势力渗透 8"
+      path: /
+  - name: "_俄罗斯"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 2.56.242.210
+    port: 34895
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
     alterId: 0
     cipher: auto
     network: tcp
@@ -38,135 +47,52 @@ proxies:
     network: tcp
     ws-opts:
       path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_未知"
-    type: vmess
-    server: lv4.789900.xyz
-    port: 2087
-    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-  - name: "039 KR4"
-    type: vmess
-    server: lv4.789900.xyz
-    port: 2087
-    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "114 JP10"
-    type: vmess
-    server: n1753598451.74qxv.top
-    port: 443
-    uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-  - name: "防范境外势力渗透 2"
-    type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
+  - name: "防范境外势力渗透"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "040 SG1"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /
   - name: "防范境外势力渗透 5"
     type: vmess
     server: 127.0.0.53
@@ -184,15 +110,7 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -200,50 +118,34 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "每天更新请加电报群防止失联"
-      - "防范境外势力渗透 8"
       - "_香港"
-      - "_香港"
-      - "_香港"
-      - "_未知"
-      - "039 KR4"
       - "_法国"
-      - "114 JP10"
+      - "_俄罗斯"
+      - "_香港"
+      - "_法国"
+      - "_香港"
+      - "防范境外势力渗透"
+      - "040 SG1"
       - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 2"
-      - "_英国"
-      - "_法国"
       - "防范境外势力渗透 5"
       - "_法国"
-      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "每天更新请加电报群防止失联"
-      - "防范境外势力渗透 8"
       - "_香港"
-      - "_香港"
-      - "_香港"
-      - "_未知"
-      - "039 KR4"
       - "_法国"
-      - "114 JP10"
+      - "_俄罗斯"
+      - "_香港"
+      - "_法国"
+      - "_香港"
+      - "防范境外势力渗透"
+      - "040 SG1"
       - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 2"
-      - "_英国"
-      - "_法国"
       - "防范境外势力渗透 5"
       - "_法国"
-      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
