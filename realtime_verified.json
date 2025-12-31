@@ -1,8 +1,17 @@
 {
-  "updated_at": "2025-12-31 11:01:29 CST",
+  "updated_at": "2025-12-31 12:01:24 CST",
   "source": "freeproxy_realtime",
-  "count": 35,
+  "count": 38,
   "data": [
+    {
+      "ip": "172.193.178.226",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.41,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:50.122945"
+    },
     {
       "ip": "104.197.218.238",
       "port": 8080,
@@ -10,16 +19,52 @@
       "source": "freeproxy_realtime",
       "response_time": 0.45,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:49.991192"
+      "verified_at": "2025-12-31T12:00:49.524591"
     },
     {
-      "ip": "5.161.155.252",
+      "ip": "35.202.49.74",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.46,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:49.538910"
+    },
+    {
+      "ip": "34.44.49.215",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
       "response_time": 0.47,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.600856"
+      "verified_at": "2025-12-31T12:00:50.009978"
+    },
+    {
+      "ip": "144.202.113.89",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.48,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:49.545635"
+    },
+    {
+      "ip": "150.136.163.51",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.48,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:49.546308"
+    },
+    {
+      "ip": "165.227.118.27",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.48,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:50.199272"
     },
     {
       "ip": "23.247.136.254",
@@ -28,43 +73,16 @@
       "source": "freeproxy_realtime",
       "response_time": 0.49,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.023079"
+      "verified_at": "2025-12-31T12:00:49.559538"
     },
     {
-      "ip": "144.202.113.89",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 0.49,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:50.031948"
-    },
-    {
-      "ip": "174.138.119.88",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 0.5,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:50.057934"
-    },
-    {
-      "ip": "209.135.168.41",
-      "port": 80,
+      "ip": "143.110.160.230",
+      "port": 8888,
       "protocol": "http",
       "source": "freeproxy_realtime",
       "response_time": 0.51,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.046868"
-    },
-    {
-      "ip": "198.199.86.11",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 0.51,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:50.063987"
+      "verified_at": "2025-12-31T12:01:09.495224"
     },
     {
       "ip": "139.162.200.213",
@@ -73,61 +91,61 @@
       "source": "freeproxy_realtime",
       "response_time": 0.52,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:09.417305"
+      "verified_at": "2025-12-31T12:01:08.217689"
     },
     {
-      "ip": "172.193.178.226",
+      "ip": "134.209.29.120",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.54,
+      "verified": true,
+      "verified_at": "2025-12-31T12:01:08.260852"
+    },
+    {
+      "ip": "154.16.146.43",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
       "response_time": 0.55,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.666817"
+      "verified_at": "2025-12-31T12:01:03.687389"
     },
     {
-      "ip": "192.73.244.36",
+      "ip": "154.16.146.47",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
       "response_time": 0.56,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.095126"
+      "verified_at": "2025-12-31T12:00:59.943886"
     },
     {
-      "ip": "154.17.228.122",
+      "ip": "162.245.85.36",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 0.56,
+      "response_time": 0.59,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.113798"
-    },
-    {
-      "ip": "138.68.60.8",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 0.56,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:50.114923"
-    },
-    {
-      "ip": "51.8.61.60",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 0.6,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:50.133394"
+      "verified_at": "2025-12-31T12:00:49.657779"
     },
     {
       "ip": "12.50.107.217",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 0.6,
+      "response_time": 0.59,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.148802"
+      "verified_at": "2025-12-31T12:00:49.670817"
+    },
+    {
+      "ip": "138.68.60.8",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.63,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:49.711503"
     },
     {
       "ip": "45.59.186.60",
@@ -136,79 +154,97 @@
       "source": "freeproxy_realtime",
       "response_time": 0.63,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.184856"
+      "verified_at": "2025-12-31T12:00:49.715038"
     },
     {
-      "ip": "134.209.29.120",
+      "ip": "154.17.228.122",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 0.67,
+      "response_time": 0.65,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:10.188461"
+      "verified_at": "2025-12-31T12:00:49.733621"
     },
     {
-      "ip": "162.245.85.36",
+      "ip": "173.249.210.102",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
       "response_time": 0.69,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.225332"
+      "verified_at": "2025-12-31T12:00:49.777589"
     },
     {
-      "ip": "34.44.49.215",
+      "ip": "174.138.119.88",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 0.81,
+      "response_time": 0.72,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.829868"
+      "verified_at": "2025-12-31T12:00:49.801979"
     },
     {
-      "ip": "35.202.49.74",
+      "ip": "198.199.86.11",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 0.9,
+      "response_time": 0.94,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:50.454482"
+      "verified_at": "2025-12-31T12:00:50.024111"
     },
     {
-      "ip": "209.97.150.167",
+      "ip": "5.161.155.252",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.94,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:50.673356"
+    },
+    {
+      "ip": "104.230.113.255",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 0.99,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:50.053324"
+    },
+    {
+      "ip": "51.8.61.60",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 1.05,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:50.113674"
+    },
+    {
+      "ip": "192.73.244.36",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 1.08,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:50.148529"
+    },
+    {
+      "ip": "216.229.112.25",
       "port": 8080,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 1.23,
+      "response_time": 1.35,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:51.327008"
+      "verified_at": "2025-12-31T12:00:50.423546"
     },
     {
-      "ip": "38.60.196.214",
+      "ip": "12.50.107.220",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 1.57,
+      "response_time": 1.68,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:10.284464"
-    },
-    {
-      "ip": "174.136.204.40",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 1.65,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:51.686452"
-    },
-    {
-      "ip": "12.50.107.219",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 1.65,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:51.697539"
+      "verified_at": "2025-12-31T12:00:51.202304"
     },
     {
       "ip": "8.211.194.78",
@@ -217,7 +253,25 @@
       "source": "freeproxy_realtime",
       "response_time": 2.33,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:11.247235"
+      "verified_at": "2025-12-31T12:01:11.414785"
+    },
+    {
+      "ip": "8.211.194.85",
+      "port": 5060,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 2.34,
+      "verified": true,
+      "verified_at": "2025-12-31T12:01:10.074986"
+    },
+    {
+      "ip": "174.136.204.40",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 2.38,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:51.927919"
     },
     {
       "ip": "47.90.149.238",
@@ -226,97 +280,70 @@
       "source": "freeproxy_realtime",
       "response_time": 2.46,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:52.012738"
+      "verified_at": "2025-12-31T12:00:51.540673"
     },
     {
-      "ip": "12.50.107.221",
+      "ip": "38.60.196.214",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 2.63,
+      "response_time": 2.52,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:52.170847"
-    },
-    {
-      "ip": "50.203.147.156",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 3.61,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:53.170036"
+      "verified_at": "2025-12-31T12:01:10.117761"
     },
     {
       "ip": "8.211.195.173",
       "port": 55555,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 4.34,
+      "response_time": 3.35,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:13.899418"
-    },
-    {
-      "ip": "50.203.147.152",
-      "port": 80,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 4.65,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:54.179428"
-    },
-    {
-      "ip": "216.229.112.25",
-      "port": 8080,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 5.33,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:54.876460"
-    },
-    {
-      "ip": "104.206.98.154",
-      "port": 3128,
-      "protocol": "http",
-      "source": "freeproxy_realtime",
-      "response_time": 5.9,
-      "verified": true,
-      "verified_at": "2025-12-31T11:00:55.953124"
+      "verified_at": "2025-12-31T12:01:11.065976"
     },
     {
       "ip": "12.50.107.222",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 5.91,
+      "response_time": 3.66,
       "verified": true,
-      "verified_at": "2025-12-31T11:00:55.450256"
+      "verified_at": "2025-12-31T12:00:52.736910"
     },
     {
-      "ip": "154.16.146.47",
+      "ip": "50.203.147.156",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 6.14,
+      "response_time": 3.66,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:06.512772"
+      "verified_at": "2025-12-31T12:00:52.742943"
     },
     {
-      "ip": "89.43.132.247",
+      "ip": "144.125.164.158",
       "port": 8080,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 6.61,
+      "response_time": 3.73,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:17.629779"
+      "verified_at": "2025-12-31T12:00:52.799728"
     },
     {
-      "ip": "173.249.210.102",
+      "ip": "12.50.107.221",
       "port": 80,
       "protocol": "http",
       "source": "freeproxy_realtime",
-      "response_time": 10.82,
+      "response_time": 4.67,
       "verified": true,
-      "verified_at": "2025-12-31T11:01:00.375667"
+      "verified_at": "2025-12-31T12:00:53.747277"
+    },
+    {
+      "ip": "50.203.147.159",
+      "port": 80,
+      "protocol": "http",
+      "source": "freeproxy_realtime",
+      "response_time": 5.86,
+      "verified": true,
+      "verified_at": "2025-12-31T12:00:55.520286"
     }
   ]
 }
