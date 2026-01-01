@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 15:01:25
+# 更新时间: 2026-01-01 16:01:27
 # 节点数量: 482
 
 port: 7890
@@ -9,6 +9,16 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "119 JP12"
     type: vmess
     server: n1753598448.74qxv.top
@@ -20,58 +30,16 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: server32.beheshtbaneh.com
+    server: server31.beheshtbaneh.com
     port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_加拿大"
-    type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -79,26 +47,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "119 JP12"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 7"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 3"
-      - "_加拿大"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "119 JP12"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "119 JP12"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 7"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 3"
-      - "_加拿大"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "119 JP12"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
