@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 03:01:26
+# 更新时间: 2026-01-02 04:01:25
 # 节点数量: 482
 
 port: 7890
@@ -9,51 +9,49 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
+  - name: "119 JP12"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
+    server: n1753598448.74qxv.top
     port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
-  - name: "_加拿大"
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
+      path: /
   - name: "香港ripaojiedian"
     type: vmess
     server: v10.hdacd.com
     port: 30807
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
     cipher: auto
     network: tcp
 
@@ -63,22 +61,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
-      - "防范境外势力渗透 7"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_加拿大"
+      - "119 JP12"
+      - "githubcomfreefq - 美国CloudFlare"
       - "香港ripaojiedian"
+      - "_香港"
+      - "防范境外势力渗透 2"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
-      - "防范境外势力渗透 7"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_加拿大"
+      - "119 JP12"
+      - "githubcomfreefq - 美国CloudFlare"
       - "香港ripaojiedian"
+      - "_香港"
+      - "防范境外势力渗透 2"
 
 rules:
   - GEOIP,CN,DIRECT
