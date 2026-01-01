@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 12:01:30
-# 节点数量: 489
+# 更新时间: 2026-01-01 13:01:23
+# 节点数量: 482
 
 port: 7890
 socks-port: 7891
@@ -9,38 +9,55 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 3"
+  - name: "防范境外势力渗透 1"
     type: vmess
     server: 127.0.0.53
-    port: 83
+    port: 81
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "040 SG1"
+  - name: "未知"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
     alterId: 0
     cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /e6395c20
+  - name: "121 HK43"
+    type: vmess
+    server: n1747624280.lie5d.cyou
+    port: 443
+    uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
     network: tcp
+  - name: "119 JP12"
+    type: vmess
+    server: n1753598448.74qxv.top
+    port: 443
+    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -48,20 +65,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_香港"
-      - "防范境外势力渗透 3"
-      - "040 SG1"
+      - "防范境外势力渗透 1"
+      - "未知"
+      - "121 HK43"
+      - "香港ripaojiedian"
+      - "119 JP12"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_香港"
-      - "防范境外势力渗透 3"
-      - "040 SG1"
+      - "防范境外势力渗透 1"
+      - "未知"
+      - "121 HK43"
+      - "香港ripaojiedian"
+      - "119 JP12"
 
 rules:
   - GEOIP,CN,DIRECT
