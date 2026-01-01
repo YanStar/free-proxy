@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 19:01:27
+# 更新时间: 2026-01-01 20:01:25
 # 节点数量: 482
 
 port: 7890
@@ -9,6 +9,14 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "120 US38"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_香港"
     type: vmess
     server: v30.hdacd.com
@@ -17,25 +25,33 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "039 KR4"
+  - name: "_荷兰"
     type: vmess
-    server: lv4.789900.xyz
-    port: 2087
-    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+    server: 95.211.47.191
+    port: 8080
+    uuid: c62b904a-fe87-43cb-aefc-a028e7f5d4dd
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
+      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -43,18 +59,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "120 US38"
       - "_香港"
-      - "039 KR4"
-      - "香港ripaojiedian"
+      - "_荷兰"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 印度  10"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "120 US38"
       - "_香港"
-      - "039 KR4"
-      - "香港ripaojiedian"
+      - "_荷兰"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 印度  10"
 
 rules:
   - GEOIP,CN,DIRECT
