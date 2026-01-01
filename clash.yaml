@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 16:01:27
+# 更新时间: 2026-01-01 17:01:22
 # 节点数量: 482
 
 port: 7890
@@ -9,37 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "githubcomfreefq - 印度  10"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "119 JP12"
-    type: vmess
-    server: n1753598448.74qxv.top
+    server: 202.78.162.5
     port: 443
-    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -47,18 +27,14 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 美国CloudFlare"
-      - "119 JP12"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  10"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 美国CloudFlare"
-      - "119 JP12"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  10"
 
 rules:
   - GEOIP,CN,DIRECT
