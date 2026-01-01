@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 18:01:27
+# 更新时间: 2026-01-01 19:01:27
 # 节点数量: 482
 
 port: 7890
@@ -9,59 +9,33 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 7"
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "119 JP12"
+  - name: "039 KR4"
     type: vmess
-    server: n1753598448.74qxv.top
-    port: 443
-    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+    server: lv4.789900.xyz
+    port: 2087
+    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透"
+      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+  - name: "香港ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
-  - name: " 香港2ripaojiedian"
-    type: vmess
-    server: 8.218.238.254
-    port: 46524
-    uuid: 5d564055-2b42-406b-9183-28cc63d8914a
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -69,24 +43,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 7"
-      - "119 JP12"
-      - "防范境外势力渗透"
-      - " 香港2ripaojiedian"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_法国"
+      - "_香港"
+      - "039 KR4"
+      - "香港ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 7"
-      - "119 JP12"
-      - "防范境外势力渗透"
-      - " 香港2ripaojiedian"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_法国"
+      - "_香港"
+      - "039 KR4"
+      - "香港ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
