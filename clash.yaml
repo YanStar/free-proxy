@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 23:01:21
+# 更新时间: 2026-01-02 00:01:37
 # 节点数量: 482
 
 port: 7890
@@ -9,25 +9,45 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "017 CN1"
+  - name: "122 HK44"
     type: vmess
-    server: 183.236.51.36
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: n1747624267.4u9ma.icu
+    port: 443
+    uuid: 8c5d150c-b046-4440-8230-e84506a065a3
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_英国"
+      path: /
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "120 US38"
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -35,14 +55,17 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 1"
+  - name: "_日本"
     type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: n1753598452.wpg27.xyz
+    port: 443
+    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -50,20 +73,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "017 CN1"
-      - "_法国"
-      - "_英国"
-      - "防范境外势力渗透 1"
+      - "122 HK44"
+      - "githubcomfreefq - 印度  3"
+      - "香港ripaojiedian"
+      - "_香港"
+      - "120 US38"
+      - "_日本"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "017 CN1"
-      - "_法国"
-      - "_英国"
-      - "防范境外势力渗透 1"
+      - "122 HK44"
+      - "githubcomfreefq - 印度  3"
+      - "香港ripaojiedian"
+      - "_香港"
+      - "120 US38"
+      - "_日本"
 
 rules:
   - GEOIP,CN,DIRECT
