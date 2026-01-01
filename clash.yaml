@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 05:01:31
+# 更新时间: 2026-01-02 06:01:37
 # 节点数量: 482
 
 port: 7890
@@ -9,27 +9,22 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "香港2ripaojiedian"
+  - name: "githubcomfreefq - 印度  10"
     type: vmess
-    server: 8.218.238.254
-    port: 46524
-    uuid: 5d564055-2b42-406b-9183-28cc63d8914a
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: " 香港2ripaojiedian"
     type: vmess
     server: 8.218.238.254
     port: 46524
     uuid: 5d564055-2b42-406b-9183-28cc63d8914a
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "120 US38"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
@@ -40,18 +35,16 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "香港2ripaojiedian"
+      - "githubcomfreefq - 印度  10"
       - " 香港2ripaojiedian"
-      - "120 US38"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "香港2ripaojiedian"
+      - "githubcomfreefq - 印度  10"
       - " 香港2ripaojiedian"
-      - "120 US38"
 
 rules:
   - GEOIP,CN,DIRECT
