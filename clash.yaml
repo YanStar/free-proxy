@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 20:01:25
+# 更新时间: 2026-01-01 21:01:21
 # 节点数量: 482
 
 port: 7890
@@ -9,6 +9,16 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_美国"
+    type: vmess
+    server: 209.126.84.189
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmessws
   - name: "120 US38"
     type: vmess
     server: 82.198.246.97
@@ -17,41 +27,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_香港"
+  - name: "_法国"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_荷兰"
-    type: vmess
-    server: 95.211.47.191
-    port: 8080
-    uuid: c62b904a-fe87-43cb-aefc-a028e7f5d4dd
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 印度  10"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /@forwardv2ray
+      path: /?ed=2048
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -59,22 +44,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_美国"
       - "120 US38"
-      - "_香港"
-      - "_荷兰"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "githubcomfreefq - 印度  10"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_美国"
       - "120 US38"
-      - "_香港"
-      - "_荷兰"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "githubcomfreefq - 印度  10"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
