@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 00:01:37
+# 更新时间: 2026-01-02 01:01:24
 # 节点数量: 482
 
 port: 7890
@@ -9,63 +9,25 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "122 HK44"
+  - name: "119 JP12"
     type: vmess
-    server: n1747624267.4u9ma.icu
+    server: n1753598448.74qxv.top
     port: 443
-    uuid: 8c5d150c-b046-4440-8230-e84506a065a3
+    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 印度  3"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "120 US38"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_日本"
-    type: vmess
-    server: n1753598452.wpg27.xyz
-    port: 443
-    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -73,24 +35,16 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "122 HK44"
-      - "githubcomfreefq - 印度  3"
-      - "香港ripaojiedian"
-      - "_香港"
-      - "120 US38"
-      - "_日本"
+      - "119 JP12"
+      - "防范境外势力渗透 8"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "122 HK44"
-      - "githubcomfreefq - 印度  3"
-      - "香港ripaojiedian"
-      - "_香港"
-      - "120 US38"
-      - "_日本"
+      - "119 JP12"
+      - "防范境外势力渗透 8"
 
 rules:
   - GEOIP,CN,DIRECT
