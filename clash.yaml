@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 04:01:25
+# 更新时间: 2026-01-02 05:01:31
 # 节点数量: 482
 
 port: 7890
@@ -9,48 +9,27 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "119 JP12"
+  - name: "香港2ripaojiedian"
     type: vmess
-    server: n1753598448.74qxv.top
-    port: 443
-    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 8.218.238.254
+    port: 46524
+    uuid: 5d564055-2b42-406b-9183-28cc63d8914a
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 2"
+  - name: " 香港2ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 8.218.238.254
+    port: 46524
+    uuid: 5d564055-2b42-406b-9183-28cc63d8914a
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "120 US38"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
@@ -61,22 +40,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "119 JP12"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "香港ripaojiedian"
-      - "_香港"
-      - "防范境外势力渗透 2"
+      - "香港2ripaojiedian"
+      - " 香港2ripaojiedian"
+      - "120 US38"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "119 JP12"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "香港ripaojiedian"
-      - "_香港"
-      - "防范境外势力渗透 2"
+      - "香港2ripaojiedian"
+      - " 香港2ripaojiedian"
+      - "120 US38"
 
 rules:
   - GEOIP,CN,DIRECT
