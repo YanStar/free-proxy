@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 06:01:37
+# 更新时间: 2026-01-02 07:01:10
 # 节点数量: 482
 
 port: 7890
@@ -9,18 +9,68 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  10"
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
-  - name: " 香港2ripaojiedian"
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "121 HK43"
+    type: vmess
+    server: n1747624280.lie5d.cyou
+    port: 443
+    uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_日本"
+    type: vmess
+    server: n1753598452.wpg27.xyz
+    port: 443
+    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "香港2ripaojiedian"
     type: vmess
     server: 8.218.238.254
     port: 46524
@@ -28,6 +78,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -35,16 +95,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  10"
-      - " 香港2ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  3"
+      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "121 HK43"
+      - "_日本"
+      - "香港2ripaojiedian"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  10"
-      - " 香港2ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  3"
+      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "121 HK43"
+      - "_日本"
+      - "香港2ripaojiedian"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
