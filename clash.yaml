@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-01 14:01:27
+# 更新时间: 2026-01-01 15:01:25
 # 节点数量: 482
 
 port: 7890
@@ -9,48 +9,38 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "017 CN1"
+  - name: "119 JP12"
     type: vmess
-    server: 183.236.51.36
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: hgtrojan.zabc.net
-    port: 2083
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    server: n1753598448.74qxv.top
+    port: 443
+    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /e6395c20
-  - name: "_加拿大"
+      path: /
+  - name: "防范境外势力渗透"
     type: vmess
-    server: 15.235.41.200
+    server: 127.0.0.53
     port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
+    network: tcp
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: server31.beheshtbaneh.com
+    server: server32.beheshtbaneh.com
     port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
@@ -64,6 +54,24 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_加拿大"
+    type: vmess
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -71,24 +79,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "017 CN1"
-      - "_香港"
-      - "未知"
-      - "_加拿大"
+      - "119 JP12"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 7"
       - "githubcomfreefq - 美国CloudFlare"
       - "防范境外势力渗透 3"
+      - "_加拿大"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "017 CN1"
-      - "_香港"
-      - "未知"
-      - "_加拿大"
+      - "119 JP12"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 7"
       - "githubcomfreefq - 美国CloudFlare"
       - "防范境外势力渗透 3"
+      - "_加拿大"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
 rules:
   - GEOIP,CN,DIRECT
