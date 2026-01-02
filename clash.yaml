@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 08:01:19
-# 节点数量: 482
+# 更新时间: 2026-01-02 09:01:23
+# 节点数量: 475
 
 port: 7890
 socks-port: 7891
@@ -9,6 +9,25 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "120 US38"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:2013::8
@@ -19,32 +38,17 @@ proxies:
     network: ws
     ws-opts:
       path: /github.com/Alvin9999
-  - name: "_美国"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 209.126.84.189
+    server: gov.uk
     port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /vmessws
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /77848824
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -52,20 +56,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "githubcomfreefq - 印度  3"
+      - "120 US38"
       - "_法国"
-      - "_美国"
-      - "防范境外势力渗透 7"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 美国Fastly全球An"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "githubcomfreefq - 印度  3"
+      - "120 US38"
       - "_法国"
-      - "_美国"
-      - "防范境外势力渗透 7"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 美国Fastly全球An"
 
 rules:
   - GEOIP,CN,DIRECT
