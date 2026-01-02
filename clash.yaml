@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 22:01:57
+# 更新时间: 2026-01-02 23:01:47
 # 节点数量: 578
 
 port: 7890
@@ -19,14 +19,37 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_英国"
+  - name: "_香港"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "_土耳其"
+    type: vmess
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -35,26 +58,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /
-  - name: "_美国"
-    type: vmess
-    server: v2ray.codefyinc.com
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
   - name: "_香港"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
+    server: v35.hdacd.com
+    port: 30835
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
+    alterId: 2
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -63,9 +76,10 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_香港"
-      - "_英国"
       - "_香港"
-      - "_美国"
+      - "githubcomfreefq - 印度  10"
+      - "_土耳其"
+      - "_香港"
       - "_香港"
 
   - name: "♻️ 自动选择"
@@ -74,9 +88,10 @@ proxy-groups:
     interval: 300
     proxies:
       - "_香港"
-      - "_英国"
       - "_香港"
-      - "_美国"
+      - "githubcomfreefq - 印度  10"
+      - "_土耳其"
+      - "_香港"
       - "_香港"
 
 rules:
