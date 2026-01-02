@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 05:01:37
+# 更新时间: 2026-01-03 06:01:40
 # 节点数量: 626
 
 port: 7890
@@ -9,49 +9,32 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 7"
+  - name: "防范境外势力渗透 4"
     type: vmess
     server: 127.0.0.53
-    port: 87
+    port: 84
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_加拿大"
+    type: vmess
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /77848824
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /IOebhLMhl1CTbFHbL95myfRX2
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -59,22 +42,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 7"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_英国"
-      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 8"
+      - "_加拿大"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 7"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_英国"
-      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 8"
+      - "_加拿大"
 
 rules:
   - GEOIP,CN,DIRECT
