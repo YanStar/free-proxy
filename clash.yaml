@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 02:01:49
-# 节点数量: 578
+# 更新时间: 2026-01-03 03:01:40
+# 节点数量: 626
 
 port: 7890
 socks-port: 7891
@@ -9,74 +9,27 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "121 HK43"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: n1747624280.lie5d.cyou
+    server: gov.uk
     port: 443
-    uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 4"
+      path: /77848824
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: ?ed=2048
-  - name: "_加拿大"
-    type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: hgtrojan.zabc.net
-    port: 2083
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /e6395c20
+      path: /github.com/Alvin9999
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -84,26 +37,16 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "121 HK43"
-      - "防范境外势力渗透 4"
-      - "_香港"
-      - "_英国"
-      - "_加拿大"
-      - "防范境外势力渗透 1"
-      - "未知"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "121 HK43"
-      - "防范境外势力渗透 4"
-      - "_香港"
-      - "_英国"
-      - "_加拿大"
-      - "防范境外势力渗透 1"
-      - "未知"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
