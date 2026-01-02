@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 09:01:23
+# 更新时间: 2026-01-02 10:01:19
 # 节点数量: 475
 
 port: 7890
@@ -9,35 +9,32 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  3"
+  - name: "防范境外势力渗透 6"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "120 US38"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
     server: gov.uk
@@ -49,6 +46,37 @@ proxies:
     tls: true
     ws-opts:
       path: /77848824
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: "119 JP12"
+    type: vmess
+    server: n1753598448.74qxv.top
+    port: 443
+    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -56,20 +84,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  3"
-      - "120 US38"
-      - "_法国"
+      - "防范境外势力渗透 6"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透"
       - "githubcomfreefq - 美国Fastly全球An"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
+      - "119 JP12"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  3"
-      - "120 US38"
-      - "_法国"
+      - "防范境外势力渗透 6"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透"
       - "githubcomfreefq - 美国Fastly全球An"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
+      - "119 JP12"
 
 rules:
   - GEOIP,CN,DIRECT
