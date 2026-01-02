@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-01-02 16:01:21 CST",
+  "updated_at": "2026-01-02 17:01:54 CST",
   "run_stats": {
-    "start_time": "2026-01-02T16:00:01.705905",
-    "end_time": "2026-01-02T16:01:21.061843",
+    "start_time": "2026-01-02T17:00:01.576489",
+    "end_time": "2026-01-02T17:01:54.153597",
     "errors_count": 0,
     "warnings_count": 0
   },
   "realtime_crawl": {
     "total": 300,
-    "verified": 33,
-    "success_rate": "11%"
+    "verified": 37,
+    "success_rate": "12%"
   },
   "json_source": {
-    "total": 5104,
-    "elite": 2362,
+    "total": 5105,
+    "elite": 2363,
     "by_protocol": {
       "http": 3796,
       "https": 175,
-      "socks4": 1018,
+      "socks4": 1019,
       "socks5": 545
     }
   },
@@ -31,39 +31,39 @@
     "details": [
       {
         "file": "realtime_all.txt",
-        "size": 5810
+        "size": 5834
       },
       {
         "file": "realtime_all_url.txt",
-        "size": 7916
+        "size": 7940
       },
       {
         "file": "realtime_verified.txt",
-        "size": 663
+        "size": 735
       },
       {
         "file": "realtime_verified_url.txt",
-        "size": 900
+        "size": 1000
       },
       {
         "file": "realtime_verified.json",
-        "size": 7627
+        "size": 8539
       },
       {
         "file": "all.json",
-        "size": 999754
+        "size": 999949
       },
       {
         "file": "all.txt",
-        "size": 94873
+        "size": 94893
       },
       {
         "file": "elite.txt",
-        "size": 42047
+        "size": 42067
       },
       {
         "file": "elite.json",
-        "size": 453734
+        "size": 453929
       },
       {
         "file": "http.txt",
@@ -83,11 +83,11 @@
       },
       {
         "file": "socks4.txt",
-        "size": 19868
+        "size": 19888
       },
       {
         "file": "socks4_url.txt",
-        "size": 29036
+        "size": 29065
       },
       {
         "file": "socks5.txt",
@@ -115,7 +115,7 @@
       },
       {
         "file": "clash.yaml",
-        "size": 2908
+        "size": 2075
       }
     ]
   }
