@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 20:01:54
+# 更新时间: 2026-01-02 21:01:51
 # 节点数量: 578
 
 port: 7890
@@ -9,28 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "114 JP10"
-    type: vmess
-    server: n1753598451.74qxv.top
-    port: 443
-    uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "121 HK43"
-    type: vmess
-    server: n1747624280.lie5d.cyou
-    port: 443
-    uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -40,29 +18,25 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    ws-opts:
       path: /
-  - name: "未知"
-    type: vmess
-    server: hgtrojan.zabc.net
-    port: 2083
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /e6395c20
-  - name: "039 KR4"
-    type: vmess
-    server: lv4.789900.xyz
-    port: 2087
-    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -70,22 +44,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "114 JP10"
-      - "121 HK43"
       - "_香港"
-      - "未知"
-      - "039 KR4"
+      - "_英国"
+      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "114 JP10"
-      - "121 HK43"
       - "_香港"
-      - "未知"
-      - "039 KR4"
+      - "_英国"
+      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
