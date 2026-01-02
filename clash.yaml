@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 18:01:49
+# 更新时间: 2026-01-02 19:01:46
 # 节点数量: 578
 
 port: 7890
@@ -9,56 +9,42 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "未知"
+  - name: "_土耳其"
     type: vmess
-    server: hgtrojan.zabc.net
-    port: 2083
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
-    ws-opts:
-      path: /e6395c20
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 2"
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "防范境外势力渗透 4"
     type: vmess
     server: 127.0.0.53
-    port: 82
+    port: 84
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "114 JP10"
-    type: vmess
-    server: n1753598451.74qxv.top
-    port: 443
-    uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -66,22 +52,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "未知"
-      - "_法国"
-      - "_香港"
-      - "防范境外势力渗透 2"
-      - "114 JP10"
+      - "_土耳其"
+      - "香港ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 4"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "未知"
-      - "_法国"
-      - "_香港"
-      - "防范境外势力渗透 2"
-      - "114 JP10"
+      - "_土耳其"
+      - "香港ripaojiedian"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 4"
 
 rules:
   - GEOIP,CN,DIRECT
