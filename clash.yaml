@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 13:01:19
+# 更新时间: 2026-01-02 14:01:25
 # 节点数量: 563
 
 port: 7890
@@ -9,6 +9,14 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -18,41 +26,32 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "防范境外势力渗透 2"
+      path: ?ed=2048
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知"
-    type: vmess
-    server: hgtrojan.zabc.net
-    port: 2083
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
-    ws-opts:
-      path: /e6395c20
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
     ws-opts:
       path: /
-  - name: "114 JP10"
+  - name: "_加拿大"
     type: vmess
-    server: n1753598451.74qxv.top
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "122 HK44"
+    type: vmess
+    server: n1747624267.4u9ma.icu
     port: 443
-    uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+    uuid: 8c5d150c-b046-4440-8230-e84506a065a3
     alterId: 0
     cipher: auto
     network: ws
@@ -66,22 +65,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "防范境外势力渗透 4"
       - "_香港"
-      - "防范境外势力渗透 2"
-      - "未知"
-      - "_英国"
-      - "114 JP10"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_加拿大"
+      - "122 HK44"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "防范境外势力渗透 4"
       - "_香港"
-      - "防范境外势力渗透 2"
-      - "未知"
-      - "_英国"
-      - "114 JP10"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_加拿大"
+      - "122 HK44"
 
 rules:
   - GEOIP,CN,DIRECT
