@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-02 10:01:19
+# 更新时间: 2026-01-02 11:01:23
 # 节点数量: 475
 
 port: 7890
@@ -9,74 +9,25 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 6"
+  - name: "未知"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
-  - name: "githubcomfreefq - 广东省移动 7"
+      path: /e6395c20
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "119 JP12"
-    type: vmess
-    server: n1753598448.74qxv.top
-    port: 443
-    uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -84,26 +35,16 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 6"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_法国"
-      - "119 JP12"
+      - "未知"
+      - "防范境外势力渗透 8"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 6"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_法国"
-      - "119 JP12"
+      - "未知"
+      - "防范境外势力渗透 8"
 
 rules:
   - GEOIP,CN,DIRECT
