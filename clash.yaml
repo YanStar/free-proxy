@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 04:01:48
+# 更新时间: 2026-01-03 05:01:37
 # 节点数量: 626
 
 port: 7890
@@ -9,90 +9,49 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_香港"
+  - name: "香港ripaojiedian"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
+    server: v10.hdacd.com
+    port: 30807
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
+    alterId: 2
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 4"
+  - name: "防范境外势力渗透 7"
     type: vmess
     server: 127.0.0.53
-    port: 84
+    port: 87
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 9"
+      path: /77848824
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 5"
     type: vmess
     server: 127.0.0.53
-    port: 89
+    port: 85
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -100,30 +59,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_香港"
-      - "_香港"
-      - "_香港"
-      - "_香港"
-      - "防范境外势力渗透 4"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_香港"
+      - "香港ripaojiedian"
+      - "防范境外势力渗透 7"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
+      - "防范境外势力渗透 5"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_香港"
-      - "_香港"
-      - "_香港"
-      - "_香港"
-      - "防范境外势力渗透 4"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_香港"
+      - "香港ripaojiedian"
+      - "防范境外势力渗透 7"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
+      - "防范境外势力渗透 5"
 
 rules:
   - GEOIP,CN,DIRECT
