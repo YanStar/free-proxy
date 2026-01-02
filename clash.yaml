@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 06:01:40
+# 更新时间: 2026-01-03 07:01:35
 # 节点数量: 626
 
 port: 7890
@@ -9,32 +9,33 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 4"
+  - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 8"
-    type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_加拿大"
-    type: vmess
-    server: 51.79.102.253
     port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
+      path: /
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -42,18 +43,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透 8"
-      - "_加拿大"
+      - "防范境外势力渗透"
+      - "_美国"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透 8"
-      - "_加拿大"
+      - "防范境外势力渗透"
+      - "_美国"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
 rules:
   - GEOIP,CN,DIRECT
