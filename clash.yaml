@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 04:01:42
+# 更新时间: 2026-01-04 05:01:48
 # 节点数量: 339
 
 port: 7890
@@ -9,6 +9,35 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "187 HK55"
+    type: vmess
+    server: 3c10fcdf-t6r5s0-tdcdb7-1k27l.hkt.gotochinatown.net
+    port: 80
+    uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: "防范境外势力渗透 4"
     type: vmess
     server: 127.0.0.53
@@ -17,35 +46,26 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 印度  3"
+  - name: "_法国"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_加拿大"
-    type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "防范境外势力渗透 7"
+      path: /github.com/Alvin9999
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /debian
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -53,20 +73,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "187 HK55"
+      - "防范境外势力渗透 8"
+      - "githubcomfreefq - 印度  2"
       - "防范境外势力渗透 4"
-      - "githubcomfreefq - 印度  3"
-      - "_加拿大"
-      - "防范境外势力渗透 7"
+      - "_法国"
+      - "githubcomfreefq - 广东省移动 7"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "187 HK55"
+      - "防范境外势力渗透 8"
+      - "githubcomfreefq - 印度  2"
       - "防范境外势力渗透 4"
-      - "githubcomfreefq - 印度  3"
-      - "_加拿大"
-      - "防范境外势力渗透 7"
+      - "_法国"
+      - "githubcomfreefq - 广东省移动 7"
 
 rules:
   - GEOIP,CN,DIRECT
