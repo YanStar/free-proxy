@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 23:01:42
+# 更新时间: 2026-01-04 00:01:42
 # 节点数量: 306
 
 port: 7890
@@ -9,47 +9,45 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 美国Fastly全球An"
+  - name: "githubcomfreefq - 印度  10"
     type: vmess
-    server: gov.uk
+    server: 202.78.162.5
     port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
-  - name: "_新加坡"
+      path: /@forwardv2ray
+  - name: "防范境外势力渗透 7"
     type: vmess
-    server: n1747624271.lie5d.cyou
-    port: 443
-    uuid: a231ba8b-8871-416c-813b-e2240bc66bb2
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "_尼日利亚"
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "_加拿大"
     type: vmess
-    server: 57.128.189.240
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /linkvws
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "_香港"
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -57,20 +55,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_新加坡"
-      - "_尼日利亚"
-      - "_法国"
+      - "githubcomfreefq - 印度  10"
+      - "防范境外势力渗透 7"
+      - "_加拿大"
+      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_新加坡"
-      - "_尼日利亚"
-      - "_法国"
+      - "githubcomfreefq - 印度  10"
+      - "防范境外势力渗透 7"
+      - "_加拿大"
+      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
