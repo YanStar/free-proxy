@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 11:01:27
-# 节点数量: 633
+# 更新时间: 2026-01-03 12:01:31
+# 节点数量: 306
 
 port: 7890
 socks-port: 7891
@@ -9,6 +9,43 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国Fastly全球An"
+    type: vmess
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
   - name: "_美国"
     type: vmess
     server: 209.126.84.189
@@ -19,27 +56,6 @@ proxies:
     network: ws
     ws-opts:
       path: /vmessws
-  - name: "_美国"
-    type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -47,18 +63,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - " 香港ripaojiedian"
+      - "防范境外势力渗透 9"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_美国"
-      - "_美国"
-      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - " 香港ripaojiedian"
+      - "防范境外势力渗透 9"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_美国"
-      - "_美国"
-      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
