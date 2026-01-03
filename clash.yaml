@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 09:01:29
+# 更新时间: 2026-01-03 10:01:27
 # 节点数量: 633
 
 port: 7890
@@ -9,16 +9,24 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_英国"
+  - name: "_土耳其"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     ws-opts:
-      path: ?ed=2048
+      path: /
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -26,14 +34,16 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_英国"
+      - "_土耳其"
+      - "香港ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_英国"
+      - "_土耳其"
+      - "香港ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
