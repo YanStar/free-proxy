@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 14:01:30
+# 更新时间: 2026-01-03 15:01:31
 # 节点数量: 306
 
 port: 7890
@@ -9,10 +9,38 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透"
+  - name: "_土耳其"
+    type: vmess
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_加拿大"
+    type: vmess
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "防范境外势力渗透 9"
     type: vmess
     server: 127.0.0.53
-    port: 80
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -27,17 +55,24 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "_加拿大"
     type: vmess
-    server: n1761214904.wpg27.xyz
-    port: 443
-    uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -45,18 +80,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透"
+      - "_土耳其"
+      - "_加拿大"
+      - "防范境外势力渗透 9"
+      - "防范境外势力渗透 6"
       - "_法国"
-      - "_香港"
+      - "_加拿大"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透"
+      - "_土耳其"
+      - "_加拿大"
+      - "防范境外势力渗透 9"
+      - "防范境外势力渗透 6"
       - "_法国"
-      - "_香港"
+      - "_加拿大"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
 rules:
   - GEOIP,CN,DIRECT
