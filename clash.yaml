@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 01:01:42
+# 更新时间: 2026-01-04 02:01:38
 # 节点数量: 306
 
 port: 7890
@@ -9,24 +9,26 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_土耳其"
+  - name: "_加拿大"
     type: vmess
-    server: 94.131.108.36
-    port: 443
-    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+    server: 15.235.41.200
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 6"
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -37,21 +39,54 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "_日本"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 172.111.146.64
-    port: 80
-    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmess/
-  - name: "防范境外势力渗透 5"
+      path: /
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "日期01-03"
+    type: vmess
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -62,22 +97,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_土耳其"
-      - "防范境外势力渗透 6"
+      - "_加拿大"
+      - "_香港"
       - "_法国"
-      - "_日本"
-      - "防范境外势力渗透 5"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 印度  10"
+      - "githubcomfreefq - 印度  2"
+      - "日期01-03"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_土耳其"
-      - "防范境外势力渗透 6"
+      - "_加拿大"
+      - "_香港"
       - "_法国"
-      - "_日本"
-      - "防范境外势力渗透 5"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 印度  10"
+      - "githubcomfreefq - 印度  2"
+      - "日期01-03"
 
 rules:
   - GEOIP,CN,DIRECT
