@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 22:01:45
+# 更新时间: 2026-01-03 23:01:42
 # 节点数量: 306
 
 port: 7890
@@ -9,38 +9,17 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  10"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 202.78.162.5
+    server: gov.uk
     port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /@forwardv2ray
-  - name: "_加拿大"
-    type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
+      path: /77848824
   - name: "_新加坡"
     type: vmess
     server: n1747624271.lie5d.cyou
@@ -52,61 +31,25 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 2"
+  - name: "_尼日利亚"
     type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
     alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: 57.128.189.240
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
+      path: /linkvws
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -114,32 +57,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  10"
-      - "_加拿大"
-      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_新加坡"
-      - "防范境外势力渗透 2"
-      - "githubcomfreefq - 广东省移动 7"
-      - "香港ripaojiedian"
+      - "_尼日利亚"
       - "_法国"
-      - "_英国"
-      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  10"
-      - "_加拿大"
-      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_新加坡"
-      - "防范境外势力渗透 2"
-      - "githubcomfreefq - 广东省移动 7"
-      - "香港ripaojiedian"
+      - "_尼日利亚"
       - "_法国"
-      - "_英国"
-      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
