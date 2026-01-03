@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 20:01:41
+# 更新时间: 2026-01-03 21:01:48
 # 节点数量: 306
 
 port: 7890
@@ -9,14 +9,43 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 7"
+  - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
-    port: 87
+    port: 80
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_尼日利亚"
     type: vmess
     server: 160.119.196.92
@@ -25,17 +54,26 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /77848824
+      path: /debian
+  - name: "_日本"
+    type: vmess
+    server: 172.111.146.64
+    port: 80
+    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess/
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -43,18 +81,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 7"
+      - "防范境外势力渗透"
+      - "githubcomfreefq - 印度  10"
+      - " 香港ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_尼日利亚"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_日本"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 7"
+      - "防范境外势力渗透"
+      - "githubcomfreefq - 印度  10"
+      - " 香港ripaojiedian"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_尼日利亚"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_日本"
 
 rules:
   - GEOIP,CN,DIRECT
