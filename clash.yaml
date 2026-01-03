@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 10:01:27
+# 更新时间: 2026-01-03 11:01:27
 # 节点数量: 633
 
 port: 7890
@@ -9,24 +9,37 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_土耳其"
+  - name: "_美国"
     type: vmess
-    server: 94.131.108.36
+    server: 209.126.84.189
     port: 443
-    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "香港ripaojiedian"
+      path: /vmessws
+  - name: "_美国"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -34,16 +47,18 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_土耳其"
-      - "香港ripaojiedian"
+      - "_美国"
+      - "_美国"
+      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_土耳其"
-      - "香港ripaojiedian"
+      - "_美国"
+      - "_美国"
+      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
