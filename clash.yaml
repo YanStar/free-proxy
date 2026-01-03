@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 07:01:35
+# 更新时间: 2026-01-03 08:01:35
 # 节点数量: 626
 
 port: 7890
@@ -9,25 +9,28 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透"
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: sy4.620720.xyz
+    server: 202.78.162.5
     port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
+      path: /@forwardv2ray
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: "更新于02-07 0400 -by BuLinkxyz- 以"
     type: vmess
     server: 使用前记得更新订阅
@@ -36,6 +39,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -43,18 +56,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透"
-      - "_美国"
+      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 印度  2"
       - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透"
-      - "_美国"
+      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 印度  2"
       - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
