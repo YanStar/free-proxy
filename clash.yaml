@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-03 17:01:40
+# 更新时间: 2026-01-03 18:01:40
 # 节点数量: 306
 
 port: 7890
@@ -9,77 +9,43 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_加拿大"
-    type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "_尼日利亚"
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 4"
+  - name: "防范境外势力渗透 3"
     type: vmess
     server: 127.0.0.53
-    port: 84
+    port: 83
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: server31.beheshtbaneh.com
+    server: server32.beheshtbaneh.com
     port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 9"
+  - name: "防范境外势力渗透 1"
     type: vmess
     server: 127.0.0.53
-    port: 89
+    port: 81
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 7"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
+    server: gov.uk
     port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /@forwardv2ray
-  - name: "防范境外势力渗透 2"
-    type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /77848824
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -87,28 +53,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_加拿大"
-      - "_尼日利亚"
-      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 3"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
-      - "防范境外势力渗透 7"
-      - "githubcomfreefq - 印度  3"
-      - "防范境外势力渗透 2"
+      - "防范境外势力渗透 1"
+      - "githubcomfreefq - 美国Fastly全球An"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_加拿大"
-      - "_尼日利亚"
-      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 3"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
-      - "防范境外势力渗透 7"
-      - "githubcomfreefq - 印度  3"
-      - "防范境外势力渗透 2"
+      - "防范境外势力渗透 1"
+      - "githubcomfreefq - 美国Fastly全球An"
 
 rules:
   - GEOIP,CN,DIRECT
