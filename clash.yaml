@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 03:01:37
+# 更新时间: 2026-01-04 04:01:42
 # 节点数量: 339
 
 port: 7890
@@ -9,79 +9,40 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "日期01-03"
+  - name: "防范境外势力渗透 4"
     type: vmess
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /github.com/Alvin9999
-  - name: "githubcomfreefq - 美国CloudFlare"
+      path: /@forwardv2ray
+  - name: "_加拿大"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "187 HK55"
-    type: vmess
-    server: 3c10fcdf-t6r5s0-tdcdb7-1k27l.hkt.gotochinatown.net
+    server: 15.235.41.200
     port: 80
-    uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "_法国"
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "防范境外势力渗透 7"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_尼日利亚"
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
@@ -92,28 +53,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "日期01-03"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "187 HK55"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_尼日利亚"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 印度  3"
+      - "_加拿大"
+      - "防范境外势力渗透 7"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "日期01-03"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "187 HK55"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_尼日利亚"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 印度  3"
+      - "_加拿大"
+      - "防范境外势力渗透 7"
 
 rules:
   - GEOIP,CN,DIRECT
