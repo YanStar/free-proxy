@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 07:01:36
+# 更新时间: 2026-01-04 08:01:43
 # 节点数量: 339
 
 port: 7890
@@ -9,6 +9,45 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: "_香港"
+    type: vmess
+    server: n1761214904.wpg27.xyz
+    port: 443
+    uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "186 HK54"
+    type: vmess
+    server: 8a5b33b6-t70f40-tedirp-1fli7.hkt.gotochinatown.net
+    port: 80
+    uuid: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "防范境外势力渗透 8"
     type: vmess
     server: 127.0.0.53
@@ -17,70 +56,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_日本"
+  - name: "_加拿大"
     type: vmess
-    server: 172.111.146.64
+    server: 15.235.41.200
     port: 80
-    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /vmess/
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /IOebhLMhl1CTbFHbL95myfRX2
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -88,28 +73,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 8"
-      - "_日本"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
       - "_香港"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "防范境外势力渗透 1"
+      - "_法国"
+      - "_香港"
+      - "186 HK54"
+      - "防范境外势力渗透 8"
+      - "_加拿大"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 8"
-      - "_日本"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
       - "_香港"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "防范境外势力渗透 1"
+      - "_法国"
+      - "_香港"
+      - "186 HK54"
+      - "防范境外势力渗透 8"
+      - "_加拿大"
 
 rules:
   - GEOIP,CN,DIRECT
