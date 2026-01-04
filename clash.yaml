@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 06:01:30
+# 更新时间: 2026-01-05 07:01:29
 # 节点数量: 608
 
 port: 7890
@@ -19,37 +19,17 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 印度  3"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 202.78.162.5
+    server: gov.uk
     port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /@forwardv2ray
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: ?ed=2048
+      path: /77848824
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -60,6 +40,36 @@ proxies:
     network: tcp
     ws-opts:
       path: /6We3U9Df1WGxgFnoFPw1
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -68,10 +78,11 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_香港"
-      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_香港"
       - "_香港"
-      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -79,10 +90,11 @@ proxy-groups:
     interval: 300
     proxies:
       - "_香港"
-      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_香港"
       - "_香港"
-      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
