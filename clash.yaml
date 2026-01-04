@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 11:01:43
-# 节点数量: 347
+# 更新时间: 2026-01-04 12:01:40
+# 节点数量: 467
 
 port: 7890
 socks-port: 7891
@@ -9,63 +9,76 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
-  - name: "188 HK56"
-    type: vmess
-    server: 76dc4cf6-t70f40-tn57fp-5ifr.hkt.gotochinatown.net
-    port: 80
-    uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 印度  10"
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
-  - name: "防范境外势力渗透 7"
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "186 HK54"
+  - name: "_英国"
     type: vmess
-    server: 8a5b33b6-t70f40-tedirp-1fli7.hkt.gotochinatown.net
-    port: 80
-    uuid: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
-    alterId: 2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
+  - name: "未知"
+    type: vmess
+    server: c7.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /f6taOMcOSZb9TPR
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -73,24 +86,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_美国"
-      - "188 HK56"
-      - "githubcomfreefq - 印度  10"
-      - "防范境外势力渗透 7"
-      - "186 HK54"
+      - "githubcomfreefq - 印度  3"
+      - "_香港"
+      - "_英国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
+      - "_英国"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_美国"
-      - "188 HK56"
-      - "githubcomfreefq - 印度  10"
-      - "防范境外势力渗透 7"
-      - "186 HK54"
+      - "githubcomfreefq - 印度  3"
+      - "_香港"
+      - "_英国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
+      - "_英国"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
