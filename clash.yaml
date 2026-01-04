@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 05:01:22
+# 更新时间: 2026-01-05 06:01:30
 # 节点数量: 608
 
 port: 7890
@@ -9,14 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -26,12 +18,12 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /6We3U9Df1WGxgFnoFPw1
-  - name: "githubcomfreefq - 印度  2"
+      path: /
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
@@ -48,16 +40,6 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -67,7 +49,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /
+      path: ?ed=2048
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -77,17 +59,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
+      path: /6We3U9Df1WGxgFnoFPw1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -95,11 +67,8 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "香港ripaojiedian"
       - "_香港"
-      - "githubcomfreefq - 印度  2"
-      - "_香港"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  3"
       - "_香港"
       - "_香港"
       - "_香港"
@@ -109,11 +78,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "香港ripaojiedian"
       - "_香港"
-      - "githubcomfreefq - 印度  2"
-      - "_香港"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 印度  3"
       - "_香港"
       - "_香港"
       - "_香港"
