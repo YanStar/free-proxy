@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 04:01:40
+# 更新时间: 2026-01-05 05:01:22
 # 节点数量: 608
 
 port: 7890
@@ -9,12 +9,12 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 3"
+  - name: "香港ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
   - name: "_香港"
@@ -26,41 +26,61 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_美国"
+      path: /6We3U9Df1WGxgFnoFPw1
+  - name: "githubcomfreefq - 印度  2"
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /?ed=2048
+      path: /@forwardv2ray
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: 202.85.53.179
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
@@ -75,11 +95,13 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 3"
+      - "香港ripaojiedian"
       - "_香港"
-      - "_美国"
-      - "_英国"
-      - "_英国"
+      - "githubcomfreefq - 印度  2"
+      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_香港"
+      - "_香港"
       - "_香港"
 
   - name: "♻️ 自动选择"
@@ -87,11 +109,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 3"
+      - "香港ripaojiedian"
       - "_香港"
-      - "_美国"
-      - "_英国"
-      - "_英国"
+      - "githubcomfreefq - 印度  2"
+      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_香港"
+      - "_香港"
       - "_香港"
 
 rules:
