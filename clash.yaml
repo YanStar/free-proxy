@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 10:01:26
+# 更新时间: 2026-01-04 11:01:43
 # 节点数量: 347
 
 port: 7890
@@ -9,49 +9,11 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
     type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "188 HK56"
-    type: vmess
-    server: 76dc4cf6-t70f40-tn57fp-5ifr.hkt.gotochinatown.net
-    port: 80
-    uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
     alterId: 0
     cipher: auto
     network: tcp
@@ -65,6 +27,45 @@ proxies:
     network: ws
     ws-opts:
       path: /vmessws
+  - name: "188 HK56"
+    type: vmess
+    server: 76dc4cf6-t70f40-tn57fp-5ifr.hkt.gotochinatown.net
+    port: 80
+    uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "186 HK54"
+    type: vmess
+    server: 8a5b33b6-t70f40-tedirp-1fli7.hkt.gotochinatown.net
+    port: 80
+    uuid: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -72,24 +73,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 美国CloudFlare"
-      - "188 HK56"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_英国"
-      - "防范境外势力渗透 3"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_美国"
+      - "188 HK56"
+      - "githubcomfreefq - 印度  10"
+      - "防范境外势力渗透 7"
+      - "186 HK54"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 美国CloudFlare"
-      - "188 HK56"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_英国"
-      - "防范境外势力渗透 3"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_美国"
+      - "188 HK56"
+      - "githubcomfreefq - 印度  10"
+      - "防范境外势力渗透 7"
+      - "186 HK54"
 
 rules:
   - GEOIP,CN,DIRECT
