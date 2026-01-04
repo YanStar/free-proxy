@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-04 09:01:27
+# 更新时间: 2026-01-04 10:01:26
 # 节点数量: 347
 
 port: 7890
@@ -9,46 +9,62 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_加拿大"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "防范境外势力渗透 5"
+      path: /
+  - name: "188 HK56"
+    type: vmess
+    server: 76dc4cf6-t70f40-tn57fp-5ifr.hkt.gotochinatown.net
+    port: 80
+    uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 3"
     type: vmess
     server: 127.0.0.53
-    port: 85
+    port: 83
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 印度  3"
+  - name: "_美国"
     type: vmess
-    server: 202.78.162.5
+    server: 209.126.84.189
     port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /@forwardv2ray
-  - name: "_法国"
-    type: vmess
-    server: 57.128.189.240
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
+      path: /vmessws
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -56,20 +72,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_加拿大"
-      - "防范境外势力渗透 5"
-      - "githubcomfreefq - 印度  3"
-      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "188 HK56"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "防范境外势力渗透 3"
+      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_加拿大"
-      - "防范境外势力渗透 5"
-      - "githubcomfreefq - 印度  3"
-      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "188 HK56"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "防范境外势力渗透 3"
+      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
