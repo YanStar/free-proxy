@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 07:01:29
+# 更新时间: 2026-01-05 08:01:25
 # 节点数量: 608
 
 port: 7890
@@ -11,6 +11,16 @@ log-level: info
 proxies:
   - name: "_香港"
     type: vmess
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_香港"
+    type: vmess
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -19,17 +29,63 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 美国Fastly全球An"
+  - name: "防范境外势力渗透 3"
     type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_英国"
+    type: vmess
+    server: pl37.salar4040.com
+    port: 44701
+    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
+      path: /
   - name: "_香港"
     type: vmess
     server: v12.hdacd.com
@@ -39,27 +95,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /6We3U9Df1WGxgFnoFPw1
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+      path: ?ed=2048
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -78,10 +114,14 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_香港"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "_香港"
+      - "防范境外势力渗透 3"
+      - "_英国"
+      - "_英国"
       - "_香港"
       - "_香港"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_美国"
+      - "_香港"
       - "_英国"
 
   - name: "♻️ 自动选择"
@@ -90,10 +130,14 @@ proxy-groups:
     interval: 300
     proxies:
       - "_香港"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "_香港"
+      - "防范境外势力渗透 3"
+      - "_英国"
+      - "_英国"
       - "_香港"
       - "_香港"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_美国"
+      - "_香港"
       - "_英国"
 
 rules:
