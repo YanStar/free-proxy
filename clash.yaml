@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 10:01:20
+# 更新时间: 2026-01-05 11:01:27
 # 节点数量: 605
 
 port: 7890
@@ -9,9 +9,28 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "防范境外势力渗透 5"
+    type: vmess
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "未知"
+    type: vmess
+    server: cdncdn.aikunapp.com
+    port: 443
+    uuid: bb1c4fc6-3aa0-4893-80de-69d0faad078b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess_ws/smjc/index?ed=4096
   - name: "_香港"
     type: vmess
-    server: 202.85.53.179
+    server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
@@ -19,24 +38,6 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: ?ed=2048
-  - name: "防范境外势力渗透 8"
-    type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -56,25 +57,17 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: ?ed=2048
-  - name: "_美国"
+      path: /
+  - name: "_英国"
     type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_香港"
     type: vmess
     server: 202.85.53.179
@@ -83,16 +76,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_香港"
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 9"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /github.com/Alvin9999
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -100,30 +93,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "防范境外势力渗透 5"
+      - "未知"
       - "_香港"
       - "_英国"
-      - "防范境外势力渗透 8"
+      - "_香港"
       - "_英国"
       - "_香港"
-      - "_美国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_香港"
-      - "_香港"
+      - "防范境外势力渗透 9"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "防范境外势力渗透 5"
+      - "未知"
       - "_香港"
       - "_英国"
-      - "防范境外势力渗透 8"
+      - "_香港"
       - "_英国"
       - "_香港"
-      - "_美国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_香港"
-      - "_香港"
+      - "防范境外势力渗透 9"
 
 rules:
   - GEOIP,CN,DIRECT
