@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 20:01:38
+# 更新时间: 2026-01-05 21:01:38
 # 节点数量: 234
 
 port: 7890
@@ -18,7 +18,17 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -28,7 +38,17 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /obj
+      path: /?ed=2048
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: ?ed=2048
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -41,22 +61,62 @@ proxies:
       path: /
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: server31.beheshtbaneh.com
+    server: server32.beheshtbaneh.com
     port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "_美国"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: vvVBgHyu.922922.SHoP
+    port: 80
+    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
     ws-opts:
       path: /
   - name: "_美国"
@@ -69,117 +129,9 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /ed=2048@V2Rayhiddify10--https://t.me/V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--https://t.me/V2Rayhiddify10
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /?ed=2048
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: web
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   - name: "未知"
     type: vmess
-    server: ZzXxdE.922922.sHOp
+    server: dDdFfGTHYU.922922.SHOP
     port: 80
     uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
     alterId: 0
@@ -187,38 +139,6 @@ proxies:
     network: ws
     ws-opts:
       path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "githubcomfreefq - 印度  10"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_美国"
-    type: vmess
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vc
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -229,7 +149,7 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "_香港"
+  - name: "电报群httpstmevvkj11"
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -239,16 +159,6 @@ proxies:
     network: tcp
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -257,25 +167,20 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_英国"
+      - "_法国"
       - "_英国"
+      - "_法国"
       - "_英国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "_香港"
       - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_英国"
-      - "_法国"
-      - "_英国"
-      - "防范境外势力渗透 1"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
       - "_法国"
       - "_法国"
+      - "_英国"
+      - "_法国"
+      - "_美国"
       - "未知"
-      - "githubcomfreefq - 印度  10"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_英国"
+      - "电报群httpstmevvkj11"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -283,25 +188,20 @@ proxy-groups:
     interval: 300
     proxies:
       - "_英国"
+      - "_法国"
       - "_英国"
+      - "_法国"
       - "_英国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "_香港"
       - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_英国"
-      - "_法国"
-      - "_英国"
-      - "防范境外势力渗透 1"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
       - "_法国"
       - "_法国"
+      - "_英国"
+      - "_法国"
+      - "_美国"
       - "未知"
-      - "githubcomfreefq - 印度  10"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_英国"
+      - "电报群httpstmevvkj11"
 
 rules:
   - GEOIP,CN,DIRECT
