@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 14:01:36
+# 更新时间: 2026-01-05 15:01:30
 # 节点数量: 501
 
 port: 7890
@@ -18,7 +18,18 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /obj
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -28,7 +39,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /ed=2048
+      path: /RkUUbqhA9GJZBROjL3Q5vTymr
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -39,6 +50,56 @@ proxies:
     network: tcp
     ws-opts:
       path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   - name: "防范境外势力渗透 4"
     type: vmess
     server: 127.0.0.53
@@ -57,24 +118,17 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: "_尼日利亚"
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      path: /@forwardv2ray
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -84,7 +138,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /?ed=2048
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -93,12 +147,17 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_英国"
+      - "githubcomfreefq - 印度  2"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
       - "_英国"
       - "_英国"
       - "防范境外势力渗透 4"
       - "_法国"
-      - "_尼日利亚"
-      - "_法国"
+      - "githubcomfreefq - 印度  3"
       - "_英国"
 
   - name: "♻️ 自动选择"
@@ -107,12 +166,17 @@ proxy-groups:
     interval: 300
     proxies:
       - "_英国"
+      - "githubcomfreefq - 印度  2"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
+      - "_英国"
       - "_英国"
       - "_英国"
       - "防范境外势力渗透 4"
       - "_法国"
-      - "_尼日利亚"
-      - "_法国"
+      - "githubcomfreefq - 印度  3"
       - "_英国"
 
 rules:
