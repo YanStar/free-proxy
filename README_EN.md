@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2026-01-05 08:01:25 CST`
+> Last Updated: `2026-01-05 09:01:26 CST`
 
 **[中文文档](README.md)** | English
 
@@ -14,8 +14,8 @@ Auto-updated free proxy pool, **updated every hour**.
 |------|-------|
 | Total Proxies | 4,623 |
 | Elite Proxies | 1,868 |
-| Realtime Verified | 50 |
-| V2Ray Nodes | 608 |
+| Realtime Verified | 33 |
+| V2Ray Nodes | 605 |
 
 ---
 
@@ -25,9 +25,9 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 50 | ⭐ **Realtime verified** working proxies, fewer but high quality |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 50 | Same as above, full URL format, can be directly used in software |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 50 | Same as above, includes response time and other details |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 33 | ⭐ **Realtime verified** working proxies, fewer but high quality |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 33 | Same as above, full URL format, can be directly used in software |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 33 | Same as above, includes response time and other details |
 
 ### 📋 HTTP/HTTPS Proxies
 
@@ -60,8 +60,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`v2ray.txt`](v2ray.txt) | Raw links | 608 | V2Ray/Trojan/SS nodes, one per line |
-| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 608 | V2Ray subscription, import directly to client |
+| [`v2ray.txt`](v2ray.txt) | Raw links | 605 | V2Ray/Trojan/SS nodes, one per line |
+| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 605 | V2Ray subscription, import directly to client |
 | [`clash.yaml`](clash.yaml) | YAML | 50 | Clash config file, ready to use |
 
 ### 📦 Full Data
