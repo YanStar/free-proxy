@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-05 15:01:30
+# 更新时间: 2026-01-05 16:01:31
 # 节点数量: 501
 
 port: 7890
@@ -9,6 +9,16 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -18,93 +28,53 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "githubcomfreefq - 印度  2"
+      path: ?ed=2048
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  10"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
-  - name: "_英国"
+  - name: "_尼日利亚"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "防范境外势力渗透 4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
     alterId: 0
     cipher: auto
     network: tcp
@@ -117,18 +87,7 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
+      path: /
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -146,18 +105,14 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_英国"
-      - "githubcomfreefq - 印度  2"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "防范境外势力渗透 4"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
+      - "_英国"
+      - "_香港"
+      - "_法国"
+      - "_香港"
+      - "githubcomfreefq - 印度  10"
+      - "_尼日利亚"
+      - "_法国"
       - "_英国"
 
   - name: "♻️ 自动选择"
@@ -165,18 +120,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_英国"
-      - "githubcomfreefq - 印度  2"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - "防范境外势力渗透 4"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
+      - "_英国"
+      - "_香港"
+      - "_法国"
+      - "_香港"
+      - "githubcomfreefq - 印度  10"
+      - "_尼日利亚"
+      - "_法国"
       - "_英国"
 
 rules:
