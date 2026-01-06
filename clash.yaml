@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-06 16:01:34
+# 更新时间: 2026-01-06 17:01:45
 # 节点数量: 460
 
 port: 7890
@@ -9,6 +9,61 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "防范境外势力渗透 8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "防范境外势力渗透 3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
     server: server32.beheshtbaneh.com
@@ -19,27 +74,6 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_美国"
-    type: vmess
-    server: v2ray.codefyinc.com
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -49,15 +83,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /?ed=2048
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /ed=2048@V2Rayhiddify10--https://t.me/V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--https://t.me/V2Rayhiddify10
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -65,10 +91,13 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 印度  2"
-      - "_美国"
       - "_英国"
+      - "防范境外势力渗透 8"
+      - "_法国"
+      - "防范境外势力渗透 3"
+      - " 香港ripaojiedian"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_英国"
 
   - name: "♻️ 自动选择"
@@ -76,10 +105,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 印度  2"
-      - "_美国"
       - "_英国"
+      - "防范境外势力渗透 8"
+      - "_法国"
+      - "防范境外势力渗透 3"
+      - " 香港ripaojiedian"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_英国"
 
 rules:
