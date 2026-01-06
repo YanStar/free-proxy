@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-06 12:02:01
+# 更新时间: 2026-01-06 13:01:38
 # 节点数量: 460
 
 port: 7890
@@ -9,6 +9,58 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::15
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: pl37.salar4040.com
+    port: 44701
+    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -17,34 +69,6 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: ?ed=2048
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_新加坡"
-    type: vmess
-    server: 150.109.11.193
-    port: 80
-    uuid: b7118dcc-a234-4784-e487-4064c2920808
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -52,20 +76,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_法国"
+      - "_法国"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 2"
       - "_英国"
-      - " 香港ripaojiedian"
-      - "防范境外势力渗透"
-      - "_新加坡"
+      - "香港ripaojiedian"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_法国"
+      - "_法国"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 2"
       - "_英国"
-      - " 香港ripaojiedian"
-      - "防范境外势力渗透"
-      - "_新加坡"
+      - "香港ripaojiedian"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
