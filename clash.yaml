@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 06:01:28
+# 更新时间: 2026-01-07 07:01:29
 # 节点数量: 462
 
 port: 7890
@@ -11,43 +11,35 @@ log-level: info
 proxies:
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::14
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "免费VPNhttpsttvggwaAy"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "githubcomfreefq - 印度  2"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "_未知"
-    type: vmess
-    server: 23.138.148.47
-    port: 42507
-    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
+    server: 202.78.162.5
     port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
+      path: /@forwardv2ray
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -56,37 +48,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /?ed=2048
-  - name: "_美国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 38.76.144.22
-    port: 443
-    uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::16
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_美国"
-    type: vmess
-    server: cf.fovi.tk
-    port: 443
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /eisasqa
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -95,13 +66,10 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_法国"
-      - "免费VPNhttpsttvggwaAy"
-      - "_未知"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_英国"
-      - "_美国"
-      - "_法国"
-      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -109,13 +77,10 @@ proxy-groups:
     interval: 300
     proxies:
       - "_法国"
-      - "免费VPNhttpsttvggwaAy"
-      - "_未知"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_英国"
-      - "_美国"
-      - "_法国"
-      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
