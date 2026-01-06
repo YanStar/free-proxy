@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-06 19:01:39
+# 更新时间: 2026-01-06 20:01:49
 # 节点数量: 460
 
 port: 7890
@@ -9,43 +9,65 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 8"
+  - name: "_立陶宛"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 185.81.166.99
+    port: 54740
+    uuid: cf760744-420b-4935-f19f-25620678290d
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_英国"
+  - name: "香港ripaojiedian"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
-  - name: "_加拿大"
+  - name: "_美国"
     type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /eisasqa
+  - name: "未知"
+    type: vmess
+    server: 141.101.122.122
+    port: 8080
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "防范境外势力渗透 6"
+      path: /eisasqa#TM (@AZARBAYJAB1)TM (@AZARBAYJAB1)TM (@AZARBAYJAB)?ed=2560
+  - name: "_未知"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_美国"
     type: vmess
-    server: v2ray.codefyinc.com
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "_美国"
+    type: vmess
+    server: 209.126.84.189
     port: 443
     uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
@@ -53,16 +75,25 @@ proxies:
     network: ws
     ws-opts:
       path: /vmessws
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /
+      path: /77848824
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -70,24 +101,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 8"
-      - "_英国"
-      - "_加拿大"
-      - "防范境外势力渗透 6"
+      - "_立陶宛"
+      - "香港ripaojiedian"
       - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
+      - "_未知"
+      - "_美国"
+      - "_美国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 8"
-      - "_英国"
-      - "_加拿大"
-      - "防范境外势力渗透 6"
+      - "_立陶宛"
+      - "香港ripaojiedian"
       - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "未知"
+      - "_未知"
+      - "_美国"
+      - "_美国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
 
 rules:
   - GEOIP,CN,DIRECT
