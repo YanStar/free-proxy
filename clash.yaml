@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-06 14:01:42
+# 更新时间: 2026-01-06 15:01:43
 # 节点数量: 460
 
 port: 7890
@@ -9,29 +9,11 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_英国"
-    type: vmess
-    server: pl37.salar4040.com
-    port: 44701
-    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     network: ws
@@ -46,7 +28,55 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /vc
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "免费VPNhttpsttvggwaAy"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_加拿大"
+    type: vmess
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -54,20 +84,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_英国"
-      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
       - "_英国"
+      - "_香港"
+      - "免费VPNhttpsttvggwaAy"
+      - "防范境外势力渗透 6"
+      - "_加拿大"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_英国"
-      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
       - "_英国"
+      - "_香港"
+      - "免费VPNhttpsttvggwaAy"
+      - "防范境外势力渗透 6"
+      - "_加拿大"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
