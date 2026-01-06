@@ -2,7 +2,7 @@
 
 自动更新的免费代理池，**每小时更新**。
 
-> 最后更新: `2026-01-06 08:01:37 CST`
+> 最后更新: `2026-01-06 09:01:37 CST`
 
 中文 | **[English](README_EN.md)**
 
@@ -14,8 +14,8 @@
 |------|------|
 | 代理总数 | 4,942 |
 | 高匿代理 | 2,065 |
-| 实时验证可用 | 47 |
-| V2Ray 节点 | 234 |
+| 实时验证可用 | 43 |
+| V2Ray 节点 | 243 |
 
 ---
 
@@ -25,9 +25,9 @@
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 47 | ⭐ **实时验证可用**的代理，数量少但质量高 |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 47 | 同上，完整 URL 格式，可直接填入软件 |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 47 | 同上，包含响应时间等详细信息 |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 43 | ⭐ **实时验证可用**的代理，数量少但质量高 |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 43 | 同上，完整 URL 格式，可直接填入软件 |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 43 | 同上，包含响应时间等详细信息 |
 
 ### 📋 HTTP/HTTPS 代理
 
@@ -60,8 +60,8 @@
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`v2ray.txt`](v2ray.txt) | 原始链接 | 234 | V2Ray/Trojan/SS 节点，每行一个 |
-| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 234 | V2Ray 订阅链接，直接导入客户端 |
+| [`v2ray.txt`](v2ray.txt) | 原始链接 | 243 | V2Ray/Trojan/SS 节点，每行一个 |
+| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 243 | V2Ray 订阅链接，直接导入客户端 |
 | [`clash.yaml`](clash.yaml) | YAML | 50 | Clash 配置文件，可直接使用 |
 
 ### 📦 完整数据
