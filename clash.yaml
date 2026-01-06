@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-06 18:01:39
+# 更新时间: 2026-01-06 19:01:39
 # 节点数量: 460
 
 port: 7890
@@ -9,23 +9,12 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_美国"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: cf.fovi.tk
-    port: 443
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /eisasqa
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     network: tcp
   - name: "_英国"
@@ -36,13 +25,39 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-    ws-opts:
-      path: /
-  - name: "_新加坡"
+  - name: "_加拿大"
     type: vmess
-    server: 150.109.11.193
+    server: 51.79.102.253
     port: 80
-    uuid: b7118dcc-a234-4784-e487-4064c2920808
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "防范境外势力渗透 6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: v2ray.codefyinc.com
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmessws
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     network: ws
@@ -55,20 +70,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_美国"
-      - " 香港ripaojiedian"
+      - "防范境外势力渗透 8"
       - "_英国"
-      - "_新加坡"
+      - "_加拿大"
+      - "防范境外势力渗透 6"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_美国"
-      - " 香港ripaojiedian"
+      - "防范境外势力渗透 8"
       - "_英国"
-      - "_新加坡"
+      - "_加拿大"
+      - "防范境外势力渗透 6"
+      - "_美国"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
