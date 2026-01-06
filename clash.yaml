@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-06 23:01:43
-# 节点数量: 460
+# 更新时间: 2026-01-07 00:01:39
+# 节点数量: 462
 
 port: 7890
 socks-port: 7891
@@ -9,34 +9,65 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_立陶宛"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 185.81.166.99
-    port: 36423
-    uuid: 10bdd3fc-e92f-4766-9164-e77a575d7029
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+    ws-opts:
+      path: /
+  - name: "_香港"
     type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?ed=2048
+  - name: "_美国"
+    type: vmess
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_加拿大"
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "_美国"
     type: vmess
-    server: 15.235.41.200
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: 38.76.144.22
+    port: 443
+    uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -44,18 +75,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_立陶宛"
-      - "_法国"
-      - "_加拿大"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_英国"
+      - "_香港"
+      - "_英国"
+      - "_美国"
+      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_立陶宛"
-      - "_法国"
-      - "_加拿大"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_英国"
+      - "_香港"
+      - "_英国"
+      - "_美国"
+      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
