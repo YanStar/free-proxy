@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 05:01:29
+# 更新时间: 2026-01-07 06:01:28
 # 节点数量: 462
 
 port: 7890
@@ -11,54 +11,15 @@ log-level: info
 proxies:
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "githubcomfreefq - 印度  10"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_香港"
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_新加坡"
-    type: vmess
-    server: 150.109.11.193
-    port: 80
-    uuid: b7118dcc-a234-4784-e487-4064c2920808
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "_英国"
+  - name: "免费VPNhttpsttvggwaAy"
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -67,7 +28,15 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: ?ed=2048
+      path: /
+  - name: "_未知"
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
     server: gov.uk
@@ -79,24 +48,45 @@ proxies:
     tls: true
     ws-opts:
       path: /77848824
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?ed=2048
+  - name: "_美国"
+    type: vmess
+    server: 38.76.144.22
+    port: 443
+    uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::14
+    server: 2001:bc8:32d7:302::16
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "香港2ripaojiedian"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_美国"
     type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    tls: true
+    ws-opts:
+      path: /eisasqa
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -105,14 +95,13 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_法国"
-      - "githubcomfreefq - 印度  10"
-      - "_香港"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_新加坡"
-      - "_英国"
+      - "免费VPNhttpsttvggwaAy"
+      - "_未知"
       - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
+      - "_美国"
       - "_法国"
-      - "香港2ripaojiedian"
+      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -120,14 +109,13 @@ proxy-groups:
     interval: 300
     proxies:
       - "_法国"
-      - "githubcomfreefq - 印度  10"
-      - "_香港"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_新加坡"
-      - "_英国"
+      - "免费VPNhttpsttvggwaAy"
+      - "_未知"
       - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
+      - "_美国"
       - "_法国"
-      - "香港2ripaojiedian"
+      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
