@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 23:01:45
+# 更新时间: 2026-01-08 00:01:40
 # 节点数量: 426
 
 port: 7890
@@ -9,45 +9,45 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "_中国"
     type: vmess
     server: ffiw.owwoedu.com
     port: 59503
-    uuid: 98025cf1-9a01-4922-bf3d-99a30d67b5af
+    uuid: 2427db6f-84d3-4c89-9b82-146def58b34f
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+  - name: "香港2ripaojiedian"
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "免费VPNhttpsttvggwaAy"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 29512
+    uuid: ab00adaf-ece4-4b6e-ae18-f0ae512e1d4a
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49301
-    uuid: 0cea6aca-77f1-4194-9864-80ce2788a97b
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59517
-    uuid: ae7a1ac0-b89e-441e-bba9-007c9bd9fcc1
+    port: 49317
+    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
     alterId: 0
     cipher: auto
     network: tcp
@@ -59,11 +59,65 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 6"
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 88ac2af8-f5cc-42dd-a028-bff06c4414aa
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59501
+    uuid: 900ee234-279a-4c8c-a7a4-7dced7092a49
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 8394770f-608f-4493-a428-1a15fcda3a55
     alterId: 0
     cipher: auto
     network: tcp
@@ -80,24 +134,8 @@ proxies:
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49310
-    uuid: 050f3ef7-7df0-4f00-8001-3574f0360357
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49317
-    uuid: 20e385dd-2315-40a5-b525-7706f26a69fb
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
     port: 49301
-    uuid: 03d8e750-dea2-4562-bce5-ae677a50d11e
+    uuid: d41e3b77-5186-43a6-8545-4caeab3fdbac
     alterId: 0
     cipher: auto
     network: tcp
@@ -109,14 +147,6 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 502187a3-9404-4fee-afe3-f24a74b66367
-    alterId: 0
-    cipher: auto
-    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -124,17 +154,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_中国"
+      - "_法国"
+      - "香港2ripaojiedian"
+      - "免费VPNhttpsttvggwaAy"
       - "_中国"
       - "_中国"
-      - " 香港ripaojiedian"
-      - "_中国"
-      - "_中国"
-      - "防范境外势力渗透 6"
+      - "_香港"
+      - "_法国"
+      - "_法国"
       - "_法国"
       - "_中国"
       - "_中国"
       - "_中国"
+      - "_法国"
       - "_中国"
       - "_中国"
 
@@ -143,17 +176,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_中国"
+      - "_法国"
+      - "香港2ripaojiedian"
+      - "免费VPNhttpsttvggwaAy"
       - "_中国"
       - "_中国"
-      - " 香港ripaojiedian"
-      - "_中国"
-      - "_中国"
-      - "防范境外势力渗透 6"
+      - "_香港"
+      - "_法国"
+      - "_法国"
       - "_法国"
       - "_中国"
       - "_中国"
       - "_中国"
+      - "_法国"
       - "_中国"
       - "_中国"
 
