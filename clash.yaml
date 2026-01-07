@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 12:01:44
+# 更新时间: 2026-01-07 13:01:33
 # 节点数量: 468
 
 port: 7890
@@ -9,6 +9,40 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_立陶宛"
+    type: vmess
+    server: 185.81.166.99
+    port: 36423
+    uuid: 10bdd3fc-e92f-4766-9164-e77a575d7029
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 5"
+    type: vmess
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: 38.76.144.22
+    port: 443
+    uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_英国"
     type: vmess
     server: 82.198.246.97
@@ -28,46 +62,7 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: ?ed=2048
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: 209.126.84.189
-    port: 443
-    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmessws
-  - name: "_美国"
-    type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -75,24 +70,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - " 香港ripaojiedian"
+      - "_立陶宛"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透 5"
       - "_美国"
-      - "_美国"
+      - "_英国"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_英国"
-      - "_英国"
-      - "_英国"
-      - " 香港ripaojiedian"
+      - "_立陶宛"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透 5"
       - "_美国"
-      - "_美国"
+      - "_英国"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
