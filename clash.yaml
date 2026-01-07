@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 15:01:42
+# 更新时间: 2026-01-07 16:01:35
 # 节点数量: 428
 
 port: 7890
@@ -9,19 +9,29 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 18fe34ca-3607-40a2-be0b-c7e532d5427a
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 6"
+  - name: "_中国"
     type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: cees.owwoedu.com
+    port: 49302
+    uuid: 8a1249e4-e232-4d98-93df-edf7d54ba2b6
     alterId: 0
     cipher: auto
     network: tcp
@@ -36,56 +46,44 @@ proxies:
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49301
-    uuid: 020025bc-ff03-4007-980b-fa5dcf4367c0
+    port: 49303
+    uuid: 52389a8b-3161-442d-8ad3-d68be7f2eb76
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
     port: 49310
-    uuid: 86445b6b-9467-487c-9305-4fa8d6bbddbf
+    uuid: 19434f2e-2ca3-4930-84f9-3cb7fa95f00c
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 5"
+  - name: "防范境外势力渗透 9"
     type: vmess
     server: 127.0.0.53
-    port: 85
+    port: 89
     uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49310
-    uuid: 86b165d2-b356-4311-931a-6c2bdb085cec
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: d41e3b77-5186-43a6-8545-4caeab3fdbac
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -99,30 +97,16 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "_中国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 2427db6f-84d3-4c89-9b82-146def58b34f
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59517
-    uuid: ab00adaf-ece4-4b6e-ae18-f0ae512e1d4a
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 8a5ed52e-9a0d-4570-9138-118f9d2f13f9
-    alterId: 0
-    cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -130,40 +114,34 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_中国"
-      - "防范境外势力渗透 6"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "防范境外势力渗透 5"
-      - "防范境外势力渗透 1"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透"
       - "_中国"
       - "_中国"
-      - "_香港"
+      - "_中国"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
       - "_中国"
-      - "_中国"
-      - "_中国"
+      - "防范境外势力渗透 9"
+      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_中国"
-      - "防范境外势力渗透 6"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "防范境外势力渗透 5"
-      - "防范境外势力渗透 1"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "防范境外势力渗透"
       - "_中国"
       - "_中国"
-      - "_香港"
+      - "_中国"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
       - "_中国"
-      - "_中国"
-      - "_中国"
+      - "防范境外势力渗透 9"
+      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
