@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 08:01:28
+# 更新时间: 2026-01-07 09:01:32
 # 节点数量: 462
 
 port: 7890
@@ -18,21 +18,47 @@ proxies:
     cipher: auto
     network: tcp
     ws-opts:
-      path: /?ed=2048
-  - name: "_加拿大"
+      path: /ed=2048@V2Rayhiddify10--https://t.me/V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--V2Rayhiddify10--https://t.me/V2Rayhiddify10
+  - name: "防范境外势力渗透 2"
     type: vmess
-    server: 51.79.102.253
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_美国"
+    type: vmess
+    server: v2ray.codefyinc.com
+    port: 443
+    uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - name: "防范境外势力渗透 6"
+      path: /vmessws
+  - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
-    port: 86
+    port: 80
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -45,8 +71,11 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_英国"
-      - "_加拿大"
-      - "防范境外势力渗透 6"
+      - "防范境外势力渗透 2"
+      - "防范境外势力渗透 7"
+      - "_英国"
+      - "_美国"
+      - "防范境外势力渗透"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -54,8 +83,11 @@ proxy-groups:
     interval: 300
     proxies:
       - "_英国"
-      - "_加拿大"
-      - "防范境外势力渗透 6"
+      - "防范境外势力渗透 2"
+      - "防范境外势力渗透 7"
+      - "_英国"
+      - "_美国"
+      - "防范境外势力渗透"
 
 rules:
   - GEOIP,CN,DIRECT
