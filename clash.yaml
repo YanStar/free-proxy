@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-08 01:01:32
+# 更新时间: 2026-01-08 02:01:35
 # 节点数量: 426
 
 port: 7890
@@ -11,57 +11,25 @@ log-level: info
 proxies:
   - name: "_中国"
     type: vmess
-    server: faq1.lieerr222.cn
-    port: 43527
-    uuid: 02a75d20-c38a-470d-8d4b-7a7a46d3d5d9
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59501
-    uuid: 23d56a06-ba74-4830-accf-557523406c9b
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: 9bf8aae6-2295-46ef-8581-c92cd5538f62
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49301
-    uuid: b4d2048f-e382-460a-83ee-f51e405036cf
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59501
-    uuid: 2ca0d644-2892-4280-87ec-1a72b01500fb
+    port: 49312
+    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49301
-    uuid: ae9b82ea-8e23-46f8-b803-7481babff662
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49310
-    uuid: 8165ff0f-23a9-4608-a889-438bc4f451d9
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    port: 49317
+    uuid: 20e385dd-2315-40a5-b525-7706f26a69fb
     alterId: 0
     cipher: auto
     network: tcp
@@ -69,31 +37,102 @@ proxies:
     type: vmess
     server: ffiw.owwoedu.com
     port: 59503
-    uuid: 502187a3-9404-4fee-afe3-f24a74b66367
+    uuid: 5d19092e-54e2-4c59-811f-e7048ea890c5
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
     server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 4dc2371a-95b2-4dad-bbde-3100ea8b5446
+    port: 59510
+    uuid: 6420fab2-7f1f-444a-a5b4-df3b8e25580e
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 5"
+  - name: "_中国"
     type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: 434ce2b1-1105-44aa-9011-3e6405eac51a
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "githubcomfreefq - 美国Fastly全球An"
+    type: vmess
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
   - name: "_中国"
     type: vmess
     server: ffiw.owwoedu.com
     port: 59501
     uuid: 3b974380-b035-41ae-8a12-d21e58d0a1f2
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 2427db6f-84d3-4c89-9b82-146def58b34f
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59501
+    uuid: 92881954-d2c2-4d32-a044-074c7eea957c
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49317
+    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 1af47fb8-8f1e-4e1a-afe2-e95b85412128
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59504
+    uuid: eddcc1ae-c39c-4c83-b994-c2fa133f087c
     alterId: 0
     cipher: auto
     network: tcp
@@ -110,10 +149,14 @@ proxy-groups:
       - "_中国"
       - "_中国"
       - "_中国"
-      - "_香港"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_中国"
       - "_中国"
-      - "防范境外势力渗透 5"
+      - "_中国"
+      - "_中国"
+      - "_法国"
+      - "_法国"
+      - "_中国"
       - "_中国"
 
   - name: "♻️ 自动选择"
@@ -127,10 +170,14 @@ proxy-groups:
       - "_中国"
       - "_中国"
       - "_中国"
-      - "_香港"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_中国"
       - "_中国"
-      - "防范境外势力渗透 5"
+      - "_中国"
+      - "_中国"
+      - "_法国"
+      - "_法国"
+      - "_中国"
       - "_中国"
 
 rules:
