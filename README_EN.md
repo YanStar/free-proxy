@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2026-01-07 14:01:44 CST`
+> Last Updated: `2026-01-07 15:01:42 CST`
 
 **[中文文档](README.md)** | English
 
@@ -12,9 +12,9 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | Type | Count |
 |------|-------|
-| Total Proxies | 4,836 |
-| Elite Proxies | 2,419 |
-| Realtime Verified | 40 |
+| Total Proxies | 5,034 |
+| Elite Proxies | 2,538 |
+| Realtime Verified | 33 |
 | V2Ray Nodes | 428 |
 
 ---
@@ -25,16 +25,16 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 40 | ⭐ **Realtime verified** working proxies, fewer but high quality |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 40 | Same as above, full URL format, can be directly used in software |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 40 | Same as above, includes response time and other details |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 33 | ⭐ **Realtime verified** working proxies, fewer but high quality |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 33 | Same as above, full URL format, can be directly used in software |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 33 | Same as above, includes response time and other details |
 
 ### 📋 HTTP/HTTPS Proxies
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`http.txt`](http.txt) | `ip:port` | 3,591 | HTTP proxy list |
-| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,591 | HTTP proxies, full URL format |
+| [`http.txt`](http.txt) | `ip:port` | 3,774 | HTTP proxy list |
+| [`http_url.txt`](http_url.txt) | `http://ip:port` | 3,774 | HTTP proxies, full URL format |
 | [`https.txt`](https.txt) | `ip:port` | 161 | HTTPS proxy list |
 | [`https_url.txt`](https_url.txt) | `https://ip:port` | 161 | HTTPS proxies, full URL format |
 
@@ -42,8 +42,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`socks4.txt`](socks4.txt) | `ip:port` | 950 | SOCKS4 proxy list |
-| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 950 | SOCKS4 proxies, full URL format |
+| [`socks4.txt`](socks4.txt) | `ip:port` | 965 | SOCKS4 proxy list |
+| [`socks4_url.txt`](socks4_url.txt) | `socks4://ip:port` | 965 | SOCKS4 proxies, full URL format |
 | [`socks5.txt`](socks5.txt) | `ip:port` | 538 | SOCKS5 proxy list |
 | [`socks5_url.txt`](socks5_url.txt) | `socks5://ip:port` | 538 | SOCKS5 proxies, full URL format |
 
@@ -51,9 +51,9 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`elite.txt`](elite.txt) | `ip:port` | 2,419 | Elite proxies, won't expose your real IP |
-| [`elite.json`](elite.json) | JSON | 2,419 | Elite proxies with details (country, speed, etc.) |
-| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,218 | Elite HTTP proxies |
+| [`elite.txt`](elite.txt) | `ip:port` | 2,538 | Elite proxies, won't expose your real IP |
+| [`elite.json`](elite.json) | JSON | 2,538 | Elite proxies with details (country, speed, etc.) |
+| [`elite_http_url.txt`](elite_http_url.txt) | `http://ip:port` | 2,337 | Elite HTTP proxies |
 | [`elite_socks5_url.txt`](elite_socks5_url.txt) | `socks5://ip:port` | 211 | Elite SOCKS5 proxies |
 
 ### 🚀 V2Ray / Clash Nodes
@@ -68,8 +68,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`all.txt`](all.txt) | `ip:port` | 4,836 | All proxies (unverified) |
-| [`all.json`](all.json) | JSON | 4,836 | All proxies with full details |
+| [`all.txt`](all.txt) | `ip:port` | 5,034 | All proxies (unverified) |
+| [`all.json`](all.json) | JSON | 5,034 | All proxies with full details |
 | [`stats.json`](stats.json) | JSON | - | Statistics |
 
 ### 🔄 Realtime Crawled (Unverified)

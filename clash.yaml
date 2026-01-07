@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 14:01:44
+# 更新时间: 2026-01-07 15:01:42
 # 节点数量: 428
 
 port: 7890
@@ -9,89 +9,19 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
   - name: "_中国"
     type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: 88ac2af8-f5cc-42dd-a028-bff06c4414aa
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 18fe34ca-3607-40a2-be0b-c7e532d5427a
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49317
-    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: 8394770f-608f-4493-a428-1a15fcda3a55
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: 03d8e750-dea2-4562-bce5-ae677a50d11e
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透"
+  - name: "防范境外势力渗透 6"
     type: vmess
     server: 127.0.0.53
-    port: 80
+    port: 86
     uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: 6b285574-1a2d-4a5e-950f-e3b83c9a5a0c
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49310
-    uuid: 19434f2e-2ca3-4930-84f9-3cb7fa95f00c
     alterId: 0
     cipher: auto
     network: tcp
@@ -99,21 +29,66 @@ proxies:
     type: vmess
     server: ffiw.owwoedu.com
     port: 59503
-    uuid: 62697c46-261a-4e97-9686-cfee5a5a2e9e
+    uuid: 59d40291-f6a2-45b1-84ab-22d89e889cf8
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "日期01-07"
+  - name: "_中国"
     type: vmess
-    server: 154.211.8.58
-    port: 443
-    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 020025bc-ff03-4007-980b-fa5dcf4367c0
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aa
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: 86445b6b-9467-487c-9305-4fa8d6bbddbf
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 5"
+    type: vmess
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: 86b165d2-b356-4311-931a-6c2bdb085cec
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: d41e3b77-5186-43a6-8545-4caeab3fdbac
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -123,7 +98,31 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 2427db6f-84d3-4c89-9b82-146def58b34f
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59517
+    uuid: ab00adaf-ece4-4b6e-ae18-f0ae512e1d4a
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 8a5ed52e-9a0d-4570-9138-118f9d2f13f9
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -131,38 +130,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_中国"
+      - "防范境外势力渗透 6"
+      - "_中国"
+      - "_中国"
+      - "_中国"
+      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 1"
+      - "_中国"
+      - "_中国"
+      - "_香港"
       - "_法国"
       - "_中国"
-      - "_法国"
       - "_中国"
       - "_中国"
-      - "_中国"
-      - "防范境外势力渗透"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "日期01-07"
-      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_中国"
+      - "防范境外势力渗透 6"
+      - "_中国"
+      - "_中国"
+      - "_中国"
+      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 1"
+      - "_中国"
+      - "_中国"
+      - "_香港"
       - "_法国"
       - "_中国"
-      - "_法国"
       - "_中国"
       - "_中国"
-      - "_中国"
-      - "防范境外势力渗透"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "日期01-07"
-      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
