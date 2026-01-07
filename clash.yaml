@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 18:01:43
+# 更新时间: 2026-01-07 19:01:43
 # 节点数量: 428
 
 port: 7890
@@ -9,95 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: 6b285574-1a2d-4a5e-950f-e3b83c9a5a0c
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 502187a3-9404-4fee-afe3-f24a74b66367
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49317
-    uuid: 20e385dd-2315-40a5-b525-7706f26a69fb
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59517
-    uuid: ab00adaf-ece4-4b6e-ae18-f0ae512e1d4a
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
   - name: "_中国"
     type: vmess
     server: ffiw.owwoedu.com
@@ -110,15 +21,75 @@ proxies:
     type: vmess
     server: cees.owwoedu.com
     port: 49303
-    uuid: 434ce2b1-1105-44aa-9011-3e6405eac51a
+    uuid: ce8b5c66-c533-4578-9e16-efe14d01f128
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
-    server: ffiw.owwoedu.com
-    port: 59517
-    uuid: a51fb41a-e016-4420-b740-5af99aea9831
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 119177df-9f60-476a-9cb7-d6bcc2fb467c
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "防范境外势力渗透 3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: 8165ff0f-23a9-4608-a889-438bc4f451d9
     alterId: 0
     cipher: auto
     network: tcp
@@ -126,28 +97,36 @@ proxies:
     type: vmess
     server: ffiw.owwoedu.com
     port: 59503
-    uuid: 8a5ed52e-9a0d-4570-9138-118f9d2f13f9
+    uuid: 4dc2371a-95b2-4dad-bbde-3100ea8b5446
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "_中国"
     type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    server: cees.owwoedu.com
+    port: 49312
+    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: b4d2048f-e382-460a-83ee-f51e405036cf
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -155,44 +134,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
-      - "防范境外势力渗透 4"
       - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_中国"
+      - "_英国"
+      - " 香港ripaojiedian"
       - "_香港"
+      - "防范境外势力渗透 7"
+      - "_中国"
+      - "_法国"
+      - "防范境外势力渗透 3"
+      - "_中国"
       - "_中国"
       - "_中国"
       - "_中国"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
-      - "防范境外势力渗透 4"
       - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_中国"
+      - "_英国"
+      - " 香港ripaojiedian"
       - "_香港"
+      - "防范境外势力渗透 7"
+      - "_中国"
+      - "_法国"
+      - "防范境外势力渗透 3"
+      - "_中国"
       - "_中国"
       - "_中国"
       - "_中国"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透"
 
 rules:
   - GEOIP,CN,DIRECT
