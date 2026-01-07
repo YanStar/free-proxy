@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-07 13:01:33
-# 节点数量: 468
+# 更新时间: 2026-01-07 14:01:44
+# 节点数量: 428
 
 port: 7890
 socks-port: 7891
@@ -9,11 +9,63 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_立陶宛"
+  - name: "_法国"
     type: vmess
-    server: 185.81.166.99
-    port: 36423
-    uuid: 10bdd3fc-e92f-4766-9164-e77a575d7029
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 88ac2af8-f5cc-42dd-a028-bff06c4414aa
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49317
+    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 8394770f-608f-4493-a428-1a15fcda3a55
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 03d8e750-dea2-4562-bce5-ae677a50d11e
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
@@ -27,42 +79,51 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 5"
+  - name: "_中国"
     type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 6b285574-1a2d-4a5e-950f-e3b83c9a5a0c
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_美国"
+  - name: "_中国"
     type: vmess
-    server: 38.76.144.22
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: 19434f2e-2ca3-4930-84f9-3cb7fa95f00c
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 62697c46-261a-4e97-9686-cfee5a5a2e9e
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "日期01-07"
+    type: vmess
+    server: 154.211.8.58
     port: 443
-    uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
+    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "_英国"
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aa
+  - name: "_法国"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     ws-opts:
       path: /?ed=2048
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -70,24 +131,38 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_立陶宛"
+      - "_法国"
+      - "_中国"
+      - "_法国"
+      - "_中国"
+      - "_中国"
+      - "_中国"
+      - "防范境外势力渗透"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 5"
-      - "_美国"
-      - "_英国"
-      - "_英国"
+      - "_中国"
+      - "_中国"
+      - "_中国"
+      - "日期01-07"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_立陶宛"
+      - "_法国"
+      - "_中国"
+      - "_法国"
+      - "_中国"
+      - "_中国"
+      - "_中国"
+      - "防范境外势力渗透"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 5"
-      - "_美国"
-      - "_英国"
-      - "_英国"
+      - "_中国"
+      - "_中国"
+      - "_中国"
+      - "日期01-07"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
