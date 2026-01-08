@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-08 12:01:23
+# 更新时间: 2026-01-08 13:01:15
 # 节点数量: 263
 
 port: 7890
@@ -9,34 +9,36 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_香港"
+  - name: "_未知"
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "githubcomfreefq - 印度  2"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?ed=2048
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+      path: /@forwardv2ray
   - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
     server: data-us-v1.shwjfkw.cn
@@ -47,40 +49,6 @@ proxies:
     network: ws
     ws-opts:
       path: /debian
-  - name: "防范境外势力渗透 7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 2"
-    type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::11
@@ -91,6 +59,16 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "防范境外势力渗透 5"
     type: vmess
     server: 127.0.0.53
@@ -99,14 +77,25 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: " 香港ripaojiedian"
+  - name: "_香港"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
+    server: 202.85.53.179
+    port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    alterId: 0
     cipher: auto
     network: tcp
+  - name: "_美国"
+    type: vmess
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -114,34 +103,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_香港"
+      - "_未知"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 广东省移动 7"
       - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 广东省移动 7"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 9"
-      - "防范境外势力渗透 2"
-      - "_法国"
-      - "_法国"
       - "防范境外势力渗透 5"
-      - " 香港ripaojiedian"
+      - "_香港"
+      - "_美国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_香港"
+      - "_未知"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 广东省移动 7"
       - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 广东省移动 7"
-      - "防范境外势力渗透 7"
-      - "防范境外势力渗透 9"
-      - "防范境外势力渗透 2"
-      - "_法国"
-      - "_法国"
       - "防范境外势力渗透 5"
-      - " 香港ripaojiedian"
+      - "_香港"
+      - "_美国"
 
 rules:
   - GEOIP,CN,DIRECT
