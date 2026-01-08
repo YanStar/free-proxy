@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-08 10:01:17
+# 更新时间: 2026-01-08 11:01:22
 # 节点数量: 437
 
 port: 7890
@@ -9,6 +9,22 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: 9bf8aae6-2295-46ef-8581-c92cd5538f62
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59517
+    uuid: ae7a1ac0-b89e-441e-bba9-007c9bd9fcc1
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -18,53 +34,17 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_香港"
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59517
-    uuid: 3bf1883d-0335-4a47-87c5-93d94b983b2d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /@forwardv2ray
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49301
-    uuid: f1ef67f3-70a0-453c-8e50-72231c85874d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /77848824
+      path: /
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
@@ -73,27 +53,53 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49310
-    uuid: 050f3ef7-7df0-4f00-8001-3574f0360357
+    port: 49317
+    uuid: 20e385dd-2315-40a5-b525-7706f26a69fb
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 98025cf1-9a01-4922-bf3d-99a30d67b5af
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49303
-    uuid: 50640f79-b76a-4fb0-aad6-48f029b1a8f6
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    port: 49317
+    uuid: e74cdf36-3b08-47b1-9ef5-4dfa26d9c1f8
     alterId: 0
     cipher: auto
     network: tcp
@@ -104,32 +110,34 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_中国"
+      - "_中国"
       - "_法国"
-      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
-      - "githubcomfreefq - 印度  2"
-      - "_中国"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_中国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "香港ripaojiedian"
       - "_中国"
       - "_中国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 8"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_中国"
+      - "_中国"
       - "_法国"
-      - "_香港"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
-      - "githubcomfreefq - 印度  2"
-      - "_中国"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_中国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "香港ripaojiedian"
       - "_中国"
       - "_中国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 8"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
