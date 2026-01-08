@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2026-01-08 22:01:30 CST`
+> Last Updated: `2026-01-08 23:01:30 CST`
 
 **[中文文档](README.md)** | English
 
@@ -14,7 +14,7 @@ Auto-updated free proxy pool, **updated every hour**.
 |------|-------|
 | Total Proxies | 5,773 |
 | Elite Proxies | 3,143 |
-| Realtime Verified | 40 |
+| Realtime Verified | 36 |
 | V2Ray Nodes | 312 |
 
 ---
@@ -25,9 +25,9 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 40 | ⭐ **Realtime verified** working proxies, fewer but high quality |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 40 | Same as above, full URL format, can be directly used in software |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 40 | Same as above, includes response time and other details |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 36 | ⭐ **Realtime verified** working proxies, fewer but high quality |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 36 | Same as above, full URL format, can be directly used in software |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 36 | Same as above, includes response time and other details |
 
 ### 📋 HTTP/HTTPS Proxies
 
@@ -35,8 +35,8 @@ Auto-updated free proxy pool, **updated every hour**.
 |------|--------|-------|-------------|
 | [`http.txt`](http.txt) | `ip:port` | 4,524 | HTTP proxy list |
 | [`http_url.txt`](http_url.txt) | `http://ip:port` | 4,524 | HTTP proxies, full URL format |
-| [`https.txt`](https.txt) | `ip:port` | 228 | HTTPS proxy list |
-| [`https_url.txt`](https_url.txt) | `https://ip:port` | 228 | HTTPS proxies, full URL format |
+| [`https.txt`](https.txt) | `ip:port` | 229 | HTTPS proxy list |
+| [`https_url.txt`](https_url.txt) | `https://ip:port` | 229 | HTTPS proxies, full URL format |
 
 ### 🧦 SOCKS Proxies
 
