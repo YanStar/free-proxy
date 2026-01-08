@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-09 05:01:23
+# 更新时间: 2026-01-09 06:01:18
 # 节点数量: 252
 
 port: 7890
@@ -9,17 +9,87 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 8"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::14
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: ?ed=2048
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -27,108 +97,6 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vc
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "防范境外势力渗透 4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::16
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -136,16 +104,12 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 8"
-      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
-      - "香港ripaojiedian"
-      - "_美国"
-      - "_香港"
-      - "_美国"
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透 3"
+      - "_法国"
+      - "_法国"
+      - "_法国"
+      - "_法国"
+      - "_法国"
       - "_法国"
       - "_法国"
       - "_法国"
@@ -155,16 +119,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 8"
-      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 9"
-      - "香港ripaojiedian"
-      - "_美国"
-      - "_香港"
-      - "_美国"
-      - "防范境外势力渗透 4"
-      - "防范境外势力渗透 3"
+      - "_法国"
+      - "_法国"
+      - "_法国"
+      - "_法国"
+      - "_法国"
       - "_法国"
       - "_法国"
       - "_法国"
