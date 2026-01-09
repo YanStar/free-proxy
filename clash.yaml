@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 00:01:45
+# 更新时间: 2026-01-10 01:01:45
 # 节点数量: 472
 
 port: 7890
@@ -9,39 +9,37 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "SG4机房低风险"
+  - name: "日期01-09"
     type: vmess
-    server: singapore02.zgjok.com
-    port: 443
-    uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49309
-    uuid: 3802a441-4ff2-427a-aa48-f1b2398bc211
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 7"
+  - name: "防范境外势力渗透 2"
     type: vmess
     server: 127.0.0.53
-    port: 87
+    port: 82
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -55,15 +53,7 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "US47机房低风险"
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
+      path: /?ed=2048
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -71,24 +61,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "SG4机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
-      - "防范境外势力渗透 7"
+      - "日期01-09"
+      - "防范境外势力渗透 9"
+      - "_美国"
+      - "防范境外势力渗透 2"
       - "_法国"
-      - "US47机房低风险"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "SG4机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_中国"
-      - "防范境外势力渗透 7"
+      - "日期01-09"
+      - "防范境外势力渗透 9"
+      - "_美国"
+      - "防范境外势力渗透 2"
       - "_法国"
-      - "US47机房低风险"
 
 rules:
   - GEOIP,CN,DIRECT
