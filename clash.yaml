@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-09 23:01:52
-# 节点数量: 291
+# 更新时间: 2026-01-10 00:01:45
+# 节点数量: 472
 
 port: 7890
 socks-port: 7891
@@ -9,79 +9,43 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  2"
+  - name: "SG4机房低风险"
     type: vmess
-    server: 202.78.162.5
+    server: singapore02.zgjok.com
     port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_美国"
-    type: vmess
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vc
-  - name: "_中国"
-    type: vmess
-    server: ffiw.owwoedu.com
-    port: 59510
-    uuid: 83814342-e8d5-42c6-b52b-f9fdebd9bb58
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: "_未知"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49309
+    uuid: 3802a441-4ff2-427a-aa48-f1b2398bc211
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -90,24 +54,16 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-  - name: "免费VPNhttpsttvggwaAy"
+    ws-opts:
+      path: /
+  - name: "US47机房低风险"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
+    server: v4.hdacd.com
+    port: 30804
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
+    alterId: 2
     cipher: auto
     network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -115,32 +71,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  2"
-      - "_法国"
-      - "githubcomfreefq - 印度  3"
-      - "_美国"
+      - "SG4机房低风险"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
-      - "_美国"
-      - "_未知"
+      - "防范境外势力渗透 7"
       - "_法国"
-      - "免费VPNhttpsttvggwaAy"
-      - "_法国"
+      - "US47机房低风险"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  2"
-      - "_法国"
-      - "githubcomfreefq - 印度  3"
-      - "_美国"
+      - "SG4机房低风险"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_中国"
-      - "_美国"
-      - "_未知"
+      - "防范境外势力渗透 7"
       - "_法国"
-      - "免费VPNhttpsttvggwaAy"
-      - "_法国"
+      - "US47机房低风险"
 
 rules:
   - GEOIP,CN,DIRECT
