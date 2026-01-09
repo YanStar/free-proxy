@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-09 17:01:19
+# 更新时间: 2026-01-09 18:01:44
 # 节点数量: 265
 
 port: 7890
@@ -11,14 +11,34 @@ log-level: info
 proxies:
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::16
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::15
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -28,7 +48,7 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::11
@@ -39,50 +59,18 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_美国"
+  - name: "_中国"
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 7327b049-d466-45e1-9478-a8954f6ebf6f
     alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /77848824
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 3"
+  - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
-    port: 83
+    port: 80
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
@@ -96,7 +84,31 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59518
+    uuid: c74ac713-b8a1-4818-9c98-64159c4f2f21
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: 46a72a69-0283-4609-9cd6-cc39bb027280
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "日期01-09"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -106,15 +118,18 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
+      path: /
+  - name: "_美国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -124,15 +139,17 @@ proxy-groups:
       - DIRECT
       - "_法国"
       - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_法国"
+      - "_法国"
+      - "_中国"
+      - "防范境外势力渗透"
+      - "_法国"
+      - "_中国"
+      - "_中国"
+      - "日期01-09"
       - "_法国"
       - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 3"
-      - "_法国"
-      - "_法国"
-      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -141,15 +158,17 @@ proxy-groups:
     proxies:
       - "_法国"
       - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_法国"
+      - "_法国"
+      - "_中国"
+      - "防范境外势力渗透"
+      - "_法国"
+      - "_中国"
+      - "_中国"
+      - "日期01-09"
       - "_法国"
       - "_美国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 3"
-      - "_法国"
-      - "_法国"
-      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
