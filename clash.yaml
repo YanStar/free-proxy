@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-09 20:01:50
-# 节点数量: 265
+# 更新时间: 2026-01-09 21:01:50
+# 节点数量: 291
 
 port: 7890
 socks-port: 7891
@@ -9,43 +9,14 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::17
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "防范境外势力渗透 5"
+  - name: "防范境外势力渗透 7"
     type: vmess
     server: 127.0.0.53
-    port: 85
+    port: 87
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "免费VPNhttpsttvggwaAy"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vc
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -54,25 +25,84 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-  - name: "githubcomfreefq - 美国Fastly全球An"
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_法国"
     type: vmess
-    server: gov.uk
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
     port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
-  - name: "githubcomfreefq - 美国CloudFlare"
+      path: /@forwardv2ray
+  - name: "_法国"
     type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+  - name: "_美国"
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
     ws-opts:
       path: /
 
@@ -82,26 +112,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "防范境外势力渗透 7"
       - "_法国"
-      - "防范境外势力渗透 5"
-      - "免费VPNhttpsttvggwaAy"
+      - "_法国"
+      - "_法国"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 印度  3"
+      - "_法国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
       - "_美国"
-      - "_法国"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "防范境外势力渗透 7"
       - "_法国"
-      - "防范境外势力渗透 5"
-      - "免费VPNhttpsttvggwaAy"
+      - "_法国"
+      - "_法国"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "githubcomfreefq - 印度  3"
+      - "_法国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
       - "_美国"
-      - "_法国"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
