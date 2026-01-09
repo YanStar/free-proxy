@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2026-01-09 08:01:22 CST`
+> Last Updated: `2026-01-09 09:01:20 CST`
 
 **[中文文档](README.md)** | English
 
@@ -15,7 +15,7 @@ Auto-updated free proxy pool, **updated every hour**.
 | Total Proxies | 4,999 |
 | Elite Proxies | 2,397 |
 | Realtime Verified | 30 |
-| V2Ray Nodes | 252 |
+| V2Ray Nodes | 251 |
 
 ---
 
@@ -60,8 +60,8 @@ Auto-updated free proxy pool, **updated every hour**.
 
 | File | Format | Count | Description |
 |------|--------|-------|-------------|
-| [`v2ray.txt`](v2ray.txt) | Raw links | 252 | V2Ray/Trojan/SS nodes, one per line |
-| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 252 | V2Ray subscription, import directly to client |
+| [`v2ray.txt`](v2ray.txt) | Raw links | 251 | V2Ray/Trojan/SS nodes, one per line |
+| [`v2ray_subscribe.txt`](v2ray_subscribe.txt) | Base64 | 251 | V2Ray subscription, import directly to client |
 | [`clash.yaml`](clash.yaml) | YAML | 50 | Clash config file, ready to use |
 
 ### 📦 Full Data
