@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-09 09:01:20
+# 更新时间: 2026-01-09 10:01:16
 # 节点数量: 251
 
 port: 7890
@@ -9,88 +9,20 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: ?ed=2048
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "防范境外势力渗透 9"
+  - name: "防范境外势力渗透 3"
     type: vmess
     server: 127.0.0.53
-    port: 89
+    port: 83
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "_英国"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     network: tcp
   - name: "_未知"
@@ -104,16 +36,63 @@ proxies:
     tls: true
     ws-opts:
       path: /
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::14
+    server: 2001:bc8:32d7:302::17
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::15
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -121,16 +100,14 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
-      - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 9"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 1"
-      - "香港ripaojiedian"
+      - "防范境外势力渗透 3"
+      - "_英国"
       - "_未知"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
+      - "防范境外势力渗透 9"
+      - "防范境外势力渗透 1"
       - "_法国"
 
   - name: "♻️ 自动选择"
@@ -138,16 +115,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
-      - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 9"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_法国"
-      - "_法国"
-      - "防范境外势力渗透 1"
-      - "香港ripaojiedian"
+      - "防范境外势力渗透 3"
+      - "_英国"
       - "_未知"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
+      - "防范境外势力渗透 9"
+      - "防范境外势力渗透 1"
       - "_法国"
 
 rules:
