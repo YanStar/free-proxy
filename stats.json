@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-01-09 10:01:16 CST",
+  "updated_at": "2026-01-09 11:01:22 CST",
   "run_stats": {
-    "start_time": "2026-01-09T10:00:01.486255",
-    "end_time": "2026-01-09T10:01:16.477600",
+    "start_time": "2026-01-09T11:00:01.750406",
+    "end_time": "2026-01-09T11:01:22.250305",
     "errors_count": 0,
     "warnings_count": 0
   },
   "realtime_crawl": {
     "total": 300,
-    "verified": 28,
-    "success_rate": "9%"
+    "verified": 30,
+    "success_rate": "10%"
   },
   "json_source": {
     "total": 4999,
@@ -39,15 +39,15 @@
       },
       {
         "file": "realtime_verified.txt",
-        "size": 562
+        "size": 596
       },
       {
         "file": "realtime_verified_url.txt",
-        "size": 764
+        "size": 812
       },
       {
         "file": "realtime_verified.json",
-        "size": 6475
+        "size": 6926
       },
       {
         "file": "all.json",
@@ -115,7 +115,7 @@
       },
       {
         "file": "clash.yaml",
-        "size": 2967
+        "size": 3550
       }
     ]
   }
