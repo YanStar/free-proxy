@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-09 13:01:21
+# 更新时间: 2026-01-09 14:01:22
 # 节点数量: 265
 
 port: 7890
@@ -9,30 +9,41 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_香港"
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "日期01-09"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_中国"
     type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 7327b049-d466-45e1-9478-a8954f6ebf6f
+    server: cees.owwoedu.com
+    port: 49309
+    uuid: 3802a441-4ff2-427a-aa48-f1b2398bc211
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "防范境外势力渗透 1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国Fastly全球An"
+    type: vmess
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -42,21 +53,44 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 5"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_美国"
     type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "_韩国"
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: 43.203.159.251
-    port: 32415
-    uuid: c5d45d2b-c425-4b24-8794-613b831d5f0c
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
   - name: "防范境外势力渗透 6"
@@ -69,72 +103,14 @@ proxies:
     network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::14
+    server: 2001:bc8:32d7:302::17
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "免费VPNhttpsttvggwaAy"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -142,42 +118,34 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_香港"
-      - "日期01-09"
       - "_中国"
+      - "防范境外势力渗透 1"
+      - "防范境外势力渗透 9"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_法国"
-      - "防范境外势力渗透 5"
-      - "_韩国"
+      - "_美国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
+      - " 香港ripaojiedian"
       - "防范境外势力渗透 6"
       - "_法国"
-      - "_法国"
-      - "免费VPNhttpsttvggwaAy"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 3"
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 9"
-      - " 香港ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_香港"
-      - "日期01-09"
       - "_中国"
+      - "防范境外势力渗透 1"
+      - "防范境外势力渗透 9"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_法国"
-      - "防范境外势力渗透 5"
-      - "_韩国"
+      - "_美国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_法国"
+      - " 香港ripaojiedian"
       - "防范境外势力渗透 6"
       - "_法国"
-      - "_法国"
-      - "免费VPNhttpsttvggwaAy"
-      - "防范境外势力渗透"
-      - "防范境外势力渗透 3"
-      - "香港ripaojiedian"
-      - "防范境外势力渗透 9"
-      - " 香港ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
