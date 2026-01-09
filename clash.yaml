@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 02:01:33
-# 节点数量: 472
+# 更新时间: 2026-01-10 03:01:28
+# 节点数量: 399
 
 port: 7890
 socks-port: 7891
@@ -9,14 +9,26 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
+  - name: "_法国"
     type: vmess
-    server: cees.owwoedu.com
-    port: 49309
-    uuid: 3802a441-4ff2-427a-aa48-f1b2398bc211
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -27,22 +39,104 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_香港"
+  - name: "防范境外势力渗透 1"
     type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
     cipher: auto
     network: tcp
-  - name: "DE6机房低风险"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "HK96机房低风险"
+    type: vmess
+    server: n1761214905.wpg27.xyz
+    port: 443
+    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "KR12机房低风险"
+    type: vmess
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    alterId: 0
     cipher: auto
     network: tcp
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49321
+    uuid: eae234c3-6240-4977-840f-4802b15a5de6
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_韩国"
+    type: vmess
+    server: 43.203.159.251
+    port: 32415
+    uuid: c5d45d2b-c425-4b24-8794-613b831d5f0c
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -50,20 +144,40 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_中国"
       - "_法国"
-      - "_香港"
-      - "DE6机房低风险"
+      - "_法国"
+      - "_法国"
+      - "防范境外势力渗透 1"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "HK96机房低风险"
+      - "_法国"
+      - "KR12机房低风险"
+      - "_中国"
+      - "_韩国"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 3"
+      - "_英国"
+      - "githubcomfreefq - 印度  3"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_中国"
       - "_法国"
-      - "_香港"
-      - "DE6机房低风险"
+      - "_法国"
+      - "_法国"
+      - "防范境外势力渗透 1"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "HK96机房低风险"
+      - "_法国"
+      - "KR12机房低风险"
+      - "_中国"
+      - "_韩国"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "防范境外势力渗透 3"
+      - "_英国"
+      - "githubcomfreefq - 印度  3"
 
 rules:
   - GEOIP,CN,DIRECT
