@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 23:01:54
+# 更新时间: 2026-01-11 00:01:50
 # 节点数量: 431
 
 port: 7890
@@ -11,17 +11,25 @@ log-level: info
 proxies:
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::11
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "电报群httpstmevvkj11"
+      path: /
+  - name: "FR5机房低风险"
     type: vmess
-    server: 2001:bc8:32d7:302::17
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -31,43 +39,14 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::16
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /77848824
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: " 香港ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -76,11 +55,9 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_法国"
-      - "电报群httpstmevvkj11"
+      - "FR5机房低风险"
       - "_法国"
-      - "githubcomfreefq - 美国Fastly全球An"
       - "_法国"
-      - " 香港ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -88,11 +65,9 @@ proxy-groups:
     interval: 300
     proxies:
       - "_法国"
-      - "电报群httpstmevvkj11"
+      - "FR5机房低风险"
       - "_法国"
-      - "githubcomfreefq - 美国Fastly全球An"
       - "_法国"
-      - " 香港ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
