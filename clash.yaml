@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 21:01:53
+# 更新时间: 2026-01-10 22:01:47
 # 节点数量: 431
 
 port: 7890
@@ -9,26 +9,44 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  2"
+  - name: "_法国"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /@forwardv2ray
-  - name: "DE8机房低风险"
+      path: /?ed=2048
+  - name: "_法国"
     type: vmess
-    server: frankfurt02.zgjok.com
-    port: 443
-    uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
     ws-opts:
       path: /
   - name: "防范境外势力渗透 3"
@@ -39,40 +57,7 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 印度  10"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "HK92机房低风险"
-    type: vmess
-    server: n1761214912.wpg27.xyz
-    port: 443
-    uuid: 4f86a909-836d-4643-b650-d812144a1fa9
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "HK93机房低风险"
-    type: vmess
-    server: n1761214904.wpg27.xyz
-    port: 443
-    uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "香港ripaojiedian"
+  - name: " 香港ripaojiedian"
     type: vmess
     server: v10.hdacd.com
     port: 30807
@@ -80,17 +65,15 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "防范境外势力渗透 1"
     type: vmess
-    server: server31.beheshtbaneh.com
-    port: 8880
-    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "免费VPNhttpsttvggwaAy"
+    network: tcp
+  - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -99,7 +82,7 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      path: /?ed=2048
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -107,30 +90,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  2"
-      - "DE8机房低风险"
-      - "防范境外势力渗透 3"
-      - "githubcomfreefq - 印度  10"
-      - "HK92机房低风险"
-      - "HK93机房低风险"
-      - "香港ripaojiedian"
+      - "_法国"
+      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "免费VPNhttpsttvggwaAy"
+      - "_法国"
+      - "防范境外势力渗透 3"
+      - " 香港ripaojiedian"
+      - "防范境外势力渗透 1"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  2"
-      - "DE8机房低风险"
-      - "防范境外势力渗透 3"
-      - "githubcomfreefq - 印度  10"
-      - "HK92机房低风险"
-      - "HK93机房低风险"
-      - "香港ripaojiedian"
+      - "_法国"
+      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "免费VPNhttpsttvggwaAy"
+      - "_法国"
+      - "防范境外势力渗透 3"
+      - " 香港ripaojiedian"
+      - "防范境外势力渗透 1"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
