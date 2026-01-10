@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 18:01:22
+# 更新时间: 2026-01-10 19:01:28
 # 节点数量: 431
 
 port: 7890
@@ -9,37 +9,14 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
+  - name: "防范境外势力渗透 3"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "githubcomfreefq - 印度  10"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
+    network: tcp
   - name: "HK92机房低风险"
     type: vmess
     server: n1761214912.wpg27.xyz
@@ -51,7 +28,17 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "_法国"
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "每天更新请加电报群防止失联"
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -60,7 +47,28 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "HK90机房低风险"
+    type: vmess
+    server: n1761214908.wpg27.xyz
+    port: 443
+    uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
       path: /
+  - name: "电报群httpstmevvkj11"
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -68,22 +76,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
-      - "_法国"
-      - "githubcomfreefq - 印度  10"
+      - "防范境外势力渗透 3"
       - "HK92机房低风险"
-      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "每天更新请加电报群防止失联"
+      - "HK90机房低风险"
+      - "电报群httpstmevvkj11"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
-      - "_法国"
-      - "githubcomfreefq - 印度  10"
+      - "防范境外势力渗透 3"
       - "HK92机房低风险"
-      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "每天更新请加电报群防止失联"
+      - "HK90机房低风险"
+      - "电报群httpstmevvkj11"
 
 rules:
   - GEOIP,CN,DIRECT
