@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 22:01:47
+# 更新时间: 2026-01-10 23:01:54
 # 节点数量: 431
 
 port: 7890
@@ -11,17 +11,17 @@ log-level: info
 proxies:
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::11
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048
-  - name: "_法国"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "电报群httpstmevvkj11"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::17
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -29,16 +29,27 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "_法国"
     type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "githubcomfreefq - 美国Fastly全球An"
+    type: vmess
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -49,14 +60,6 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: " 香港ripaojiedian"
     type: vmess
     server: v10.hdacd.com
@@ -65,24 +68,6 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -91,13 +76,11 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_法国"
+      - "电报群httpstmevvkj11"
       - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_法国"
-      - "防范境外势力渗透 3"
       - " 香港ripaojiedian"
-      - "防范境外势力渗透 1"
-      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -105,13 +88,11 @@ proxy-groups:
     interval: 300
     proxies:
       - "_法国"
+      - "电报群httpstmevvkj11"
       - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "githubcomfreefq - 美国Fastly全球An"
       - "_法国"
-      - "防范境外势力渗透 3"
       - " 香港ripaojiedian"
-      - "防范境外势力渗透 1"
-      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
