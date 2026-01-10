@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-11 03:01:40
+# 更新时间: 2026-01-11 04:01:29
 # 节点数量: 431
 
 port: 7890
@@ -9,6 +9,16 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: 104.21.82.183
+    port: 8880
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -17,18 +27,38 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "防范境外势力渗透 7"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+    network: tcp
+  - name: "防范境外势力渗透 2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "US27机房低风险"
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "githubcomfreefq - 印度  2"
     type: vmess
     server: 202.78.162.5
@@ -40,17 +70,7 @@ proxies:
     tls: true
     ws-opts:
       path: /@forwardv2ray
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "_法国"
+  - name: "每天更新请加电报群防止失联"
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -58,17 +78,19 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-  - name: "githubcomfreefq - 美国Fastly全球An"
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "HK96机房低风险"
     type: vmess
-    server: gov.uk
+    server: n1761214905.wpg27.xyz
     port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /77848824
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -76,24 +98,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 印度  2"
-      - "githubcomfreefq - 广东省移动 7"
       - "_法国"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "防范境外势力渗透 7"
+      - "防范境外势力渗透 2"
+      - "US27机房低风险"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 印度  2"
+      - "每天更新请加电报群防止失联"
+      - "HK96机房低风险"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
-      - "githubcomfreefq - 印度  2"
-      - "githubcomfreefq - 广东省移动 7"
       - "_法国"
-      - "githubcomfreefq - 美国Fastly全球An"
+      - "防范境外势力渗透 7"
+      - "防范境外势力渗透 2"
+      - "US27机房低风险"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 印度  2"
+      - "每天更新请加电报群防止失联"
+      - "HK96机房低风险"
 
 rules:
   - GEOIP,CN,DIRECT
