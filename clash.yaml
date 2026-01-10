@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 17:01:25
-# 节点数量: 441
+# 更新时间: 2026-01-10 18:01:22
+# 节点数量: 431
 
 port: 7890
 socks-port: 7891
@@ -9,46 +9,56 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "HK95机房低风险"
-    type: vmess
-    server: n1747624282.lie5d.cyou
-    port: 443
-    uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::11
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "HK96机房低风险"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_法国"
     type: vmess
-    server: n1761214905.wpg27.xyz
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
     port: 443
-    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "HK92机房低风险"
+    type: vmess
+    server: n1761214912.wpg27.xyz
+    port: 443
+    uuid: 4f86a909-836d-4643-b650-d812144a1fa9
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
     ws-opts:
       path: /
 
@@ -58,20 +68,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "HK95机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
-      - "HK96机房低风险"
+      - "_法国"
+      - "githubcomfreefq - 印度  10"
+      - "HK92机房低风险"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "HK95机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
-      - "HK96机房低风险"
+      - "_法国"
+      - "githubcomfreefq - 印度  10"
+      - "HK92机房低风险"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
