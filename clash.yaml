@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 08:01:38
-# 节点数量: 399
+# 更新时间: 2026-01-10 09:01:31
+# 节点数量: 406
 
 port: 7890
 socks-port: 7891
@@ -9,9 +9,20 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "HK93机房低风险"
+    type: vmess
+    server: n1761214904.wpg27.xyz
+    port: 443
+    uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::16
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -19,22 +30,79 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "HK97机房低风险"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: n1761214907.74qxv.top
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "HK96机房低风险"
+    type: vmess
+    server: n1761214905.wpg27.xyz
     port: 443
-    uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
+    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_美国"
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_美国"
+    type: vmess
+    server: vc.fly.dev
+    port: 443
+    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+    alterId: 32
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vc
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     network: ws
@@ -42,9 +110,25 @@ proxies:
       path: /
   - name: "_香港"
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
+    server: v33.hdacd.com
+    port: 30833
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
     alterId: 0
     cipher: auto
     network: tcp
@@ -58,6 +142,14 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_中国"
+    type: vmess
+    server: cees.owwoedu.com
+    port: 49303
+    uuid: 46a72a69-0283-4609-9cd6-cc39bb027280
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -65,22 +157,42 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "HK93机房低风险"
       - "_法国"
-      - "HK97机房低风险"
+      - "防范境外势力渗透 8"
+      - "防范境外势力渗透 6"
+      - "HK96机房低风险"
+      - "githubcomfreefq - 印度  3"
+      - "_英国"
+      - "_美国"
+      - "_美国"
       - "githubcomfreefq - 美国CloudFlare"
       - "_香港"
+      - "_香港"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_法国"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "HK93机房低风险"
       - "_法国"
-      - "HK97机房低风险"
+      - "防范境外势力渗透 8"
+      - "防范境外势力渗透 6"
+      - "HK96机房低风险"
+      - "githubcomfreefq - 印度  3"
+      - "_英国"
+      - "_美国"
+      - "_美国"
       - "githubcomfreefq - 美国CloudFlare"
       - "_香港"
+      - "_香港"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_法国"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT

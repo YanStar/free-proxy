@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-01-10 08:01:38 CST",
+  "updated_at": "2026-01-10 09:01:31 CST",
   "run_stats": {
-    "start_time": "2026-01-10T08:00:01.814332",
-    "end_time": "2026-01-10T08:01:38.460885",
+    "start_time": "2026-01-10T09:00:01.735689",
+    "end_time": "2026-01-10T09:01:31.414638",
     "errors_count": 0,
     "warnings_count": 0
   },
   "realtime_crawl": {
     "total": 300,
-    "verified": 34,
-    "success_rate": "11%"
+    "verified": 53,
+    "success_rate": "17%"
   },
   "json_source": {
     "total": 5546,
@@ -22,7 +22,7 @@
     }
   },
   "v2ray": {
-    "total": 399,
+    "total": 406,
     "sources": 3
   },
   "files": {
@@ -31,23 +31,23 @@
     "details": [
       {
         "file": "realtime_all.txt",
-        "size": 5767
+        "size": 5768
       },
       {
         "file": "realtime_all_url.txt",
-        "size": 7873
+        "size": 7874
       },
       {
         "file": "realtime_verified.txt",
-        "size": 680
+        "size": 1013
       },
       {
         "file": "realtime_verified_url.txt",
-        "size": 924
+        "size": 1390
       },
       {
         "file": "realtime_verified.json",
-        "size": 7853
+        "size": 12171
       },
       {
         "file": "all.json",
@@ -107,15 +107,15 @@
       },
       {
         "file": "v2ray.txt",
-        "size": 105484
+        "size": 106470
       },
       {
         "file": "v2ray_subscribe.txt",
-        "size": 140648
+        "size": 141960
       },
       {
         "file": "clash.yaml",
-        "size": 1891
+        "size": 4469
       }
     ]
   }
