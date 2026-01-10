@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-10 10:01:27
+# 更新时间: 2026-01-10 11:01:28
 # 节点数量: 406
 
 port: 7890
@@ -9,73 +9,81 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: " 香港ripaojiedian"
+  - name: "_中国"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
+    server: cees.owwoedu.com
+    port: 49321
+    uuid: eae234c3-6240-4977-840f-4802b15a5de6
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "DE8机房低风险"
+    type: vmess
+    server: frankfurt02.zgjok.com
+    port: 443
+    uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "US27机房低风险"
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59510
+    uuid: 83814342-e8d5-42c6-b52b-f9fdebd9bb58
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "JP5机房低风险"
+    type: vmess
+    server: tokyo01.zgjok.com
+    port: 443
+    uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 9"
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_未知"
-    type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "_美国"
-    type: vmess
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vc
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_香港"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -85,7 +93,15 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      path: /?ed=2048
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59518
+    uuid: c74ac713-b8a1-4818-9c98-64159c4f2f21
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -93,28 +109,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - " 香港ripaojiedian"
+      - "_中国"
+      - "DE8机房低风险"
       - "_法国"
-      - "防范境外势力渗透 9"
-      - "_未知"
-      - "_美国"
-      - "githubcomfreefq - 印度  2"
-      - "_香港"
+      - "US27机房低风险"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_中国"
+      - "JP5机房低风险"
       - "_法国"
+      - "_法国"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - " 香港ripaojiedian"
+      - "_中国"
+      - "DE8机房低风险"
       - "_法国"
-      - "防范境外势力渗透 9"
-      - "_未知"
-      - "_美国"
-      - "githubcomfreefq - 印度  2"
-      - "_香港"
+      - "US27机房低风险"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_中国"
+      - "JP5机房低风险"
       - "_法国"
+      - "_法国"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
