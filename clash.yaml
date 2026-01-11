@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-11 11:01:34
-# 节点数量: 432
+# 更新时间: 2026-01-11 12:01:31
+# 节点数量: 471
 
 port: 7890
 socks-port: 7891
@@ -11,14 +11,32 @@ log-level: info
 proxies:
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::14
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      path: ?ed=2048
+  - name: "_中国"
+    type: vmess
+    server: tunnel1.qqa678.com
+    port: 47081
+    uuid: f80301d3-4aa6-4a9a-a0a4-2d5fb7cfd480
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -28,46 +46,62 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
       path: /
-  - name: "US27机房低风险"
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
     cipher: auto
     network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
+  - name: "US25机房低风险"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: 216.167.26.220
+    port: 34128
+    uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "HK96机房低风险"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "HK93机房低风险"
     type: vmess
-    server: n1761214905.wpg27.xyz
+    server: n1761214904.wpg27.xyz
     port: 443
-    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+    uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
+  - name: "_加拿大"
+    type: vmess
+    server: 51.79.102.253
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - name: "防范境外势力渗透 1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -76,11 +110,15 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_法国"
+      - "_中国"
+      - "githubcomfreefq - 广东省移动 7"
       - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "US27机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "HK96机房低风险"
+      - "防范境外势力渗透 8"
+      - "US25机房低风险"
+      - "_法国"
+      - "HK93机房低风险"
+      - "_加拿大"
+      - "防范境外势力渗透 1"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -88,11 +126,15 @@ proxy-groups:
     interval: 300
     proxies:
       - "_法国"
+      - "_中国"
+      - "githubcomfreefq - 广东省移动 7"
       - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "US27机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "HK96机房低风险"
+      - "防范境外势力渗透 8"
+      - "US25机房低风险"
+      - "_法国"
+      - "HK93机房低风险"
+      - "_加拿大"
+      - "防范境外势力渗透 1"
 
 rules:
   - GEOIP,CN,DIRECT
