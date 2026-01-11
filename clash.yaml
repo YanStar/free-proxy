@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-12 00:01:41
+# 更新时间: 2026-01-12 01:01:37
 # 节点数量: 459
 
 port: 7890
@@ -9,34 +9,25 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
+  - name: "_未知"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /
-  - name: "_中国"
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "防范境外势力渗透 7"
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_日本"
-    type: vmess
-    server: 172.111.146.64
-    port: 80
-    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess/
   - name: "HK90机房低风险"
     type: vmess
     server: n1761214908.wpg27.xyz
@@ -48,11 +39,11 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "_法国"
+  - name: "IN1家宽非常安全"
     type: vmess
-    server: 217.69.5.32
-    port: 443
-    uuid: ec4c349c-b3c6-4cff-be63-01eaad1dc098
+    server: id2.wpairplane.com
+    port: 9000
+    uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
     alterId: 0
     cipher: auto
     network: tcp
@@ -65,25 +56,18 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 57.128.189.240
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?ed=2048
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
+      path: /linkvws
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -91,12 +75,10 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
-      - "_中国"
-      - "_日本"
+      - "_未知"
+      - "防范境外势力渗透 7"
       - "HK90机房低风险"
-      - "_法国"
-      - "_法国"
+      - "IN1家宽非常安全"
       - "_法国"
       - "_法国"
 
@@ -105,12 +87,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
-      - "_中国"
-      - "_日本"
+      - "_未知"
+      - "防范境外势力渗透 7"
       - "HK90机房低风险"
-      - "_法国"
-      - "_法国"
+      - "IN1家宽非常安全"
       - "_法国"
       - "_法国"
 
