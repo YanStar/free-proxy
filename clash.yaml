@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-11 08:01:37
-# 节点数量: 431
+# 更新时间: 2026-01-11 09:01:32
+# 节点数量: 432
 
 port: 7890
 socks-port: 7891
@@ -9,52 +9,24 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
+  - name: "FR5机房低风险"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-  - name: "防范境外势力渗透 5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
-  - name: "每天更新请加电报群防止失联"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "免费VPNhttpsttvggwaAy"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /
   - name: "HK97机房低风险"
     type: vmess
     server: n1761214907.74qxv.top
@@ -66,69 +38,37 @@ proxies:
     tls: true
     ws-opts:
       path: /
-  - name: "HK95机房低风险"
+  - name: "电报群httpstmevvkj11"
     type: vmess
-    server: n1747624282.lie5d.cyou
-    port: 443
-    uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
       path: /
-  - name: "防范境外势力渗透 8"
+  - name: "防范境外势力渗透 2"
     type: vmess
     server: 127.0.0.53
-    port: 88
+    port: 82
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "githubcomfreefq - 印度  3"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::14
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::15
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -143,18 +83,12 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
-      - "防范境外势力渗透 5"
-      - "每天更新请加电报群防止失联"
-      - "免费VPNhttpsttvggwaAy"
-      - "_法国"
-      - "HK97机房低风险"
-      - "HK95机房低风险"
+      - "FR5机房低风险"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 8"
+      - "HK97机房低风险"
+      - "电报群httpstmevvkj11"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
-      - "_法国"
+      - "防范境外势力渗透 2"
       - "_法国"
 
   - name: "♻️ 自动选择"
@@ -162,18 +96,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
-      - "防范境外势力渗透 5"
-      - "每天更新请加电报群防止失联"
-      - "免费VPNhttpsttvggwaAy"
-      - "_法国"
-      - "HK97机房低风险"
-      - "HK95机房低风险"
+      - "FR5机房低风险"
       - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 8"
+      - "HK97机房低风险"
+      - "电报群httpstmevvkj11"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
-      - "_法国"
+      - "防范境外势力渗透 2"
       - "_法国"
 
 rules:
