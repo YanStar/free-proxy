@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-11 23:01:38
-# 节点数量: 472
+# 更新时间: 2026-01-12 00:01:41
+# 节点数量: 459
 
 port: 7890
 socks-port: 7891
@@ -9,17 +9,24 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_未知"
+  - name: "_法国"
     type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
       path: /
+  - name: "_中国"
+    type: vmess
+    server: tunnel2.qqa678.com
+    port: 47084
+    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_日本"
     type: vmess
     server: 172.111.146.64
@@ -30,42 +37,22 @@ proxies:
     network: ws
     ws-opts:
       path: /vmess/
-  - name: "_法国"
+  - name: "HK90机房低风险"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: ?ed=2048
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_未知"
-    type: vmess
-    server: aio.unlimited.biz.id
+    server: n1761214908.wpg27.xyz
     port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+      path: /
+  - name: "_法国"
     type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: 217.69.5.32
+    port: 443
+    uuid: ec4c349c-b3c6-4cff-be63-01eaad1dc098
     alterId: 0
     cipher: auto
     network: tcp
@@ -78,36 +65,25 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::11
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "防范境外势力渗透 2"
+      path: /?ed=2048
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -115,32 +91,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_未知"
+      - "_法国"
+      - "_中国"
       - "_日本"
+      - "HK90机房低风险"
       - "_法国"
       - "_法国"
-      - "_未知"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_法国"
       - "_法国"
-      - "防范境外势力渗透 2"
-      - "githubcomfreefq - 印度  2"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_未知"
+      - "_法国"
+      - "_中国"
       - "_日本"
+      - "HK90机房低风险"
       - "_法国"
       - "_法国"
-      - "_未知"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_法国"
       - "_法国"
-      - "防范境外势力渗透 2"
-      - "githubcomfreefq - 印度  2"
 
 rules:
   - GEOIP,CN,DIRECT
