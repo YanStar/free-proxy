@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-11 09:01:32
+# 更新时间: 2026-01-11 10:01:36
 # 节点数量: 432
 
 port: 7890
@@ -9,73 +9,99 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "FR5机房低风险"
+  - name: "HK93机房低风险"
     type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "HK97机房低风险"
-    type: vmess
-    server: n1761214907.74qxv.top
+    server: n1761214904.wpg27.xyz
     port: 443
-    uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
+    uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /
-  - name: "电报群httpstmevvkj11"
-    type: vmess
-    server: 2001:bc8:32d7:302::17
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "防范境外势力渗透 2"
+  - name: "防范境外势力渗透 5"
     type: vmess
     server: 127.0.0.53
-    port: 82
+    port: 85
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "防范境外势力渗透 8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ncgdyd.gdsxrk.com
+    port: 25210
+    uuid: 623787ef-7786-4572-abf5-0180892558aa
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_未知"
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "HK96机房低风险"
+    type: vmess
+    server: n1761214905.wpg27.xyz
+    port: 443
+    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "US27机房低风险"
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "DE8机房低风险"
+    type: vmess
+    server: frankfurt02.zgjok.com
+    port: 443
+    uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::15
+    server: 2001:bc8:32d7:302::14
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "日期01-10"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -83,26 +109,32 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "FR5机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "HK97机房低风险"
-      - "电报群httpstmevvkj11"
+      - "HK93机房低风险"
+      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 8"
+      - "_中国"
+      - "_未知"
+      - "HK96机房低风险"
+      - "US27机房低风险"
+      - "DE8机房低风险"
       - "_法国"
-      - "防范境外势力渗透 2"
-      - "_法国"
+      - "日期01-10"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "FR5机房低风险"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "HK97机房低风险"
-      - "电报群httpstmevvkj11"
+      - "HK93机房低风险"
+      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 8"
+      - "_中国"
+      - "_未知"
+      - "HK96机房低风险"
+      - "US27机房低风险"
+      - "DE8机房低风险"
       - "_法国"
-      - "防范境外势力渗透 2"
-      - "_法国"
+      - "日期01-10"
 
 rules:
   - GEOIP,CN,DIRECT
