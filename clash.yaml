@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-11 19:01:35
+# 更新时间: 2026-01-11 20:01:36
 # 节点数量: 472
 
 port: 7890
@@ -17,26 +17,6 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
   - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
     server: gov.uk
@@ -48,6 +28,68 @@ proxies:
     tls: true
     ws-opts:
       path: /77848824
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_未知"
+    type: vmess
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "HK90机房低风险"
+    type: vmess
+    server: n1761214908.wpg27.xyz
+    port: 443
+    uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "HK96机房低风险"
+    type: vmess
+    server: n1761214905.wpg27.xyz
+    port: 443
+    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -57,25 +99,15 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: ?ed=2048
-  - name: "_中国"
+      path: /
+  - name: "US27机房低风险"
     type: vmess
-    server: tunnel1.qqa678.com
-    port: 47081
-    uuid: f80301d3-4aa6-4a9a-a0a4-2d5fb7cfd480
-    alterId: 0
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -84,12 +116,15 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "FR5机房低风险"
-      - "_法国"
-      - "_法国"
       - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_未知"
+      - "HK90机房低风险"
+      - "githubcomfreefq - 印度  3"
+      - "HK96机房低风险"
       - "_法国"
-      - "_中国"
-      - "_法国"
+      - "US27机房低风险"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -97,12 +132,15 @@ proxy-groups:
     interval: 300
     proxies:
       - "FR5机房低风险"
-      - "_法国"
-      - "_法国"
       - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_未知"
+      - "HK90机房低风险"
+      - "githubcomfreefq - 印度  3"
+      - "HK96机房低风险"
       - "_法国"
-      - "_中国"
-      - "_法国"
+      - "US27机房低风险"
 
 rules:
   - GEOIP,CN,DIRECT
