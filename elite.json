@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-12 22:02:02 CST",
+  "updated_at": "2026-01-12 23:01:53 CST",
   "count": 1993,
   "data": [
     {
@@ -94,8 +94,8 @@
     },
     {
       "ip": "13.36.243.194",
-      "port": 7883,
-      "protocol": "Http, Https",
+      "port": 8647,
+      "protocol": "Http, Https, Socks5",
       "country": "FR",
       "anonymity": "Elite",
       "speed": 51,
@@ -103,8 +103,8 @@
     },
     {
       "ip": "13.36.243.194",
-      "port": 8647,
-      "protocol": "Http, Https, Socks5",
+      "port": 7883,
+      "protocol": "Http, Https",
       "country": "FR",
       "anonymity": "Elite",
       "speed": 51,
@@ -120,15 +120,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 29569,
-      "protocol": "Http",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 57,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.36.243.194",
       "port": 9999,
       "protocol": "Http, Https, Socks5",
@@ -141,6 +132,15 @@
       "ip": "13.61.155.35",
       "port": 36907,
       "protocol": "Http, Https",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 57,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 29569,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 57,
@@ -183,10 +183,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 9526,
-      "protocol": "Https",
-      "country": "FR",
+      "ip": "13.60.218.140",
+      "port": 180,
+      "protocol": "Http, Https",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 62,
       "source": "freeproxy_json"
@@ -201,10 +201,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 180,
-      "protocol": "Http, Https",
-      "country": "SE",
+      "ip": "13.36.243.194",
+      "port": 9526,
+      "protocol": "Https",
+      "country": "FR",
       "anonymity": "Elite",
       "speed": 62,
       "source": "freeproxy_json"
@@ -318,15 +318,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 50,
-      "protocol": "Socks4",
-      "country": "FR",
-      "anonymity": "Elite",
-      "speed": 74,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.155.35",
       "port": 1981,
       "protocol": "Http, Https, Socks4",
@@ -345,6 +336,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.36.243.194",
+      "port": 50,
+      "protocol": "Socks4",
+      "country": "FR",
+      "anonymity": "Elite",
+      "speed": 74,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.18.44",
       "port": 19450,
       "protocol": "Https",
@@ -355,8 +355,8 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 40022,
-      "protocol": "Http, Socks4",
+      "port": 24703,
+      "protocol": "Http, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 75,
@@ -373,17 +373,17 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 24703,
-      "protocol": "Http, Socks5",
+      "port": 40022,
+      "protocol": "Http, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 75,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 197,
-      "protocol": "Http, Https",
+      "ip": "13.60.218.140",
+      "port": 8000,
+      "protocol": "Http, Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 76,
@@ -399,9 +399,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 8000,
-      "protocol": "Http, Https, Socks4",
+      "ip": "13.61.155.35",
+      "port": 337,
+      "protocol": "Http, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 76,
@@ -409,8 +409,8 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 337,
-      "protocol": "Http, Socks5",
+      "port": 197,
+      "protocol": "Http, Https",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 76,
@@ -453,15 +453,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 8104,
-      "protocol": "Http, Https, Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 80,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.60.218.140",
       "port": 9080,
       "protocol": "Http, Socks5",
@@ -471,9 +462,18 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.61.155.35",
+      "port": 8104,
+      "protocol": "Http, Https, Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 80,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.18.44",
-      "port": 4685,
-      "protocol": "Http, Https, Socks4, Socks5",
+      "port": 10122,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 81,
@@ -490,17 +490,8 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 10122,
-      "protocol": "Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 81,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.18.44",
-      "port": 20348,
-      "protocol": "Http, Socks5",
+      "port": 4685,
+      "protocol": "Http, Https, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 81,
@@ -517,17 +508,17 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 4599,
-      "protocol": "Http",
+      "port": 20348,
+      "protocol": "Http, Socks5",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 82,
+      "speed": 81,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 240,
-      "protocol": "Socks4",
+      "ip": "13.61.18.44",
+      "port": 4599,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 82,
@@ -543,6 +534,24 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.60.218.140",
+      "port": 240,
+      "protocol": "Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 82,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.60.218.140",
+      "port": 17710,
+      "protocol": "Http, Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 83,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.155.35",
       "port": 5001,
       "protocol": "Http, Https, Socks5",
@@ -555,15 +564,6 @@
       "ip": "13.61.155.35",
       "port": 5005,
       "protocol": "Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 83,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.60.218.140",
-      "port": 17710,
-      "protocol": "Http, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 83,
@@ -597,18 +597,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 719,
-      "protocol": "Http, Socks4",
+      "ip": "13.61.18.44",
+      "port": 9966,
+      "protocol": "Http, Https",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 85,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 1515,
-      "protocol": "Socks4",
+      "ip": "13.61.155.35",
+      "port": 719,
+      "protocol": "Http, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 85,
@@ -625,8 +625,8 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 9966,
-      "protocol": "Http, Https",
+      "port": 1515,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 85,
@@ -637,15 +637,6 @@
       "port": 19085,
       "protocol": "Socks4",
       "country": "SE",
-      "anonymity": "Elite",
-      "speed": 86,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.36.243.194",
-      "port": 52351,
-      "protocol": "Http, Https, Socks5",
-      "country": "FR",
       "anonymity": "Elite",
       "speed": 86,
       "source": "freeproxy_json"
@@ -669,9 +660,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 12481,
-      "protocol": "Socks4",
+      "ip": "13.36.243.194",
+      "port": 52351,
+      "protocol": "Http, Https, Socks5",
+      "country": "FR",
+      "anonymity": "Elite",
+      "speed": 86,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.18.44",
+      "port": 9062,
+      "protocol": "Http, Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 87,
@@ -687,9 +687,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 9062,
-      "protocol": "Http, Https, Socks4",
+      "ip": "13.61.155.35",
+      "port": 12481,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 87,
@@ -705,15 +705,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 207,
-      "protocol": "Http",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 88,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.155.35",
       "port": 11103,
       "protocol": "Http, Socks4, Socks5",
@@ -723,12 +714,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 9249,
-      "protocol": "Http, Https",
+      "ip": "13.61.18.44",
+      "port": 207,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 89,
+      "speed": 88,
       "source": "freeproxy_json"
     },
     {
@@ -751,26 +742,17 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 185,
-      "protocol": "Http, Https, Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 90,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.18.44",
-      "port": 2049,
+      "port": 9249,
       "protocol": "Http, Https",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 90,
+      "speed": 89,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 4635,
-      "protocol": "Socks4",
+      "ip": "13.60.218.140",
+      "port": 449,
+      "protocol": "Http, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 90,
@@ -786,9 +768,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 449,
-      "protocol": "Http, Socks4, Socks5",
+      "ip": "13.61.18.44",
+      "port": 2049,
+      "protocol": "Http, Https",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 90,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 185,
+      "protocol": "Http, Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 90,
@@ -796,8 +787,17 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 39,
-      "protocol": "Socks5",
+      "port": 4635,
+      "protocol": "Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 90,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 3480,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 91,
@@ -806,15 +806,6 @@
     {
       "ip": "13.61.18.44",
       "port": 33839,
-      "protocol": "Http",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 91,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 3480,
       "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
@@ -840,18 +831,27 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 35903,
-      "protocol": "Http",
+      "ip": "13.61.18.44",
+      "port": 39,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 92,
+      "speed": 91,
       "source": "freeproxy_json"
     },
     {
       "ip": "13.60.218.140",
       "port": 85,
       "protocol": "Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 92,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 35903,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 92,
@@ -876,6 +876,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.61.155.35",
+      "port": 40330,
+      "protocol": "Http, Https, Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 94,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.18.44",
       "port": 501,
       "protocol": "Socks4, Socks5",
@@ -891,24 +900,6 @@
       "country": "SE",
       "anonymity": "Elite",
       "speed": 94,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 40330,
-      "protocol": "Http, Https, Socks4, Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 94,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 20013,
-      "protocol": "Http, Https, Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 95,
       "source": "freeproxy_json"
     },
     {
@@ -931,8 +922,26 @@
     },
     {
       "ip": "13.61.155.35",
+      "port": 20013,
+      "protocol": "Http, Https, Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 95,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
       "port": 25055,
       "protocol": "Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 96,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 25085,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 96,
@@ -949,26 +958,17 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 25085,
-      "protocol": "Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 96,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.18.44",
-      "port": 8058,
-      "protocol": "Socks4",
+      "port": 9876,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 97,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 9876,
-      "protocol": "Http",
+      "ip": "13.61.18.44",
+      "port": 8058,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 97,
@@ -1002,18 +1002,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 11679,
-      "protocol": "Http, Https, Socks4",
+      "ip": "13.60.218.140",
+      "port": 8090,
+      "protocol": "Https, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 98,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 8090,
-      "protocol": "Https, Socks4, Socks5",
+      "ip": "13.61.155.35",
+      "port": 11679,
+      "protocol": "Http, Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 98,
@@ -1065,9 +1065,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 9098,
-      "protocol": "Socks4",
+      "ip": "13.61.18.44",
+      "port": 3232,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 102,
@@ -1083,9 +1083,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 3232,
-      "protocol": "Socks5",
+      "ip": "13.61.155.35",
+      "port": 9098,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 102,
@@ -1110,18 +1110,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 9200,
-      "protocol": "Http, Https, Socks5",
+      "ip": "13.61.18.44",
+      "port": 34723,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 104,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 34723,
-      "protocol": "Socks4",
+      "ip": "13.61.155.35",
+      "port": 9200,
+      "protocol": "Http, Https, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 104,
@@ -1138,6 +1138,15 @@
     },
     {
       "ip": "13.61.155.35",
+      "port": 72,
+      "protocol": "Http, Https, Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 106,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
       "port": 37527,
       "protocol": "Socks4",
       "country": "SE",
@@ -1146,12 +1155,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 72,
-      "protocol": "Http, Https, Socks4",
+      "ip": "13.61.18.44",
+      "port": 338,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 106,
+      "speed": 107,
       "source": "freeproxy_json"
     },
     {
@@ -1165,11 +1174,11 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 338,
-      "protocol": "Http",
+      "port": 8095,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 107,
+      "speed": 108,
       "source": "freeproxy_json"
     },
     {
@@ -1191,45 +1200,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 8095,
-      "protocol": "Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 108,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 8858,
-      "protocol": "Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 109,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.18.44",
-      "port": 34227,
-      "protocol": "Http, Https, Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 109,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.155.35",
       "port": 20399,
       "protocol": "Https, Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 109,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 8899,
-      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 109,
@@ -1254,6 +1227,33 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.61.18.44",
+      "port": 34227,
+      "protocol": "Http, Https, Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 109,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 8858,
+      "protocol": "Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 109,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 8899,
+      "protocol": "Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 109,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.155.35",
       "port": 235,
       "protocol": "Http, Https, Socks4, Socks5",
@@ -1263,27 +1263,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 8428,
-      "protocol": "Https",
+      "ip": "13.61.155.35",
+      "port": 55781,
+      "protocol": "Http, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 110,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 19071,
-      "protocol": "Http, Https",
-      "country": "FR",
-      "anonymity": "Elite",
-      "speed": 110,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 55781,
-      "protocol": "Http, Socks4, Socks5",
+      "ip": "13.60.218.140",
+      "port": 8428,
+      "protocol": "Https",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 110,
@@ -1299,21 +1290,21 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 8020,
-      "protocol": "Socks4",
-      "country": "SE",
+      "ip": "13.36.243.194",
+      "port": 19071,
+      "protocol": "Http, Https",
+      "country": "FR",
       "anonymity": "Elite",
       "speed": 110,
       "source": "freeproxy_json"
     },
     {
       "ip": "13.61.18.44",
-      "port": 9058,
-      "protocol": "Http, Socks5",
+      "port": 8020,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 111,
+      "speed": 110,
       "source": "freeproxy_json"
     },
     {
@@ -1335,6 +1326,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.61.18.44",
+      "port": 9058,
+      "protocol": "Http, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 111,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.155.35",
       "port": 11258,
       "protocol": "Socks4",
@@ -1345,8 +1345,8 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 4949,
-      "protocol": "Https, Socks4, Socks5",
+      "port": 8402,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 113,
@@ -1354,8 +1354,8 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 8402,
-      "protocol": "Socks5",
+      "port": 4949,
+      "protocol": "Https, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 113,
@@ -1371,15 +1371,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 182,
-      "protocol": "Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 114,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.18.44",
       "port": 668,
       "protocol": "Https",
@@ -1389,12 +1380,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 18987,
-      "protocol": "Socks4, Socks5",
+      "ip": "13.61.155.35",
+      "port": 182,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 115,
+      "speed": 114,
       "source": "freeproxy_json"
     },
     {
@@ -1416,6 +1407,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.61.18.44",
+      "port": 18987,
+      "protocol": "Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 115,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.60.218.140",
       "port": 80,
       "protocol": "Socks4",
@@ -1425,18 +1425,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 196,
-      "protocol": "Socks5",
+      "ip": "13.61.18.44",
+      "port": 53471,
+      "protocol": "Http, Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 117,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 53471,
-      "protocol": "Http, Https, Socks4",
+      "ip": "13.60.218.140",
+      "port": 196,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 117,
@@ -1461,18 +1461,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 10443,
-      "protocol": "Socks5",
-      "country": "SE",
+      "ip": "13.36.243.194",
+      "port": 167,
+      "protocol": "Socks4",
+      "country": "FR",
       "anonymity": "Elite",
       "speed": 119,
       "source": "freeproxy_json"
     },
     {
       "ip": "13.36.243.194",
-      "port": 167,
-      "protocol": "Socks4",
+      "port": 21261,
+      "protocol": "Http, Https, Socks4, Socks5",
       "country": "FR",
       "anonymity": "Elite",
       "speed": 119,
@@ -1488,10 +1488,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 21261,
-      "protocol": "Http, Https, Socks4, Socks5",
-      "country": "FR",
+      "ip": "13.61.155.35",
+      "port": 10443,
+      "protocol": "Socks5",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 119,
       "source": "freeproxy_json"
@@ -1506,19 +1506,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "15.160.134.84",
-      "port": 12091,
-      "protocol": "Http, Socks5",
-      "country": "IT",
+      "ip": "13.61.155.35",
+      "port": 163,
+      "protocol": "Https, Socks4",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 121,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 163,
-      "protocol": "Https, Socks4",
-      "country": "SE",
+      "ip": "15.160.134.84",
+      "port": 12091,
+      "protocol": "Http, Socks5",
+      "country": "IT",
       "anonymity": "Elite",
       "speed": 121,
       "source": "freeproxy_json"
@@ -1543,15 +1543,6 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 24822,
-      "protocol": "Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 124,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.18.44",
       "port": 9947,
       "protocol": "Http, Https, Socks4, Socks5",
       "country": "SE",
@@ -1561,7 +1552,16 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 20785,
+      "port": 24822,
+      "protocol": "Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 124,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.18.44",
+      "port": 10072,
       "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
@@ -1570,7 +1570,7 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 10072,
+      "port": 20785,
       "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
@@ -1632,18 +1632,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 37453,
-      "protocol": "Socks5",
+      "ip": "13.61.18.44",
+      "port": 55020,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 132,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 55020,
-      "protocol": "Socks4",
+      "ip": "13.61.155.35",
+      "port": 37453,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 132,
@@ -1656,6 +1656,24 @@
       "country": "SE",
       "anonymity": "Elite",
       "speed": 133,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 46691,
+      "protocol": "Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 134,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.36.243.194",
+      "port": 52888,
+      "protocol": "Socks5",
+      "country": "FR",
+      "anonymity": "Elite",
+      "speed": 134,
       "source": "freeproxy_json"
     },
     {
@@ -1677,15 +1695,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 52888,
-      "protocol": "Socks5",
-      "country": "FR",
-      "anonymity": "Elite",
-      "speed": 134,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.155.35",
       "port": 30982,
       "protocol": "Socks5",
@@ -1695,18 +1704,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 46691,
-      "protocol": "Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 134,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
-      "port": 212,
-      "protocol": "Socks5",
+      "ip": "13.60.218.140",
+      "port": 35138,
+      "protocol": "Https, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 135,
@@ -1722,9 +1722,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 35138,
-      "protocol": "Https, Socks5",
+      "ip": "13.61.155.35",
+      "port": 212,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 135,
@@ -1758,18 +1758,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 8770,
-      "protocol": "Http, Https, Socks4",
+      "ip": "13.61.155.35",
+      "port": 9898,
+      "protocol": "Http, Https",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 143,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 9898,
-      "protocol": "Http, Https",
+      "ip": "13.61.18.44",
+      "port": 8770,
+      "protocol": "Http, Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 143,
@@ -1875,18 +1875,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 7890,
-      "protocol": "Https, Socks4",
+      "ip": "13.61.155.35",
+      "port": 145,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 164,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 145,
-      "protocol": "Http",
+      "ip": "13.61.18.44",
+      "port": 7890,
+      "protocol": "Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 164,
@@ -1993,15 +1993,6 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 9741,
-      "protocol": "Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 178,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
       "port": 16410,
       "protocol": "Socks4",
       "country": "SE",
@@ -2011,17 +2002,26 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 9080,
-      "protocol": "Http, Socks4",
+      "port": 9741,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 179,
+      "speed": 178,
       "source": "freeproxy_json"
     },
     {
       "ip": "13.60.218.140",
       "port": 8118,
       "protocol": "Https, Socks4",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 179,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 9080,
+      "protocol": "Http, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 179,
@@ -2064,18 +2064,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 22584,
-      "protocol": "Https, Socks4",
+      "ip": "13.61.155.35",
+      "port": 36444,
+      "protocol": "Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 189,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 36444,
-      "protocol": "Socks4, Socks5",
+      "ip": "13.60.218.140",
+      "port": 22584,
+      "protocol": "Https, Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 189,
@@ -2092,15 +2092,6 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 8379,
-      "protocol": "Https",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 191,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.155.35",
       "port": 26424,
       "protocol": "Http, Https",
       "country": "SE",
@@ -2110,8 +2101,17 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 9453,
-      "protocol": "Socks4",
+      "port": 8379,
+      "protocol": "Https",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 191,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 2589,
+      "protocol": "Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 192,
@@ -2119,8 +2119,8 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 2589,
-      "protocol": "Socks4, Socks5",
+      "port": 9453,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 192,
@@ -2244,18 +2244,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 1120,
-      "protocol": "Socks4, Socks5",
+      "ip": "13.61.18.44",
+      "port": 9099,
+      "protocol": "Https",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 201,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 9099,
-      "protocol": "Https",
+      "ip": "13.61.155.35",
+      "port": 1120,
+      "protocol": "Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 201,
@@ -2343,18 +2343,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 8747,
-      "protocol": "Socks4",
+      "ip": "13.61.18.44",
+      "port": 11546,
+      "protocol": "Http, Https, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 209,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 11546,
-      "protocol": "Http, Https, Socks4, Socks5",
+      "ip": "13.61.155.35",
+      "port": 8747,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 209,
@@ -2397,15 +2397,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 9209,
-      "protocol": "Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 214,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.155.35",
       "port": 67,
       "protocol": "Http, Https, Socks4, Socks5",
@@ -2424,6 +2415,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.60.218.140",
+      "port": 9209,
+      "protocol": "Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 214,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.18.44",
       "port": 11201,
       "protocol": "Http, Socks5",
@@ -2433,18 +2433,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 32,
-      "protocol": "Socks5",
+      "ip": "13.61.18.44",
+      "port": 3464,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 216,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 3464,
-      "protocol": "Http",
+      "ip": "13.61.155.35",
+      "port": 32,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 216,
@@ -2515,15 +2515,6 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 15679,
-      "protocol": "Socks4",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 225,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.61.18.44",
       "port": 422,
       "protocol": "Https",
       "country": "SE",
@@ -2533,11 +2524,11 @@
     },
     {
       "ip": "13.61.18.44",
-      "port": 11714,
-      "protocol": "Socks4, Socks5",
+      "port": 15679,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
-      "speed": 226,
+      "speed": 225,
       "source": "freeproxy_json"
     },
     {
@@ -2560,6 +2551,15 @@
     },
     {
       "ip": "13.61.18.44",
+      "port": 11714,
+      "protocol": "Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 226,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.18.44",
       "port": 855,
       "protocol": "Https",
       "country": "SE",
@@ -2568,18 +2568,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 19201,
-      "protocol": "Socks4, Socks5",
+      "ip": "13.61.18.44",
+      "port": 58208,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 234,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 58208,
-      "protocol": "Socks5",
+      "ip": "13.61.155.35",
+      "port": 19201,
+      "protocol": "Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 234,
@@ -2595,18 +2595,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 3100,
-      "protocol": "Http",
+      "ip": "13.61.155.35",
+      "port": 75,
+      "protocol": "Http, Https",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 236,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 75,
-      "protocol": "Http, Https",
+      "ip": "13.61.18.44",
+      "port": 3100,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 236,
@@ -2649,15 +2649,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 73,
-      "protocol": "Http",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 247,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "15.160.125.231",
       "port": 44214,
       "protocol": "Http, Https",
@@ -2670,6 +2661,15 @@
       "ip": "13.61.18.44",
       "port": 5521,
       "protocol": "Https",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 247,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.60.218.140",
+      "port": 73,
+      "protocol": "Http",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 247,
@@ -2766,19 +2766,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 44037,
+      "ip": "13.36.243.194",
+      "port": 1469,
       "protocol": "Socks5",
-      "country": "SE",
+      "country": "FR",
       "anonymity": "Elite",
       "speed": 261,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 1469,
+      "ip": "13.61.18.44",
+      "port": 44037,
       "protocol": "Socks5",
-      "country": "FR",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 261,
       "source": "freeproxy_json"
@@ -2919,6 +2919,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.36.243.194",
+      "port": 19077,
+      "protocol": "Socks4, Socks5",
+      "country": "FR",
+      "anonymity": "Elite",
+      "speed": 283,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.18.44",
       "port": 39828,
       "protocol": "Socks4, Socks5",
@@ -2932,15 +2941,6 @@
       "port": 14624,
       "protocol": "Http, Https",
       "country": "IT",
-      "anonymity": "Elite",
-      "speed": 283,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.36.243.194",
-      "port": 19077,
-      "protocol": "Socks4, Socks5",
-      "country": "FR",
       "anonymity": "Elite",
       "speed": 283,
       "source": "freeproxy_json"
@@ -2973,19 +2973,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "15.160.134.84",
-      "port": 1011,
-      "protocol": "Https",
-      "country": "IT",
+      "ip": "13.61.18.44",
+      "port": 19,
+      "protocol": "Http",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 291,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 19,
-      "protocol": "Http",
-      "country": "SE",
+      "ip": "15.160.134.84",
+      "port": 1011,
+      "protocol": "Https",
+      "country": "IT",
       "anonymity": "Elite",
       "speed": 291,
       "source": "freeproxy_json"
@@ -3018,19 +3018,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "15.160.134.84",
-      "port": 287,
-      "protocol": "Socks4",
-      "country": "IT",
+      "ip": "13.61.155.35",
+      "port": 23992,
+      "protocol": "Socks5",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 297,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 23992,
-      "protocol": "Socks5",
-      "country": "SE",
+      "ip": "15.160.134.84",
+      "port": 287,
+      "protocol": "Socks4",
+      "country": "IT",
       "anonymity": "Elite",
       "speed": 297,
       "source": "freeproxy_json"
@@ -3081,18 +3081,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 8461,
-      "protocol": "Socks4",
+      "ip": "13.61.155.35",
+      "port": 17002,
+      "protocol": "Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 307,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 17002,
-      "protocol": "Socks5",
+      "ip": "13.61.18.44",
+      "port": 8461,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 307,
@@ -3297,19 +3297,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 14465,
-      "protocol": "Socks4",
-      "country": "SE",
+      "ip": "13.59.97.103",
+      "port": 8080,
+      "protocol": "Http, Https, Socks5",
+      "country": "US",
       "anonymity": "Elite",
       "speed": 332,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 8080,
-      "protocol": "Http, Https, Socks5",
-      "country": "US",
+      "ip": "13.61.155.35",
+      "port": 14465,
+      "protocol": "Socks4",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 332,
       "source": "freeproxy_json"
@@ -3369,19 +3369,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.113.45",
-      "port": 9095,
-      "protocol": "Https, Socks4",
-      "country": "US",
+      "ip": "15.160.134.84",
+      "port": 3128,
+      "protocol": "Http, Socks5",
+      "country": "IT",
       "anonymity": "Elite",
       "speed": 345,
       "source": "freeproxy_json"
     },
     {
-      "ip": "15.160.134.84",
-      "port": 3128,
-      "protocol": "Http, Socks5",
-      "country": "IT",
+      "ip": "13.59.113.45",
+      "port": 9095,
+      "protocol": "Https, Socks4",
+      "country": "US",
       "anonymity": "Elite",
       "speed": 345,
       "source": "freeproxy_json"
@@ -3396,19 +3396,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 36934,
-      "protocol": "Socks4, Socks5",
-      "country": "US",
+      "ip": "13.61.18.44",
+      "port": 656,
+      "protocol": "Http, Https",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 348,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.18.44",
-      "port": 656,
-      "protocol": "Http, Https",
-      "country": "SE",
+      "ip": "13.59.97.103",
+      "port": 36934,
+      "protocol": "Socks4, Socks5",
+      "country": "US",
       "anonymity": "Elite",
       "speed": 348,
       "source": "freeproxy_json"
@@ -3433,8 +3433,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 343,
-      "protocol": "Http, Https, Socks4",
+      "port": 46048,
+      "protocol": "Http, Https",
       "country": "US",
       "anonymity": "Elite",
       "speed": 350,
@@ -3442,8 +3442,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 46048,
-      "protocol": "Http, Https",
+      "port": 343,
+      "protocol": "Http, Https, Socks4",
       "country": "US",
       "anonymity": "Elite",
       "speed": 350,
@@ -3486,15 +3486,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.113.45",
-      "port": 2616,
-      "protocol": "Http, Https",
-      "country": "US",
-      "anonymity": "Elite",
-      "speed": 358,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.18.44",
       "port": 8087,
       "protocol": "Https",
@@ -3504,9 +3495,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 9526,
+      "ip": "13.59.113.45",
+      "port": 2616,
       "protocol": "Http, Https",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 358,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.59.97.103",
+      "port": 20648,
+      "protocol": "Http",
       "country": "US",
       "anonymity": "Elite",
       "speed": 360,
@@ -3514,8 +3514,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 20648,
-      "protocol": "Http",
+      "port": 9526,
+      "protocol": "Http, Https",
       "country": "US",
       "anonymity": "Elite",
       "speed": 360,
@@ -3531,15 +3531,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 8834,
-      "protocol": "Socks4",
-      "country": "US",
-      "anonymity": "Elite",
-      "speed": 362,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.18.44",
       "port": 8366,
       "protocol": "Http",
@@ -3552,6 +3543,15 @@
       "ip": "13.59.97.103",
       "port": 24,
       "protocol": "Http, Https",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 362,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.59.97.103",
+      "port": 8834,
+      "protocol": "Socks4",
       "country": "US",
       "anonymity": "Elite",
       "speed": 362,
@@ -3612,15 +3612,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 542,
-      "protocol": "Http",
-      "country": "FR",
-      "anonymity": "Elite",
-      "speed": 372,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.232.2.142",
       "port": 8989,
       "protocol": "Http",
@@ -3630,12 +3621,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 9200,
+      "ip": "13.36.243.194",
+      "port": 542,
       "protocol": "Http",
-      "country": "US",
+      "country": "FR",
       "anonymity": "Elite",
-      "speed": 376,
+      "speed": 372,
       "source": "freeproxy_json"
     },
     {
@@ -3648,12 +3639,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.60.218.140",
-      "port": 8080,
-      "protocol": "Https, Socks5",
-      "country": "SE",
+      "ip": "13.59.97.103",
+      "port": 9200,
+      "protocol": "Http",
+      "country": "US",
       "anonymity": "Elite",
-      "speed": 377,
+      "speed": 376,
       "source": "freeproxy_json"
     },
     {
@@ -3661,6 +3652,15 @@
       "port": 8007,
       "protocol": "Http, Https, Socks4",
       "country": "IN",
+      "anonymity": "Elite",
+      "speed": 377,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.60.218.140",
+      "port": 8080,
+      "protocol": "Https, Socks5",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 377,
       "source": "freeproxy_json"
@@ -3703,8 +3703,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 9400,
-      "protocol": "Https",
+      "port": 8054,
+      "protocol": "Socks4",
       "country": "US",
       "anonymity": "Elite",
       "speed": 383,
@@ -3721,8 +3721,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 8054,
-      "protocol": "Socks4",
+      "port": 9400,
+      "protocol": "Https",
       "country": "US",
       "anonymity": "Elite",
       "speed": 383,
@@ -3738,19 +3738,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 43185,
+      "ip": "104.197.218.238",
+      "port": 8080,
       "protocol": "Http",
-      "country": "FR",
+      "country": "US",
       "anonymity": "Elite",
       "speed": 385,
       "source": "freeproxy_json"
     },
     {
-      "ip": "104.197.218.238",
-      "port": 8080,
+      "ip": "13.36.243.194",
+      "port": 43185,
       "protocol": "Http",
-      "country": "US",
+      "country": "FR",
       "anonymity": "Elite",
       "speed": 385,
       "source": "freeproxy_json"
@@ -3792,18 +3792,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.113.45",
-      "port": 9189,
-      "protocol": "Https",
+      "ip": "13.59.97.103",
+      "port": 27333,
+      "protocol": "Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 392,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 27333,
-      "protocol": "Socks5",
+      "ip": "13.59.113.45",
+      "port": 9189,
+      "protocol": "Https",
       "country": "US",
       "anonymity": "Elite",
       "speed": 392,
@@ -3846,19 +3846,19 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.36.243.194",
-      "port": 31034,
-      "protocol": "Http, Socks5",
-      "country": "FR",
+      "ip": "13.61.155.35",
+      "port": 8549,
+      "protocol": "Http",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 402,
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 8549,
-      "protocol": "Http",
-      "country": "SE",
+      "ip": "13.36.243.194",
+      "port": 31034,
+      "protocol": "Http, Socks5",
+      "country": "FR",
       "anonymity": "Elite",
       "speed": 402,
       "source": "freeproxy_json"
@@ -3882,10 +3882,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 8803,
-      "protocol": "Http, Https, Socks5",
-      "country": "US",
+      "ip": "13.229.106.200",
+      "port": 20013,
+      "protocol": "Socks4",
+      "country": "SG",
       "anonymity": "Elite",
       "speed": 405,
       "source": "freeproxy_json"
@@ -3900,27 +3900,27 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.229.106.200",
-      "port": 20013,
-      "protocol": "Socks4",
-      "country": "SG",
-      "anonymity": "Elite",
-      "speed": 405,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.59.113.45",
-      "port": 433,
-      "protocol": "Http, Socks4, Socks5",
+      "ip": "13.59.97.103",
+      "port": 8803,
+      "protocol": "Http, Https, Socks5",
       "country": "US",
       "anonymity": "Elite",
-      "speed": 406,
+      "speed": 405,
       "source": "freeproxy_json"
     },
     {
       "ip": "13.59.97.103",
       "port": 20216,
       "protocol": "Socks4",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 406,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.59.113.45",
+      "port": 433,
+      "protocol": "Http, Socks4, Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 406,
@@ -3936,15 +3936,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "15.160.134.84",
-      "port": 34196,
-      "protocol": "Https",
-      "country": "IT",
-      "anonymity": "Elite",
-      "speed": 407,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.59.113.45",
       "port": 30908,
       "protocol": "Socks4",
@@ -3954,12 +3945,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.232.2.142",
-      "port": 4145,
-      "protocol": "Http",
-      "country": "IN",
+      "ip": "15.160.134.84",
+      "port": 34196,
+      "protocol": "Https",
+      "country": "IT",
       "anonymity": "Elite",
-      "speed": 408,
+      "speed": 407,
       "source": "freeproxy_json"
     },
     {
@@ -3972,12 +3963,12 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.212.222.137",
-      "port": 8187,
+      "ip": "13.232.2.142",
+      "port": 4145,
       "protocol": "Http",
-      "country": "SG",
+      "country": "IN",
       "anonymity": "Elite",
-      "speed": 410,
+      "speed": 408,
       "source": "freeproxy_json"
     },
     {
@@ -3985,6 +3976,15 @@
       "port": 298,
       "protocol": "Https, Socks4",
       "country": "US",
+      "anonymity": "Elite",
+      "speed": 410,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.212.222.137",
+      "port": 8187,
+      "protocol": "Http",
+      "country": "SG",
       "anonymity": "Elite",
       "speed": 410,
       "source": "freeproxy_json"
@@ -4000,8 +4000,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 10112,
-      "protocol": "Https, Socks4, Socks5",
+      "port": 46261,
+      "protocol": "Http, Socks4, Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 414,
@@ -4009,8 +4009,8 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 46261,
-      "protocol": "Http, Socks4, Socks5",
+      "port": 10112,
+      "protocol": "Https, Socks4, Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 414,
@@ -4044,15 +4044,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 107,
-      "protocol": "Https, Socks4, Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 420,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.212.222.137",
       "port": 22702,
       "protocol": "Http, Https, Socks4",
@@ -4063,8 +4054,8 @@
     },
     {
       "ip": "13.61.155.35",
-      "port": 59183,
-      "protocol": "Http, Socks4",
+      "port": 107,
+      "protocol": "Https, Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 420,
@@ -4075,6 +4066,15 @@
       "port": 17707,
       "protocol": "Https",
       "country": "US",
+      "anonymity": "Elite",
+      "speed": 420,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.61.155.35",
+      "port": 59183,
+      "protocol": "Http, Socks4",
+      "country": "SE",
       "anonymity": "Elite",
       "speed": 420,
       "source": "freeproxy_json"
@@ -4125,15 +4125,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.113.45",
-      "port": 52639,
-      "protocol": "Https, Socks4",
-      "country": "US",
-      "anonymity": "Elite",
-      "speed": 428,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.232.2.142",
       "port": 42779,
       "protocol": "Socks4, Socks5",
@@ -4143,9 +4134,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 11001,
-      "protocol": "Http, Https, Socks4, Socks5",
+      "ip": "13.59.113.45",
+      "port": 52639,
+      "protocol": "Https, Socks4",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 428,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.59.113.45",
+      "port": 38574,
+      "protocol": "Http, Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 429,
@@ -4161,18 +4161,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.113.45",
-      "port": 9472,
-      "protocol": "Https, Socks5",
-      "country": "US",
-      "anonymity": "Elite",
-      "speed": 429,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.59.113.45",
-      "port": 38574,
-      "protocol": "Http, Socks5",
+      "ip": "13.59.97.103",
+      "port": 11001,
+      "protocol": "Http, Https, Socks4, Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 429,
@@ -4188,6 +4179,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.59.113.45",
+      "port": 9472,
+      "protocol": "Https, Socks5",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 429,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "13.61.18.44",
       "port": 7897,
       "protocol": "Socks4",
@@ -4197,10 +4197,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.232.2.142",
-      "port": 11011,
-      "protocol": "Http, Https, Socks4",
-      "country": "IN",
+      "ip": "15.160.125.231",
+      "port": 514,
+      "protocol": "Https, Socks5",
+      "country": "IT",
       "anonymity": "Elite",
       "speed": 431,
       "source": "freeproxy_json"
@@ -4215,10 +4215,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "15.160.125.231",
-      "port": 514,
-      "protocol": "Https, Socks5",
-      "country": "IT",
+      "ip": "13.232.2.142",
+      "port": 11011,
+      "protocol": "Http, Https, Socks4",
+      "country": "IN",
       "anonymity": "Elite",
       "speed": 431,
       "source": "freeproxy_json"
@@ -4230,15 +4230,6 @@
       "country": "IT",
       "anonymity": "Elite",
       "speed": 432,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "15.160.134.84",
-      "port": 36840,
-      "protocol": "Socks5",
-      "country": "IT",
-      "anonymity": "Elite",
-      "speed": 434,
       "source": "freeproxy_json"
     },
     {
@@ -4260,18 +4251,27 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 1105,
-      "protocol": "Http, Socks5",
-      "country": "US",
+      "ip": "15.160.134.84",
+      "port": 36840,
+      "protocol": "Socks5",
+      "country": "IT",
       "anonymity": "Elite",
-      "speed": 435,
+      "speed": 434,
       "source": "freeproxy_json"
     },
     {
       "ip": "13.59.113.45",
       "port": 7635,
       "protocol": "Http, Socks4, Socks5",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 435,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.59.97.103",
+      "port": 1105,
+      "protocol": "Http, Socks5",
       "country": "US",
       "anonymity": "Elite",
       "speed": 435,
@@ -4341,9 +4341,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.212.222.137",
-      "port": 15449,
-      "protocol": "Http",
+      "ip": "13.212.14.16",
+      "port": 20,
+      "protocol": "Http, Socks4",
       "country": "SG",
       "anonymity": "Elite",
       "speed": 441,
@@ -4359,10 +4359,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 30649,
-      "protocol": "Https",
-      "country": "US",
+      "ip": "13.212.222.137",
+      "port": 15449,
+      "protocol": "Http",
+      "country": "SG",
       "anonymity": "Elite",
       "speed": 441,
       "source": "freeproxy_json"
@@ -4377,10 +4377,10 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.212.14.16",
-      "port": 20,
-      "protocol": "Http, Socks4",
-      "country": "SG",
+      "ip": "13.59.97.103",
+      "port": 30649,
+      "protocol": "Https",
+      "country": "US",
       "anonymity": "Elite",
       "speed": 441,
       "source": "freeproxy_json"
@@ -4413,27 +4413,9 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 9198,
-      "protocol": "Socks4",
-      "country": "US",
-      "anonymity": "Elite",
-      "speed": 445,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.61.155.35",
-      "port": 8007,
-      "protocol": "Socks4, Socks5",
-      "country": "SE",
-      "anonymity": "Elite",
-      "speed": 445,
-      "source": "freeproxy_json"
-    },
-    {
-      "ip": "13.60.218.140",
-      "port": 237,
-      "protocol": "Socks4, Socks5",
+      "port": 34142,
+      "protocol": "Socks4",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 445,
@@ -4449,6 +4431,15 @@
       "source": "freeproxy_json"
     },
     {
+      "ip": "13.61.155.35",
+      "port": 8007,
+      "protocol": "Socks4, Socks5",
+      "country": "SE",
+      "anonymity": "Elite",
+      "speed": 445,
+      "source": "freeproxy_json"
+    },
+    {
       "ip": "15.160.134.84",
       "port": 27147,
       "protocol": "Socks4",
@@ -4458,9 +4449,18 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.61.155.35",
-      "port": 34142,
+      "ip": "13.59.97.103",
+      "port": 9198,
       "protocol": "Socks4",
+      "country": "US",
+      "anonymity": "Elite",
+      "speed": 445,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "13.60.218.140",
+      "port": 237,
+      "protocol": "Socks4, Socks5",
       "country": "SE",
       "anonymity": "Elite",
       "speed": 445,
@@ -4476,15 +4476,6 @@
       "source": "freeproxy_json"
     },
     {
-      "ip": "13.59.97.103",
-      "port": 16667,
-      "protocol": "Https",
-      "country": "US",
-      "anonymity": "Elite",
-      "speed": 448,
-      "source": "freeproxy_json"
-    },
-    {
       "ip": "13.59.113.45",
       "port": 1084,
       "protocol": "Https, Socks4",
@@ -4495,9 +4486,18 @@
     },
     {
       "ip": "13.59.97.103",
-      "port": 49723,
-      "protocol": "Socks4",
+      "port": 16667,
+      "protocol": "Https",
       "country": "US",
+      "anonymity": "Elite",
+      "speed": 448,
+      "source": "freeproxy_json"
+    },
+    {
+      "ip": "15.160.125.231",
+      "port": 12922,
+      "protocol": "Http, Https, Socks5",
+      "country": "IT",
       "anonymity": "Elite",
       "speed": 449,
       "source": "freeproxy_json"
