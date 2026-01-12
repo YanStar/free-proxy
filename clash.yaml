@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 00:01:53
+# 更新时间: 2026-01-13 01:01:56
 # 节点数量: 420
 
 port: 7890
@@ -9,40 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_加拿大"
-    type: vmess
-    server: 154.12.35.27
-    port: 10086
-    uuid: 346ef36f-89f2-406b-8f4a-76a1cda23cc3
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_中国"
-    type: vmess
-    server: cees.owwoedu.com
-    port: 49303
-    uuid: e6842fa3-4794-495c-a970-c03f855b2028
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::16
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -52,44 +18,42 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "githubcomfreefq - 印度  10"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 印度  3"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
-  - name: "防范境外势力渗透 8"
+  - name: " 香港ripaojiedian"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "US8机房低风险"
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     network: tcp
   - name: "_中国"
     type: vmess
-    server: cees.owwoedu.com
-    port: 49312
-    uuid: c93eebed-cdfd-44f5-bdd0-cde9c33adfee
+    server: tunnel2.qqa678.com
+    port: 47083
+    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_香港"
-    type: vmess
-    server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-    port: 80
-    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -100,12 +64,22 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "_中国"
+  - name: "_法国"
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "CN2家宽非常安全"
+    type: vmess
+    server: 183.236.51.36
+    port: 59003
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     network: tcp
 
@@ -115,34 +89,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_加拿大"
-      - "防范境外势力渗透 6"
+      - "_法国"
+      - "githubcomfreefq - 印度  3"
+      - " 香港ripaojiedian"
+      - "US8机房低风险"
       - "_中国"
       - "_法国"
       - "_法国"
-      - "githubcomfreefq - 印度  10"
-      - "防范境外势力渗透 8"
-      - "_中国"
-      - "_香港"
-      - "_法国"
-      - "_中国"
+      - "CN2家宽非常安全"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_加拿大"
-      - "防范境外势力渗透 6"
+      - "_法国"
+      - "githubcomfreefq - 印度  3"
+      - " 香港ripaojiedian"
+      - "US8机房低风险"
       - "_中国"
       - "_法国"
       - "_法国"
-      - "githubcomfreefq - 印度  10"
-      - "防范境外势力渗透 8"
-      - "_中国"
-      - "_香港"
-      - "_法国"
-      - "_中国"
+      - "CN2家宽非常安全"
 
 rules:
   - GEOIP,CN,DIRECT
