@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 04:01:57
+# 更新时间: 2026-01-13 05:01:53
 # 节点数量: 628
 
 port: 7890
@@ -9,52 +9,85 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "HK322家宽非常安全"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 61dbc334-t8nog0-tl09la-1q91p.hkt.gotochinatown.net
-    port: 80
-    uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-    alterId: 2
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "HK329家宽非常安全"
+  - name: "SG12原生疑似家宽非常安全"
     type: vmess
-    server: 4b5ef466-t8pj40-tbicd9-1go3q.hkt.gotochinatown.net
-    port: 80
-    uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "US60原生疑似家宽非常安全"
-    type: vmess
-    server: 120.198.71.187
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: b3a6a516-6ba8-403d-9839-f95c5d40ea01
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_加拿大"
+  - name: "HK332家宽非常安全"
     type: vmess
-    server: 154.12.35.27
-    port: 10086
-    uuid: 346ef36f-89f2-406b-8f4a-76a1cda23cc3
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "HK330家宽非常安全"
-    type: vmess
-    server: f098ccea-t8lts0-thzbn1-1gxvd.hkt.gotochinatown.net
+    server: 293beaf2-t8nog0-tk4rx8-1n7d9.hkt.gotochinatown.net
     port: 80
-    uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
+    uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
     alterId: 2
     cipher: auto
     network: ws
     ws-opts:
       path: /
+  - name: "防范境外势力渗透 3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "HK340机房低风险"
+    type: vmess
+    server: n1761214915.mv7wh.tech
+    port: 443
+    uuid: 1f2daf43-ff90-4df9-9276-dfb8486d72bc
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -62,22 +95,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "HK322家宽非常安全"
-      - "HK329家宽非常安全"
-      - "US60原生疑似家宽非常安全"
-      - "_加拿大"
-      - "HK330家宽非常安全"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "SG12原生疑似家宽非常安全"
+      - "HK332家宽非常安全"
+      - "防范境外势力渗透 3"
+      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 印度  3"
+      - "HK340机房低风险"
+      - "githubcomfreefq - 广东省移动 7"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "HK322家宽非常安全"
-      - "HK329家宽非常安全"
-      - "US60原生疑似家宽非常安全"
-      - "_加拿大"
-      - "HK330家宽非常安全"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "SG12原生疑似家宽非常安全"
+      - "HK332家宽非常安全"
+      - "防范境外势力渗透 3"
+      - "githubcomfreefq - 印度  2"
+      - "githubcomfreefq - 印度  3"
+      - "HK340机房低风险"
+      - "githubcomfreefq - 广东省移动 7"
 
 rules:
   - GEOIP,CN,DIRECT
