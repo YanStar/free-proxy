@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-12 09:01:22
+# 更新时间: 2026-01-12 10:01:28
 # 节点数量: 498
 
 port: 7890
@@ -9,22 +9,26 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 1"
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
   - name: "_法国"
     type: vmess
     server: 217.69.5.32
@@ -33,11 +37,11 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 8"
+  - name: "KR12机房低风险"
     type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     alterId: 0
     cipher: auto
     network: tcp
@@ -49,24 +53,19 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-  - name: "US8机房低风险"
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "_美国"
     type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: c7.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -77,6 +76,24 @@ proxies:
     network: ws
     ws-opts:
       path: /
+  - name: "githubcomfreefq - 广东省移动 7"
+    type: vmess
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -84,28 +101,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "防范境外势力渗透 1"
-      - "_法国"
-      - "防范境外势力渗透 8"
-      - "_法国"
-      - "US8机房低风险"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
       - "_法国"
+      - "KR12机房低风险"
+      - "_法国"
+      - "_美国"
+      - "_法国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 7"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "防范境外势力渗透 1"
-      - "_法国"
-      - "防范境外势力渗透 8"
-      - "_法国"
-      - "US8机房低风险"
+      - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
       - "_法国"
+      - "KR12机房低风险"
+      - "_法国"
+      - "_美国"
+      - "_法国"
+      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透 7"
 
 rules:
   - GEOIP,CN,DIRECT
