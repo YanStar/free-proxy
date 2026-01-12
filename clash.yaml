@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-12 19:01:39
+# 更新时间: 2026-01-12 20:01:53
 # 节点数量: 420
 
 port: 7890
@@ -9,11 +9,19 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
     cipher: auto
     network: ws
@@ -28,7 +36,15 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -38,12 +54,12 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "防范境外势力渗透 3"
+      path: /?ed=2048
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     network: tcp
@@ -54,20 +70,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - " 香港ripaojiedian"
       - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
+      - "_英国"
       - "_法国"
-      - "防范境外势力渗透 3"
+      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - " 香港ripaojiedian"
       - "githubcomfreefq - 美国CloudFlare"
       - "_法国"
+      - "_英国"
       - "_法国"
-      - "防范境外势力渗透 3"
+      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
