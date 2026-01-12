@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-12 12:01:30
+# 更新时间: 2026-01-12 13:01:31
 # 节点数量: 422
 
 port: 7890
@@ -9,62 +9,67 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_未知"
+  - name: "IN3家宽非常安全"
     type: vmess
-    server: 23.138.148.47
-    port: 42507
-    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    server: id2.wpairplane.com
+    port: 9000
+    uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "JP3原生疑似家宽非常安全"
+  - name: "DE55机房低风险"
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47083
-    uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_美国"
-    type: vmess
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vc
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::11
+    server: 2001:bc8:32d7:302::16
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "githubcomfreefq - 印度  3"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "githubcomfreefq - 印度  10"
     type: vmess
     server: 202.78.162.5
     port: 443
-    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
       path: /@forwardv2ray
+  - name: "香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 22681de0-8985-4162-ab49-0965569d59c4
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
   - name: "_中国"
     type: vmess
     server: tunnel2.qqa678.com
@@ -73,52 +78,6 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "CN2家宽非常安全"
-    type: vmess
-    server: 183.236.51.36
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
-    port: 80
-    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: ?ed=2048
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -126,36 +85,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_未知"
-      - "JP3原生疑似家宽非常安全"
-      - "_美国"
-      - "防范境外势力渗透"
+      - "IN3家宽非常安全"
+      - "DE55机房低风险"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 印度  10"
+      - "香港ripaojiedian"
       - "_中国"
-      - "_英国"
-      - "CN2家宽非常安全"
       - "_香港"
-      - "_法国"
-      - "githubcomfreefq - 广东省移动 7"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_未知"
-      - "JP3原生疑似家宽非常安全"
-      - "_美国"
-      - "防范境外势力渗透"
+      - "IN3家宽非常安全"
+      - "DE55机房低风险"
       - "_法国"
-      - "githubcomfreefq - 印度  3"
+      - "githubcomfreefq - 印度  10"
+      - "香港ripaojiedian"
       - "_中国"
-      - "_英国"
-      - "CN2家宽非常安全"
       - "_香港"
-      - "_法国"
-      - "githubcomfreefq - 广东省移动 7"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
