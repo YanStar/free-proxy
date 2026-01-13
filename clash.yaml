@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 10:01:31
+# 更新时间: 2026-01-13 11:01:27
 # 节点数量: 626
 
 port: 7890
@@ -9,19 +9,67 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 5"
+  - name: "_香港"
+    type: vmess
+    server: sv2.wy888.us
+    port: 443
+    uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /vmess
+  - name: "githubcomfreefq - 美国Fastly全球An"
+    type: vmess
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
+  - name: "_中国"
+    type: vmess
+    server: tunnel2.qqa678.com
+    port: 47084
+    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_香港"
+    type: vmess
+    server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
+    port: 80
+    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "防范境外势力渗透 7"
     type: vmess
     server: 127.0.0.53
-    port: 85
+    port: 87
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "防范境外势力渗透 1"
+  - name: "_香港"
     type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "US46机房低风险"
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
     alterId: 0
     cipher: auto
     network: tcp
@@ -32,16 +80,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 5"
-      - "防范境外势力渗透 1"
+      - "_香港"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_中国"
+      - "_香港"
+      - "防范境外势力渗透 7"
+      - "_香港"
+      - "US46机房低风险"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 5"
-      - "防范境外势力渗透 1"
+      - "_香港"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_中国"
+      - "_香港"
+      - "防范境外势力渗透 7"
+      - "_香港"
+      - "US46机房低风险"
 
 rules:
   - GEOIP,CN,DIRECT
