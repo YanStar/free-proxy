@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 14:01:29
+# 更新时间: 2026-01-13 15:01:35
 # 节点数量: 642
 
 port: 7890
@@ -9,26 +9,48 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "HK323家宽非常安全"
+  - name: "HK315家宽非常安全"
     type: vmess
-    server: 9ef7d9d8-t8pj40-tr9h64-1f1f1.hkt.gotochinatown.net
+    server: 82efdbb6-t8pj40-t9eu8q-tlhh.hkt.gotochinatown.net
     port: 80
-    uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+    uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
     alterId: 2
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "HK331家宽非常安全"
+  - name: "_英国"
     type: vmess
-    server: 4dbbf66c-t70f40-tifnix-1ro8s.hkt.gotochinatown.net
-    port: 80
-    uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-    alterId: 2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+    network: tcp
+  - name: "防范境外势力渗透 2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "KR8机房低风险"
+    type: vmess
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "JP5原生疑似家宽非常安全"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 172803a7-9e6e-44c7-9966-9883ae0584b1
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -39,38 +61,20 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "githubcomfreefq - 广东省移动 7"
+  - name: "防范境外势力渗透 4"
     type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
-    type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "US59原生疑似家宽非常安全"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "HK319家宽非常安全"
-    type: vmess
-    server: 2712f088-t8nog0-tnqudu-1mim2.hkt.gotochinatown.net
-    port: 80
-    uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
-    alterId: 2
     cipher: auto
     network: ws
     ws-opts:
@@ -82,26 +86,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "HK323家宽非常安全"
-      - "HK331家宽非常安全"
+      - "HK315家宽非常安全"
+      - "_英国"
+      - "防范境外势力渗透 2"
+      - "KR8机房低风险"
+      - "JP5原生疑似家宽非常安全"
       - "_法国"
-      - "githubcomfreefq - 广东省移动 7"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "US59原生疑似家宽非常安全"
-      - "HK319家宽非常安全"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "HK323家宽非常安全"
-      - "HK331家宽非常安全"
+      - "HK315家宽非常安全"
+      - "_英国"
+      - "防范境外势力渗透 2"
+      - "KR8机房低风险"
+      - "JP5原生疑似家宽非常安全"
       - "_法国"
-      - "githubcomfreefq - 广东省移动 7"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "US59原生疑似家宽非常安全"
-      - "HK319家宽非常安全"
+      - "防范境外势力渗透 4"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
