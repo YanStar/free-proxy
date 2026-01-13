@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-14 03:01:47
+# 更新时间: 2026-01-14 04:01:47
 # 节点数量: 522
 
 port: 7890
@@ -9,6 +9,28 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_未知"
+    type: vmess
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: "KR7机房低风险"
     type: vmess
     server: 152.70.92.69
@@ -26,7 +48,15 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: ?ed=2048
+  - name: "_中国"
+    type: vmess
+    server: tunnel2.qqa678.com
+    port: 47083
+    uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -37,14 +67,16 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_中国"
+  - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47083
-    uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -52,20 +84,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_未知"
+      - "githubcomfreefq - 印度  10"
       - "KR7机房低风险"
       - "_法国"
-      - "_法国"
       - "_中国"
+      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_未知"
+      - "githubcomfreefq - 印度  10"
       - "KR7机房低风险"
       - "_法国"
-      - "_法国"
       - "_中国"
+      - "_法国"
+      - "githubcomfreefq - 美国CloudFlare"
 
 rules:
   - GEOIP,CN,DIRECT
