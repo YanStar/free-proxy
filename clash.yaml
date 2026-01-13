@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 08:01:46
-# 节点数量: 628
+# 更新时间: 2026-01-13 09:01:44
+# 节点数量: 626
 
 port: 7890
 socks-port: 7891
@@ -9,16 +9,22 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 广东省移动 7"
+  - name: "防范境外势力渗透"
     type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    ws-opts:
-      path: /debian
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -28,41 +34,47 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "防范境外势力渗透 1"
+      path: /?ed=2048
+  - name: "HK332家宽非常安全"
     type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: 293beaf2-t8nog0-tk4rx8-1n7d9.hkt.gotochinatown.net
+    port: 80
+    uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 9"
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: 104.21.82.183
-    port: 8880
-    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 3"
+  - name: "HK326家宽非常安全"
     type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
+    server: e542f5ac-t8pj40-td95qh-1isea.hkt.gotochinatown.net
+    port: 80
+    uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+    alterId: 2
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -70,24 +82,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透"
       - "_法国"
-      - "防范境外势力渗透 1"
-      - "防范境外势力渗透 9"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 3"
+      - "_法国"
+      - "HK332家宽非常安全"
+      - "_法国"
+      - "_法国"
+      - "HK326家宽非常安全"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 广东省移动 7"
+      - "防范境外势力渗透"
       - "_法国"
-      - "防范境外势力渗透 1"
-      - "防范境外势力渗透 9"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "防范境外势力渗透 3"
+      - "_法国"
+      - "HK332家宽非常安全"
+      - "_法国"
+      - "_法国"
+      - "HK326家宽非常安全"
 
 rules:
   - GEOIP,CN,DIRECT
