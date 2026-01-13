@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 16:01:30
+# 更新时间: 2026-01-13 17:01:26
 # 节点数量: 642
 
 port: 7890
@@ -9,51 +9,45 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "githubcomfreefq - 印度  10"
+  - name: "CN2家宽非常安全"
     type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    server: 183.236.51.36
+    port: 59003
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+  - name: "免费VPNhttpsttvggwaAy"
+    type: vmess
+    server: 156.233.232.192
+    port: 24004
+    uuid: 582fcb35-20a0-452c-e179-4c759c62c494
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
-  - name: "githubcomfreefq - 美国Fastly全球An"
-    type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /77848824
-  - name: "防范境外势力渗透 8"
+    network: tcp
+  - name: "防范境外势力渗透 9"
     type: vmess
     server: 127.0.0.53
-    port: 88
+    port: 89
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "HK330家宽非常安全"
+  - name: "_法国"
     type: vmess
-    server: f098ccea-t8lts0-thzbn1-1gxvd.hkt.gotochinatown.net
-    port: 80
-    uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
-    alterId: 2
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
   - name: "githubcomfreefq - 美国CloudFlare"
     type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: server31.beheshtbaneh.com
+    port: 8880
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
     alterId: 0
     cipher: auto
     network: ws
@@ -67,6 +61,24 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "githubcomfreefq - 美国CloudFlare"
+    type: vmess
+    server: server32.beheshtbaneh.com
+    port: 8880
+    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_香港"
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -74,24 +86,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "githubcomfreefq - 印度  10"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "防范境外势力渗透 8"
-      - "HK330家宽非常安全"
+      - "CN2家宽非常安全"
+      - "免费VPNhttpsttvggwaAy"
+      - "防范境外势力渗透 9"
+      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
       - "防范境外势力渗透 6"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_香港"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "githubcomfreefq - 印度  10"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "防范境外势力渗透 8"
-      - "HK330家宽非常安全"
+      - "CN2家宽非常安全"
+      - "免费VPNhttpsttvggwaAy"
+      - "防范境外势力渗透 9"
+      - "_法国"
       - "githubcomfreefq - 美国CloudFlare"
       - "防范境外势力渗透 6"
+      - "githubcomfreefq - 美国CloudFlare"
+      - "_香港"
 
 rules:
   - GEOIP,CN,DIRECT
