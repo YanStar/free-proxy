@@ -1,6 +1,6 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 11:01:27
-# 节点数量: 626
+# 更新时间: 2026-01-13 12:01:29
+# 节点数量: 642
 
 port: 7890
 socks-port: 7891
@@ -9,54 +9,70 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
   - name: "_香港"
     type: vmess
-    server: sv2.wy888.us
-    port: 443
-    uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
-    alterId: 0
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vmess
-  - name: "githubcomfreefq - 美国Fastly全球An"
+    network: tcp
+  - name: "免费VPNhttpsttvggwaAy"
     type: vmess
-    server: gov.uk
-    port: 443
-    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /77848824
-  - name: "_中国"
-    type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: 156.233.232.192
+    port: 24004
+    uuid: 582fcb35-20a0-452c-e179-4c759c62c494
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_香港"
+  - name: "HK333家宽非常安全"
     type: vmess
-    server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
+    server: 87af7d1a-t8nog0-t9hghw-1sdoq.hkt.gotochinatown.net
     port: 80
-    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+    uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9
     alterId: 2
     cipher: auto
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 7"
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "_英国"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "HK313家宽非常安全"
+    type: vmess
+    server: 6d3b5b9f-t8pj40-trg4wh-z65w.hkt.gotochinatown.net
+    port: 80
+    uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_香港"
     type: vmess
     server: v36.hdacd.com
@@ -65,14 +81,45 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "US46机房低风险"
+  - name: "防范境外势力渗透 5"
     type: vmess
-    server: 23.138.148.47
-    port: 42507
-    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "HK316家宽非常安全"
+    type: vmess
+    server: 1c13c28a-t8nog0-thntyd-1f596.hkt.gotochinatown.net
+    port: 80
+    uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -80,26 +127,36 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "_法国"
       - "_香港"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_中国"
+      - "免费VPNhttpsttvggwaAy"
+      - "HK333家宽非常安全"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "HK313家宽非常安全"
       - "_香港"
-      - "防范境外势力渗透 7"
-      - "_香港"
-      - "US46机房低风险"
+      - "防范境外势力渗透 5"
+      - "HK316家宽非常安全"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "_法国"
       - "_香港"
-      - "githubcomfreefq - 美国Fastly全球An"
-      - "_中国"
+      - "免费VPNhttpsttvggwaAy"
+      - "HK333家宽非常安全"
+      - "githubcomfreefq - 广东省移动 7"
+      - "_英国"
+      - "HK313家宽非常安全"
       - "_香港"
-      - "防范境外势力渗透 7"
-      - "_香港"
-      - "US46机房低风险"
+      - "防范境外势力渗透 5"
+      - "HK316家宽非常安全"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
 
 rules:
   - GEOIP,CN,DIRECT
