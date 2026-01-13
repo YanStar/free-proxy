@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 19:01:29
+# 更新时间: 2026-01-13 20:01:50
 # 节点数量: 642
 
 port: 7890
@@ -9,32 +9,65 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 1"
+  - name: "_法国"
     type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "IN1家宽非常安全"
-    type: vmess
-    server: id2.wpairplane.com
-    port: 9000
-    uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "HK325家宽非常安全"
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
       path: /
+  - name: "githubcomfreefq - 印度  3"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: ?ed=2048
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "防范境外势力渗透 7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -42,18 +75,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 1"
-      - "IN1家宽非常安全"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_法国"
+      - "HK325家宽非常安全"
+      - "githubcomfreefq - 印度  3"
+      - "_法国"
+      - "_法国"
+      - "防范境外势力渗透 7"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 1"
-      - "IN1家宽非常安全"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "_法国"
+      - "HK325家宽非常安全"
+      - "githubcomfreefq - 印度  3"
+      - "_法国"
+      - "_法国"
+      - "防范境外势力渗透 7"
 
 rules:
   - GEOIP,CN,DIRECT
