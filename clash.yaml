@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 21:02:14
+# 更新时间: 2026-01-13 22:02:08
 # 节点数量: 663
 
 port: 7890
@@ -9,32 +9,21 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_未知"
+  - name: "_法国"
     type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "HK313家宽非常安全"
+      path: /?ed=2048
+  - name: "JP5原生疑似家宽非常安全"
     type: vmess
-    server: 6d3b5b9f-t8pj40-trg4wh-z65w.hkt.gotochinatown.net
-    port: 80
-    uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "US63原生疑似家宽非常安全"
-    type: vmess
-    server: tunnel1.qqa678.com
-    port: 47084
-    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 172803a7-9e6e-44c7-9966-9883ae0584b1
     alterId: 0
     cipher: auto
     network: tcp
@@ -47,7 +36,28 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "HK320家宽非常安全"
+    type: vmess
+    server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
+    port: 80
+    uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -57,7 +67,18 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      path: ?ed=2048
+  - name: "githubcomfreefq - 印度  2"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -65,22 +86,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_未知"
-      - "HK313家宽非常安全"
-      - "US63原生疑似家宽非常安全"
       - "_法国"
+      - "JP5原生疑似家宽非常安全"
       - "_法国"
+      - "HK320家宽非常安全"
+      - "githubcomfreefq - 印度  10"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_未知"
-      - "HK313家宽非常安全"
-      - "US63原生疑似家宽非常安全"
       - "_法国"
+      - "JP5原生疑似家宽非常安全"
       - "_法国"
+      - "HK320家宽非常安全"
+      - "githubcomfreefq - 印度  10"
+      - "_法国"
+      - "githubcomfreefq - 印度  2"
 
 rules:
   - GEOIP,CN,DIRECT

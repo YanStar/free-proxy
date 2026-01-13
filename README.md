@@ -2,7 +2,7 @@
 
 自动更新的免费代理池，**每小时更新**。
 
-> 最后更新: `2026-01-13 21:02:14 CST`
+> 最后更新: `2026-01-13 22:02:08 CST`
 
 中文 | **[English](README_EN.md)**
 
@@ -14,7 +14,7 @@
 |------|------|
 | 代理总数 | 0 |
 | 高匿代理 | 0 |
-| 实时验证可用 | 29 |
+| 实时验证可用 | 41 |
 | V2Ray 节点 | 663 |
 
 ---
@@ -25,9 +25,9 @@
 
 | 文件 | 格式 | 数量 | 说明 |
 |------|------|------|------|
-| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 29 | ⭐ **实时验证可用**的代理，数量少但质量高 |
-| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 29 | 同上，完整 URL 格式，可直接填入软件 |
-| [`realtime_verified.json`](realtime_verified.json) | JSON | 29 | 同上，包含响应时间等详细信息 |
+| [`realtime_verified.txt`](realtime_verified.txt) | `ip:port` | 41 | ⭐ **实时验证可用**的代理，数量少但质量高 |
+| [`realtime_verified_url.txt`](realtime_verified_url.txt) | `http://ip:port` | 41 | 同上，完整 URL 格式，可直接填入软件 |
+| [`realtime_verified.json`](realtime_verified.json) | JSON | 41 | 同上，包含响应时间等详细信息 |
 
 ### 📋 HTTP/HTTPS 代理
 
