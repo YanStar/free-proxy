@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 12:01:29
+# 更新时间: 2026-01-13 13:01:30
 # 节点数量: 642
 
 port: 7890
@@ -9,6 +9,14 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "CN2家宽非常安全"
+    type: vmess
+    server: 183.236.51.36
+    port: 59003
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -17,109 +25,30 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: "_香港"
+  - name: "US63原生疑似家宽非常安全"
     type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "免费VPNhttpsttvggwaAy"
-    type: vmess
-    server: 156.233.232.192
-    port: 24004
-    uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+    server: tunnel1.qqa678.com
+    port: 47084
+    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "HK333家宽非常安全"
+  - name: "JP5原生疑似家宽非常安全"
     type: vmess
-    server: 87af7d1a-t8nog0-t9hghw-1sdoq.hkt.gotochinatown.net
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 172803a7-9e6e-44c7-9966-9883ae0584b1
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "KR8机房低风险"
+    type: vmess
+    server: 152.70.92.69
     port: 80
-    uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 广东省移动 7"
-    type: vmess
-    server: data-us-v1.shwjfkw.cn
-    port: 20401
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /debian
-  - name: "_英国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "HK313家宽非常安全"
-    type: vmess
-    server: 6d3b5b9f-t8pj40-trg4wh-z65w.hkt.gotochinatown.net
-    port: 80
-    uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_香港"
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透 5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "HK316家宽非常安全"
-    type: vmess
-    server: 1c13c28a-t8nog0-thntyd-1f596.hkt.gotochinatown.net
-    port: 80
-    uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
-    alterId: 2
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "githubcomfreefq - 印度  2"
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /@forwardv2ray
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -127,36 +56,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "CN2家宽非常安全"
       - "_法国"
-      - "_香港"
-      - "免费VPNhttpsttvggwaAy"
-      - "HK333家宽非常安全"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_英国"
-      - "HK313家宽非常安全"
-      - "_香港"
-      - "防范境外势力渗透 5"
-      - "HK316家宽非常安全"
-      - "_法国"
-      - "githubcomfreefq - 印度  2"
+      - "US63原生疑似家宽非常安全"
+      - "JP5原生疑似家宽非常安全"
+      - "KR8机房低风险"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "CN2家宽非常安全"
       - "_法国"
-      - "_香港"
-      - "免费VPNhttpsttvggwaAy"
-      - "HK333家宽非常安全"
-      - "githubcomfreefq - 广东省移动 7"
-      - "_英国"
-      - "HK313家宽非常安全"
-      - "_香港"
-      - "防范境外势力渗透 5"
-      - "HK316家宽非常安全"
-      - "_法国"
-      - "githubcomfreefq - 印度  2"
+      - "US63原生疑似家宽非常安全"
+      - "JP5原生疑似家宽非常安全"
+      - "KR8机房低风险"
 
 rules:
   - GEOIP,CN,DIRECT
