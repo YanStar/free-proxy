@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-13 13:01:30
+# 更新时间: 2026-01-13 14:01:29
 # 节点数量: 642
 
 port: 7890
@@ -9,14 +9,26 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "CN2家宽非常安全"
+  - name: "HK323家宽非常安全"
     type: vmess
-    server: 183.236.51.36
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    server: 9ef7d9d8-t8pj40-tr9h64-1f1f1.hkt.gotochinatown.net
+    port: 80
+    uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+    alterId: 2
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+  - name: "HK331家宽非常安全"
+    type: vmess
+    server: 4dbbf66c-t70f40-tifnix-1ro8s.hkt.gotochinatown.net
+    port: 80
+    uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -25,30 +37,44 @@ proxies:
     alterId: 0
     cipher: auto
     network: ws
-  - name: "US63原生疑似家宽非常安全"
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "githubcomfreefq - 广东省移动 7"
     type: vmess
-    server: tunnel1.qqa678.com
+    server: data-us-v1.shwjfkw.cn
+    port: 20401
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /debian
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "US59原生疑似家宽非常安全"
+    type: vmess
+    server: tunnel2.qqa678.com
     port: 47084
-    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "JP5原生疑似家宽非常安全"
+  - name: "HK319家宽非常安全"
     type: vmess
-    server: ffiw.owwoedu.com
-    port: 59503
-    uuid: 172803a7-9e6e-44c7-9966-9883ae0584b1
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "KR8机房低风险"
-    type: vmess
-    server: 152.70.92.69
+    server: 2712f088-t8nog0-tnqudu-1mim2.hkt.gotochinatown.net
     port: 80
-    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-    alterId: 0
+    uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+    alterId: 2
     cipher: auto
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -56,22 +82,26 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "CN2家宽非常安全"
+      - "HK323家宽非常安全"
+      - "HK331家宽非常安全"
       - "_法国"
-      - "US63原生疑似家宽非常安全"
-      - "JP5原生疑似家宽非常安全"
-      - "KR8机房低风险"
+      - "githubcomfreefq - 广东省移动 7"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "US59原生疑似家宽非常安全"
+      - "HK319家宽非常安全"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "CN2家宽非常安全"
+      - "HK323家宽非常安全"
+      - "HK331家宽非常安全"
       - "_法国"
-      - "US63原生疑似家宽非常安全"
-      - "JP5原生疑似家宽非常安全"
-      - "KR8机房低风险"
+      - "githubcomfreefq - 广东省移动 7"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
+      - "US59原生疑似家宽非常安全"
+      - "HK319家宽非常安全"
 
 rules:
   - GEOIP,CN,DIRECT
