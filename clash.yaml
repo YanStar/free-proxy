@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 04:01:35
+# 更新时间: 2026-01-15 05:01:34
 # 节点数量: 495
 
 port: 7890
@@ -9,14 +9,6 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::11
@@ -27,34 +19,41 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_法国"
+  - name: "KR7机房低风险"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "US23原生疑似家宽非常安全"
-    type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "防范境外势力渗透 4"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透 9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_德国"
+    type: vmess
+    server: 5.83.150.108
+    port: 22429
+    uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      path: /speedtest
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -62,22 +61,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 1"
       - "_法国"
-      - "_法国"
-      - "US23原生疑似家宽非常安全"
-      - "_法国"
+      - "KR7机房低风险"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 9"
+      - "_德国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 1"
       - "_法国"
-      - "_法国"
-      - "US23原生疑似家宽非常安全"
-      - "_法国"
+      - "KR7机房低风险"
+      - "防范境外势力渗透 4"
+      - "防范境外势力渗透 9"
+      - "_德国"
 
 rules:
   - GEOIP,CN,DIRECT
