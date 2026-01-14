@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-14 14:01:37
+# 更新时间: 2026-01-14 15:01:37
 # 节点数量: 499
 
 port: 7890
@@ -9,36 +9,62 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "CN2家宽非常安全"
+  - name: "_美国"
     type: vmess
-    server: 183.236.51.36
-    port: 59003
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    server: aio.unlimited.biz.id
+    port: 443
+    uuid: f282b878-8711-45a1-8c69-5564172123c1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "US29原生疑似家宽非常安全"
+    type: vmess
+    server: tunnel1.qqa678.com
+    port: 47084
+    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+    alterId: 0
     cipher: auto
     network: tcp
+  - name: "_德国"
+    type: vmess
+    server: 5.83.150.108
+    port: 22429
+    uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /speedtest
   - name: "_中国"
     type: vmess
     server: cees.owwoedu.com
-    port: 49310
-    uuid: 7be5a733-ba04-4437-88f6-2ccaa4d7df04
+    port: 49303
+    uuid: 1ab5f0bc-388c-4664-bc14-e82f88d53fcd
     alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "HK151机房低风险"
-    type: vmess
-    server: oss-4.qqa678.com
-    port: 47081
-    uuid: e49b8721-f124-4999-814a-fc777c0ae190
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_香港"
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     network: tcp
   - name: "githubcomfreefq - 印度  10"
@@ -52,6 +78,22 @@ proxies:
     tls: true
     ws-opts:
       path: /@forwardv2ray
+  - name: "_中国"
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59517
+    uuid: c08ecc4f-1eb3-4c47-96f7-f2650b01b4cd
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: " 香港ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -59,22 +101,30 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "CN2家宽非常安全"
+      - "_美国"
+      - "_法国"
+      - "_法国"
+      - "US29原生疑似家宽非常安全"
+      - "_德国"
       - "_中国"
-      - "HK151机房低风险"
-      - "_香港"
       - "githubcomfreefq - 印度  10"
+      - "_中国"
+      - " 香港ripaojiedian"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "CN2家宽非常安全"
+      - "_美国"
+      - "_法国"
+      - "_法国"
+      - "US29原生疑似家宽非常安全"
+      - "_德国"
       - "_中国"
-      - "HK151机房低风险"
-      - "_香港"
       - "githubcomfreefq - 印度  10"
+      - "_中国"
+      - " 香港ripaojiedian"
 
 rules:
   - GEOIP,CN,DIRECT
