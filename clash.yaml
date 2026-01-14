@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-14 11:01:29
+# 更新时间: 2026-01-14 12:01:35
 # 节点数量: 524
 
 port: 7890
@@ -9,21 +9,11 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
+  - name: "US29原生疑似家宽非常安全"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: "US23原生疑似家宽非常安全"
-    type: vmess
-    server: tunnel2.qqa678.com
+    server: tunnel1.qqa678.com
     port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
     alterId: 0
     cipher: auto
     network: tcp
@@ -37,62 +27,6 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "防范境外势力渗透 9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: "US55原生疑似家宽非常安全"
-    type: vmess
-    server: sv2.wy888.us
-    port: 443
-    uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vmess
-  - name: "防范境外势力渗透 6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_未知"
-    type: vmess
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -100,30 +34,16 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
+      - "US29原生疑似家宽非常安全"
       - "_法国"
-      - "US23原生疑似家宽非常安全"
-      - "_法国"
-      - "防范境外势力渗透 9"
-      - "_法国"
-      - "US55原生疑似家宽非常安全"
-      - "防范境外势力渗透 6"
-      - "_未知"
-      - "防范境外势力渗透"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "US29原生疑似家宽非常安全"
       - "_法国"
-      - "US23原生疑似家宽非常安全"
-      - "_法国"
-      - "防范境外势力渗透 9"
-      - "_法国"
-      - "US55原生疑似家宽非常安全"
-      - "防范境外势力渗透 6"
-      - "_未知"
-      - "防范境外势力渗透"
 
 rules:
   - GEOIP,CN,DIRECT
