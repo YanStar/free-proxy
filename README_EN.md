@@ -2,7 +2,7 @@
 
 Auto-updated free proxy pool, **updated every hour**.
 
-> Last Updated: `2026-01-14 10:01:31 CST`
+> Last Updated: `2026-01-14 11:01:29 CST`
 
 **[中文文档](README.md)** | English
 
