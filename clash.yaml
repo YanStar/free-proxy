@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 13:01:39
+# 更新时间: 2026-01-15 14:01:39
 # 节点数量: 615
 
 port: 7890
@@ -9,39 +9,28 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 103.181.165.104
-    port: 16622
-    uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /
-  - name: "_中国"
+      path: /77848824
+  - name: "KR7机房低风险"
     type: vmess
-    server: 111.47.247.229
-    port: 16626
-    uuid: 29f17914-89da-48c1-bad3-aa7f198766af
+    server: 152.70.92.69
+    port: 80
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_英国"
-    type: vmess
-    server: 85.211.240.88
-    port: 16616
-    uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+    network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::10
+    server: 2001:bc8:32d7:302::15
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -49,17 +38,26 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "US55原生疑似家宽非常安全"
+  - name: "_法国"
     type: vmess
-    server: sv2.wy888.us
-    port: 443
-    uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
     ws-opts:
-      path: /vmess
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "_英国"
+    type: vmess
+    server: 85.211.240.88
+    port: 16641
+    uuid: 7e5280d5-b7ea-4a3a-b4bc-122ca1142bd0
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -67,22 +65,22 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_中国"
-      - "_中国"
-      - "_英国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "KR7机房低风险"
       - "_法国"
-      - "US55原生疑似家宽非常安全"
+      - "_法国"
+      - "_英国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_中国"
-      - "_中国"
-      - "_英国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "KR7机房低风险"
       - "_法国"
-      - "US55原生疑似家宽非常安全"
+      - "_法国"
+      - "_英国"
 
 rules:
   - GEOIP,CN,DIRECT
