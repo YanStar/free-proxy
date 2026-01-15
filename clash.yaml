@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 20:01:54
+# 更新时间: 2026-01-15 21:01:47
 # 节点数量: 615
 
 port: 7890
@@ -9,6 +9,30 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "_中国"
+    type: vmess
+    server: tunnel1.qqa678.com
+    port: 47084
+    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+    type: vmess
+    server: 使用前记得更新订阅
+    port: 0
+    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -18,33 +42,28 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: "githubcomfreefq - 印度  10"
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /@forwardv2ray
   - name: "_中国"
     type: vmess
-    server: 120.198.71.161
-    port: 47081
-    uuid: e49b8721-f124-4999-814a-fc777c0ae190
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "香港6ripaojiedian"
-    type: vmess
-    server: oss-4.qqa678.com
-    port: 47081
-    uuid: e49b8721-f124-4999-814a-fc777c0ae190
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::17
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 103.181.165.104
+    port: 16648
+    uuid: 29f17914-89da-48c1-bad3-aa7f198766af
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -52,20 +71,24 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
       - "_中国"
-      - "香港6ripaojiedian"
+      - "防范境外势力渗透"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_法国"
+      - "githubcomfreefq - 印度  10"
+      - "_中国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
       - "_中国"
-      - "香港6ripaojiedian"
+      - "防范境外势力渗透"
+      - "更新于02-07 0400 -by BuLinkxyz- 以"
       - "_法国"
+      - "githubcomfreefq - 印度  10"
+      - "_中国"
 
 rules:
   - GEOIP,CN,DIRECT
