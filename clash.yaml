@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 15:01:36
+# 更新时间: 2026-01-15 16:01:43
 # 节点数量: 615
 
 port: 7890
@@ -9,24 +9,35 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_法国"
+  - name: "_中国"
     type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 103.181.165.104
+    port: 16622
+    uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  - name: "_中国"
+      path: /
+  - name: "防范境外势力渗透 8"
     type: vmess
-    server: 120.198.71.161
-    port: 47081
-    uuid: e49b8721-f124-4999-814a-fc777c0ae190
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "_香港"
+    type: vmess
+    server: 154.211.8.58
+    port: 443
+    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /aa
   - name: "_中国"
     type: vmess
     server: tunnel1.qqa678.com
@@ -35,34 +46,47 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "更新于02-07 0400 -by BuLinkxyz- 以"
+  - name: "githubcomfreefq - 美国Fastly全球An"
     type: vmess
-    server: 使用前记得更新订阅
-    port: 0
-    uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
+    server: gov.uk
+    port: 443
+    uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "_法国"
+    network: ws
+    tls: true
+    ws-opts:
+      path: /77848824
+  - name: "_英国"
     type: vmess
-    server: 2001:bc8:32d7:302::17
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 85.211.240.88
+    port: 16641
+    uuid: 7e5280d5-b7ea-4a3a-b4bc-122ca1142bd0
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "_法国"
+      path: /
+  - name: "_中国"
     type: vmess
-    server: 2001:bc8:32d7:302::16
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 125.77.160.219
+    port: 16644
+    uuid: 286704d0-899e-426a-93de-7c5df32a3f9f
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: 103.181.165.104
+    port: 16616
+    uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -70,24 +94,28 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_法国"
+      - "_中国"
+      - "防范境外势力渗透 8"
+      - "_香港"
+      - "_中国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
       - "_中国"
       - "_中国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_法国"
-      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_法国"
+      - "_中国"
+      - "防范境外势力渗透 8"
+      - "_香港"
+      - "_中国"
+      - "githubcomfreefq - 美国Fastly全球An"
+      - "_英国"
       - "_中国"
       - "_中国"
-      - "更新于02-07 0400 -by BuLinkxyz- 以"
-      - "_法国"
-      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
