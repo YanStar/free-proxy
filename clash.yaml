@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 12:01:40
+# 更新时间: 2026-01-15 13:01:39
 # 节点数量: 615
 
 port: 7890
@@ -12,6 +12,26 @@ proxies:
   - name: "_中国"
     type: vmess
     server: 103.181.165.104
+    port: 16622
+    uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_中国"
+    type: vmess
+    server: 111.47.247.229
+    port: 16626
+    uuid: 29f17914-89da-48c1-bad3-aa7f198766af
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+  - name: "_英国"
+    type: vmess
+    server: 85.211.240.88
     port: 16616
     uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
     alterId: 0
@@ -19,22 +39,6 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "US23原生疑似家宽非常安全"
-    type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "IN1家宽非常安全"
-    type: vmess
-    server: id2.wpairplane.com
-    port: 9000
-    uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_法国"
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -44,17 +48,18 @@ proxies:
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: "US55原生疑似家宽非常安全"
     type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: sv2.wy888.us
+    port: 443
+    uuid: cda69512-ad1b-4f85-b547-b1d545e7cc90
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /
+      path: /vmess
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -63,10 +68,10 @@ proxy-groups:
       - "♻️ 自动选择"
       - DIRECT
       - "_中国"
-      - "US23原生疑似家宽非常安全"
-      - "IN1家宽非常安全"
+      - "_中国"
+      - "_英国"
       - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "US55原生疑似家宽非常安全"
 
   - name: "♻️ 自动选择"
     type: url-test
@@ -74,10 +79,10 @@ proxy-groups:
     interval: 300
     proxies:
       - "_中国"
-      - "US23原生疑似家宽非常安全"
-      - "IN1家宽非常安全"
+      - "_中国"
+      - "_英国"
       - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "US55原生疑似家宽非常安全"
 
 rules:
   - GEOIP,CN,DIRECT
