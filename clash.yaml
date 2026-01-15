@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 19:01:37
+# 更新时间: 2026-01-15 20:01:54
 # 节点数量: 615
 
 port: 7890
@@ -9,27 +9,9 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.104
-    port: 16616
-    uuid: bfa21b97-7962-44f7-ae3b-8260617a6427
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "US29原生疑似家宽非常安全"
-    type: vmess
-    server: tunnel1.qqa678.com
-    port: 47084
-    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
-    alterId: 0
-    cipher: auto
-    network: tcp
   - name: "_法国"
     type: vmess
-    server: 2001:bc8:32d7:302::16
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -37,34 +19,32 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: "US24原生疑似家宽非常安全"
+  - name: "_中国"
     type: vmess
-    server: 120.198.71.187
-    port: 47084
-    uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0
+    server: 120.198.71.161
+    port: 47081
+    uuid: e49b8721-f124-4999-814a-fc777c0ae190
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_中国"
+  - name: "香港6ripaojiedian"
     type: vmess
-    server: 111.47.247.229
-    port: 16626
-    uuid: 286704d0-899e-426a-93de-7c5df32a3f9f
+    server: oss-4.qqa678.com
+    port: 47081
+    uuid: e49b8721-f124-4999-814a-fc777c0ae190
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "_法国"
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /
-  - name: "githubcomfreefq - 美国CloudFlare"
-    type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -72,24 +52,20 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "_中国"
-      - "US29原生疑似家宽非常安全"
       - "_法国"
-      - "US24原生疑似家宽非常安全"
       - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "香港6ripaojiedian"
+      - "_法国"
 
   - name: "♻️ 自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "_中国"
-      - "US29原生疑似家宽非常安全"
       - "_法国"
-      - "US24原生疑似家宽非常安全"
       - "_中国"
-      - "githubcomfreefq - 美国CloudFlare"
+      - "香港6ripaojiedian"
+      - "_法国"
 
 rules:
   - GEOIP,CN,DIRECT
