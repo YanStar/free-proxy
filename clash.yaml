@@ -1,5 +1,5 @@
 # Clash 订阅配置
-# 更新时间: 2026-01-15 23:35:36
+# 更新时间: 2026-01-16 00:01:43
 # 节点数量: 615
 
 port: 7890
@@ -9,49 +9,35 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "防范境外势力渗透 8"
+  - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
-    port: 88
+    port: 80
     uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "_法国"
+  - name: "防范境外势力渗透 5"
     type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: "githubcomfreefq - 美国CloudFlare"
+    network: tcp
+  - name: "防范境外势力渗透 2"
     type: vmess
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
     alterId: 0
     cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_法国"
-    type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+    network: tcp
   - name: "_中国"
     type: vmess
     server: 111.47.247.229
-    port: 16644
-    uuid: 7e5280d5-b7ea-4a3a-b4bc-122ca1142bd0
+    port: 16626
+    uuid: 29f17914-89da-48c1-bad3-aa7f198766af
     alterId: 0
     cipher: auto
     network: ws
@@ -67,26 +53,6 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: "_中国"
-    type: vmess
-    server: 111.47.247.229
-    port: 16617
-    uuid: 9d629f76-9c3b-44f4-a88a-bfdb4448a49d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-  - name: "_中国"
-    type: vmess
-    server: 103.181.165.104
-    port: 16618
-    uuid: cb83817f-b857-4bf8-9d4b-adc1fe13ca6f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -94,12 +60,9 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - DIRECT
-      - "防范境外势力渗透 8"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_法国"
-      - "_中国"
-      - "_中国"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 2"
       - "_中国"
       - "_中国"
 
@@ -108,12 +71,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "防范境外势力渗透 8"
-      - "_法国"
-      - "githubcomfreefq - 美国CloudFlare"
-      - "_法国"
-      - "_中国"
-      - "_中国"
+      - "防范境外势力渗透"
+      - "防范境外势力渗透 5"
+      - "防范境外势力渗透 2"
       - "_中国"
       - "_中国"
 
